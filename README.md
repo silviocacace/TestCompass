@@ -15,6 +15,17 @@ The platform fits naturally into modern, version-controlled development practice
 
 ---
 
+## early Model-Based Testing (eMBT)
+
+early Model-Based Testing (eMBT) is a collaborative, model‑driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
+It structures the modelling and testing workflow into four iterative phases — Exploratory, Review, Coverage, and Checking — each focused on making behaviour explicit and improving shared understanding before development begins.
+
+eMBT is the foundation of the TestCompass workflow and is fully supported by the platform’s modelling, AI‑assistance, test generation, and impact analysis capabilities.
+
+➡️ Full explanation: [eMBT Overview](eMBT/README.md)
+
+---
+
 ## Core Capabilities
 
 TestCompass offers a comprehensive set of capabilities for early MBT:
