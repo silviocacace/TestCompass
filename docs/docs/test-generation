@@ -1,9 +1,9 @@
 # Test Generation
 
-Test generation in TestCompass is based on the principle that well‑structured behavioural models enable systematic, reproducible, and risk‑aligned testing.  
-Once a model has been validated during the Exploratory and Review phases, TestCompass can automatically generate test scenarios using a selected coverage strategy.
+Test generation in TestCompass is based on the principle that explicit behavioural models enable systematic, reproducible, and risk‑aligned testing.  
+Once a model has been validated and reviewed, TestCompass can automatically generate test scenarios using a selected coverage strategy.
 
-This page explains how test generation works conceptually and describes the coverage forms supported by TestCompass.
+This page explains the conceptual foundations of test generation and describes the coverage forms supported by TestCompass.
 
 ---
 
@@ -20,6 +20,20 @@ Because the tests are generated from the model, they remain consistent, structur
 
 ---
 
+## Abstract vs. Concrete Test Scenarios
+
+TestCompass distinguishes between two types of scenarios:
+
+- **Abstract test scenarios**  
+  Generated directly from the model. They describe the logical flow and help teams understand behaviour, explore ideas, and ask questions.
+
+- **Concrete test scenarios**  
+  Created when preconditions, data, or concrete values are added. These scenarios are executable and suitable for manual or automated testing.
+
+This separation ensures clarity: the model defines behaviour, while concrete details are added only when needed.
+
+---
+
 ## Coverage Strategies
 
 TestCompass supports multiple coverage strategies, ranging from lightweight to exhaustive.  
@@ -27,86 +41,61 @@ Each strategy defines **what must be covered at least once** in the generated te
 
 The following coverage forms are available:
 
----
-
 ### Node Coverage (NC)
-
 Covers **all nodes** in the model at least once.  
-Nodes include:
-
-- Action/State nodes  
-- Decision nodes  
-- Result nodes  
-
-This is the lightest form of coverage and ensures that every part of the model is visited.
-
----
+Nodes include Action/State, Decision, and Result nodes.  
+This is the lightest form of coverage.
 
 ### Edge Coverage (EC)
-
 Covers **all edges** in the model at least once.  
-Edges represent the connections between nodes, including the Yes/No branches of decision nodes.
-
-Edge Coverage ensures that every transition in the behaviour is exercised.
-
----
+Edges represent the transitions between nodes, including Yes/No branches.
 
 ### Path Pair Coverage (PPC)
-
 Covers **all combinations of two consecutive test paths**.  
-A “test path” follows the Yes or No branch from a decision node.
-
-This strategy captures interactions between consecutive decisions and is stronger than simple edge coverage.
-
----
+A test path follows the Yes or No branch from a decision node.  
+This strategy captures interactions between consecutive decisions.
 
 ### Path Triple Coverage (PTC)
-
 Covers **all combinations of three consecutive test paths**.  
-This provides deeper behavioural coverage and is useful when decisions influence each other across multiple steps.
-
----
+Useful when decisions influence each other across multiple steps.
 
 ### Full Path Coverage (FPC)
-
 Covers **all possible paths** from Start to End.  
-This is the strongest form of coverage and ensures that every unique behavioural sequence is tested.
-
-Full Path Coverage is exhaustive and typically results in the largest number of test scenarios.
+This is the strongest form of coverage and typically produces the largest number of scenarios.
 
 ---
 
-## Selecting a Coverage Strategy
+## Maximum Number of Test Scenarios
 
-The appropriate coverage strategy depends on:
+Models may contain loops or complex branching, which can theoretically produce an infinite number of paths.  
+To ensure practical generation:
 
-- **Risk level**  
-- **Complexity of the behaviour**  
-- **Criticality of the functionality**  
-- **Time and resources available**  
-- **Regulatory or quality requirements**  
+- TestCompass prioritises paths that contribute to coverage  
+- Loops are explored in a controlled manner  
+- Redundant paths are pruned  
+- A configurable maximum number of scenarios is applied  
 
-Teams often select coverage based on a product risk analysis or a lightweight risk discussion with business stakeholders.
+This ensures that generated scenarios are meaningful, non‑redundant, and aligned with the selected coverage strategy.
 
 ---
 
 ## Exporting Test Scenarios
 
-Generated test scenarios can be exported to several formats, including:
+Generated test scenarios can be exported to:
 
 - Excel test design  
 - Excel decision tables  
 - Gherkin feature files  
 - CSV  
 
-These exports include:
+Exports include:
 
 - node text  
 - decision logic  
 - expected results  
-- preconditions and test data (if provided in the model)
+- preconditions and data (if provided)
 
-➡️ See: [Export Formats](export-formats.md)
+➡️ See: **[Export Formats](ca://s?q=Open_export_formats_documentation)**
 
 ---
 
@@ -115,14 +104,14 @@ These exports include:
 The quality of the generated tests depends directly on the quality of the model.  
 Clear decisions, explicit boundaries, and well‑defined outcomes lead to stronger and more meaningful test scenarios.
 
-➡️ Learn more: [Modelling](modelling.md)
+➡️ Learn more: **[Modelling](ca://s?q=Open_modelling_documentation)**
 
 ---
 
 ## Relationship to Impact Analysis
 
 When requirements change, the model is updated — not the tests.  
-TestCompass identifies which generated scenarios are:
+Impact analysis identifies which scenarios are:
 
 - added  
 - removed  
@@ -131,9 +120,8 @@ TestCompass identifies which generated scenarios are:
 
 This keeps test suites aligned with evolving behaviour.
 
-➡️ Learn more: [Impact Analysis](impact-analysis.md)
+➡️ Learn more: **[Impact Analysis](ca://s?q=Open_impact_analysis_documentation)**
 
 ---
 
 Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding — not assumptions.
-
