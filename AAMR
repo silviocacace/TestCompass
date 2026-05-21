@@ -1,1 +1,110 @@
+# AAMR – AI-Assisted Model Reflection
+
+AAMR (AI-Assisted Model Reflection) is an AI-supported capability within the TestCompass eMBT workflow.  
+It analyses a behavioural model and asks targeted, context-aware questions that help uncover assumptions, identify risks, and strengthen the model.  
+AAMR supports critical thinking and early discovery without taking control away from the tester.
+
+---
+
+## Purpose
+
+AAMR is designed to help teams:
+
+- challenge implicit assumptions  
+- reveal missing or unclear behaviour  
+- discover risks early  
+- improve the quality and consistency of models  
+- support deeper reasoning during modelling sessions  
+
+AAMR acts as a thinking partner, not an expert system.
+
+---
+
+## How AAMR Works
+
+AAMR examines the structure and semantics of a model and generates:
+
+- clarifying questions  
+- alternative interpretations  
+- potential ambiguities  
+- missing transitions or states  
+- risk‑oriented prompts  
+- suggestions for refinement  
+
+The goal is not to “fix” the model automatically, but to help the tester think more clearly and make better decisions.
+
+---
+
+## What AAMR Is *Not*
+
+AAMR is **not**:
+
+- an automatic model corrector  
+- a generator of new behaviour  
+- a replacement for modelling expertise  
+- a tool that decides what is “right”  
+
+It supports human reasoning — it does niet replace it.
+
+---
+
+## Example Workflow
+
+1. The tester creates or imports a model  
+2. AAMR analyses the model’s structure and semantics  
+3. AAMR generates targeted questions and observations  
+4. The tester reviews and responds  
+5. The model is refined and strengthened  
+6. Test generation and impact analysis benefit from the improved clarity  
+
+This workflow improves model quality and reduces downstream issues.
+
+---
+
+## Benefits
+
+AAMR helps teams:
+
+- think more critically  
+- avoid hidden assumptions  
+- improve model completeness  
+- identify risks earlier  
+- strengthen collaboration between testers, analysts, and developers  
+
+---
+
+## Relation to eMBT
+
+AAMR is fully aligned with the eMBT philosophy:
+
+- **explicit behaviour**  
+- **no assumptions**  
+- **early risk discovery**  
+- **structured reasoning**  
+- **traceable test generation**  
+
+AAMR enhances the reflective part of modelling, complementing AAMC’s generative capabilities.
+
+---
+
+## Roadmap (Optional)
+
+Future enhancements may include:
+
+- deeper semantic analysis  
+- domain‑specific reflection patterns  
+- improved question clustering  
+- tighter integration with AAMC  
+
+---
+
+## History
+
+AAMR was first publicly documented in this repository in May 2026.
+
+---
+
+## Contact
+
+For more information about AAMR or the TestCompass eMBT workflow, please visit the website or reach out via LinkedIn.
 
