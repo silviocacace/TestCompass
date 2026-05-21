@@ -1,12 +1,3 @@
-> **Documentation Navigation**  
-> [Overview](ca://s?q=Open_overview_documentation) •  
-> [Modelling](ca://s?q=Open_modelling_documentation) •  
-> [Test Generation](ca://s?q=Open_test_generation_documentation) •  
-> [Impact Analysis](ca://s?q=Open_impact_analysis_documentation) •  
-> [Integrations](ca://s?q=Open_integrations_documentation) •  
-> [Export Formats](ca://s?q=Open_export_formats_documentation)
-
-
 # Overview
 
 TestCompass is an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins.  
