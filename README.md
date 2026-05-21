@@ -43,15 +43,32 @@ TestCompass offers a comprehensive set of capabilities for early MBT:
 
 ## AI Features
 
-### AI-Assisted Model Creation (AAMC)
-AAMC generates a first, semantically consistent model draft based on requirements, user stories, or scenarios.  
-It accelerates modelling while keeping the tester fully in control.
-
 ### AI-Assisted Model Reflection (AAMR)
 AAMR analyses your model and asks targeted, context-aware questions to uncover assumptions, identify risks, and strengthen the model.  
 It acts as a thinking partner that supports critical reasoning and early discovery.
 
+### AI-Assisted Model Creation (AAMC)
+AAMC generates a first, semantically consistent model draft based on requirements, user stories, or scenarios.  
+It accelerates modelling while keeping the tester fully in control.
+
 ---
+
+### AI‑Assisted Model Reflection (AAMR)
+
+AAMR analyses a model and asks targeted, context‑aware questions that uncover assumptions, highlight risks, and strengthen the clarity of the behaviour.  
+It acts as a thinking partner that supports critical reasoning and early discovery without taking over the modelling process.
+
+➡️ Full documentation: [AAMR](AAMR/README.md)
+
+---
+
+### AI‑Assisted Model Creation (AAMC)
+
+AAMC generates an initial, semantically consistent model draft from requirements, user stories, or scenarios.  
+It accelerates the modelling process while keeping the tester fully in control, ensuring that behaviour remains explicit and aligned with the team’s understanding.
+
+➡️ Full documentation: [AAMC](AAMC/README.md)
+
 
 ## Test Generation & Coverage
 
