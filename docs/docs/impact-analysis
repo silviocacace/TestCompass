@@ -30,7 +30,7 @@ Impact analysis compares two versions of the same model:
 
 TestCompass examines:
 
-- structural differences in the model  
+- structural differences  
 - changes in decision logic  
 - updated node labels or data  
 - added or removed paths  
@@ -44,17 +44,17 @@ Based on this comparison, each generated test scenario receives a status.
 
 Each scenario is classified into one of four categories:
 
-- **Added**  
-  New behaviour has been introduced, resulting in new scenarios.
+### Added
+New behaviour has been introduced, resulting in new scenarios.
 
-- **Removed**  
-  Behaviour no longer exists in the updated model, so the scenario is obsolete.
+### Removed
+Behaviour no longer exists in the updated model, so the scenario is obsolete.
 
-- **Updated**  
-  Behaviour still exists, but the path or logic has changed.
+### Updated
+Behaviour still exists, but the path or logic has changed.
 
-- **Unchanged**  
-  The scenario remains valid and requires no modification.
+### Unchanged
+The scenario remains valid and requires no modification.
 
 This classification provides immediate insight into the scope and impact of the change.
 
@@ -90,7 +90,7 @@ When the model changes, the impact becomes:
 - explainable  
 - traceable  
 
-➡️ Learn more: [Modelling](modelling.md)
+➡️ Learn more: **[Modelling](ca://s?q=Open_modelling_documentation)**
 
 ---
 
@@ -104,9 +104,8 @@ After running impact analysis, teams can:
 
 This ensures that generated tests always reflect the latest version of the model.
 
-➡️ Learn more: [Test Generation](test-generation.md)
+➡️ Learn more: **[Test Generation](ca://s?q=Open_test_generation_documentation)**
 
 ---
 
 Impact analysis ensures that change is not disruptive but manageable — keeping your models, tests, and understanding aligned as the system evolves.
-
