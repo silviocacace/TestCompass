@@ -1,15 +1,15 @@
 # Impact Analysis
 
-Impact analysis in TestCompass helps teams understand how changes in requirements affect existing behaviour, models, and generated test scenarios.  
-Because requirements evolve continuously, impact analysis ensures that test suites remain accurate, relevant, and aligned with the latest understanding of the system.
+Impact analysis in TestCompass helps teams understand how changes in requirements affect existing behaviour, models and generated test scenarios.  
+Because requirements evolve continuously, impact analysis ensures that test scenarios remain accurate, relevant and aligned with the latest understanding of the system.
 
-This page explains the purpose of impact analysis, how it relates to modelling and test generation, and how TestCompass supports a structured approach to managing change.
+This page explains the purpose of impact analysis, how it relates to modelling and test generation and how TestCompass supports a structured approach to managing changes.
 
 ---
 
 ## Purpose of Impact Analysis
 
-When behaviour changes, the model changes — and therefore the tests must change as well.  
+When behaviour changes, the model changes and therefore the test scenarios will possibly change as well.  
 Impact analysis answers four essential questions:
 
 - **What behaviour has been added?**  
@@ -102,10 +102,10 @@ After running impact analysis, teams can:
 - update only the affected ones  
 - maintain a clean, consistent test suite  
 
-This ensures that generated tests always reflect the latest version of the model.
+This ensures that generated test scenarios always reflect the latest version of the model.
 
 ➡️ Learn more: **[Test Generation](ca://s?q=Open_test_generation_documentation)**
 
 ---
 
-Impact analysis ensures that change is not disruptive but manageable — keeping your models, tests, and understanding aligned as the system evolves.
+Impact analysis ensures that change is not disruptive but manageable. It keeps your models, tests and understanding aligned as the system evolves.
