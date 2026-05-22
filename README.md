@@ -2,16 +2,16 @@
 **early Model Based Testing with explicit models, AI assistance, and open standards**
 
 TestCompass is a practical early Model Based Testing (eMBT) platform that helps teams reason clearly, uncover risks early and build shared understanding before development begins.
-It combines explicit behavioural modelling, AI‑assisted model creation and reflection, and open, text‑based modelling formats — including Mermaid, JSON, XML, UML and other industry‑standard formats — to support deep, traceable testing from the very start.
+It brings explicit behavioural modelling and AI‑assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
 
 ---
 
 ## Overview
 
-TestCompass supports teams that want to move beyond assumptions and make behaviour explicit.  
-It provides a complete workflow for early Model-Based Testing (eMBT) and BDD, enabling teams to explore behaviour, identify risks early, and generate reproducible tests based on well‑structured models.
+TestCompass provides a complete workflow for early Model‑Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early and generate reproducible tests from well‑structured models.
+It supports open, text‑based modelling formats — including Mermaid, JSON, XML, UML and other industry‑standard formats — and integrates naturally with version‑controlled development workflows.
 
-The platform fits naturally into modern, version-controlled development practices and integrates with widely used tools such as Azure DevOps and Jira.
+TestCompass connects seamlessly with tools such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
 
 ---
 
