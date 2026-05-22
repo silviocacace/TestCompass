@@ -1,8 +1,8 @@
 # TestCompass  
-**Early Model-Based Testing with explicit models, AI assistance, and open standards**
+**early Model Based Testing with explicit models, AI assistance, and open standards**
 
-TestCompass is a practical early Model-Based Testing (eMBT) platform that helps teams reason clearly, uncover risks early, and build shared understanding before development begins.  
-It combines explicit behavioural modelling, AI-assisted model creation and reflection, and open, text-based modelling through Mermaid to support deep, traceable testing from the very start.
+TestCompass is a practical early Model Based Testing (eMBT) platform that helps teams reason clearly, uncover risks early and build shared understanding before development begins.
+It combines explicit behavioural modelling, AI‑assisted model creation and reflection, and open, text‑based modelling formats — including Mermaid, JSON, XML, UML and other industry‑standard formats — to support deep, traceable testing from the very start.
 
 ---
 
