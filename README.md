@@ -103,12 +103,6 @@ TestCompass integrates with:
 
 ---
 
-## Example Mermaid Model
-
-(Example model omitted here for readability — see repository for full version.)
-
----
-
 ## Repository Contents
 
 - Documentation for AAMC and AAMR  
