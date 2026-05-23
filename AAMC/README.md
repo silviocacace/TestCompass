@@ -1,49 +1,62 @@
 # AAMC – AI-Assisted Model Creation
 
 AAMC (AI-Assisted Model Creation) is an AI-supported capability within the TestCompass eMBT workflow.  
-It helps teams create a first, semantically consistent model draft based on requirements, user stories, or scenarios.  
+It helps teams create a first, semantically consistent model draft based on plain language, like for e.g. requirements, user stories, or scenarios.  
 AAMC accelerates early modelling while keeping the tester fully in control.
 
 ---
 
 ## Purpose
 
-AAMC is designed to support early Model-Based Testing (eMBT) by helping teams:
+AAMC is designed to support early Model Based Testing (eMBT) by helping teams:
 
-- make behaviour explicit early  
-- avoid assumptions  
-- uncover risks sooner  
-- build shared understanding before development begins  
-- create a structured starting point for deeper modelling and test design  
+- make behaviour explicit early
+- avoid assumptions
+- uncover risks sooner
+- build shared understanding before development begins
+- create a structured starting point for deeper modelling and test design
 
-AAMC does **not** replace modelling expertise.  
-It provides a high‑quality draft that the tester reviews, corrects, and refines.
+AAMC accelerates the start of the modelling process by generating a high‑quality first draft.
+This allows testers to begin working in TestCompass sooner and focus their time on what matters most:
+critical thinking, refinement and deeper exploration of system behaviour.
+
+AAMC does not replace modelling expertise.
+It provides an initial model that the tester reviews, corrects, and evolves into a mature Test Model.
 
 ---
 
 ## How AAMC Works
 
-AAMC takes natural-language input such as:
+AAMC can process a wide range of inputs.
+It accepts natural‑language descriptions such as:
 
-- requirements  
-- user stories  
-- acceptance criteria  
-- scenarios  
-- domain descriptions  
+- requirements
+- user stories
+- acceptance criteria
+- scenarios
+- domain descriptions
 
-…and produces:
+AAMC can also interpret structured inputs, including:
 
-- an initial model structure  
-- nodes and transitions with consistent semantics  
-- a clear behavioural flow  
-- a model that is immediately testable in TestCompass  
+- BPMN 2.0 XML
+- JSON representations of workflows or state transitions
+- Mermaid diagrams
+- Gherkin scenarios
+- Other machine‑readable formats that describe behaviour
+
+From these inputs, AAMC produces:
+
+- an initial model structure
+- nodes and transitions with consistent semantics
+- a clear behavioural flow
+- a model that is immediately testable in TestCompass
 
 The output is always:
 
-- explicit  
-- traceable  
-- reproducible  
-- aligned with eMBT principles  
+- explicit
+- traceable
+- reproducible
+- aligned with eMBT principles 
 
 ---
 
@@ -62,13 +75,14 @@ It is an **engineering-grade modelling assistant** that supports critical thinki
 
 ## Example Workflow
 
-1. Provide AAMC with a requirement or user story  
-2. AAMC generates a first model draft  
-3. The tester reviews the structure  
-4. The tester refines semantics, adds detail, and validates behaviour  
-5. The model becomes the basis for test generation and impact analysis  
+1. Provide AAMC with a requirement, user story, or structured input
+2. AAMC generates a first model draft
+3. The tester reviews the structure and requests adjustments from the AI if needed
+4. The tester iterates with AAMC until the draft reflects the intended behaviour
+5. Once accepted, the model becomes editable in TestCompass for manual refinement
+6. The refined model forms the basis for test generation and impact analysis
 
-This workflow supports early exploration and reduces the time needed to reach a stable, explicit model.
+This workflow supports early exploration, accelerates the modelling process and reduces the time needed to reach a stable, explicit model.
 
 ---
 
@@ -77,11 +91,19 @@ This workflow supports early exploration and reduces the time needed to reach a 
 AAMC helps teams:
 
 - start modelling earlier  
-- reduce ambiguity  
-- identify missing behaviour  
-- challenge assumptions  
-- accelerate the path to testable models  
-- improve collaboration between testers, analysts, and developers  
+- reduce ambiguity
+- identify missing behaviour
+- challenge assumptions
+- accelerate the path to testable models
+- improve collaboration between testers, analysts, and developers
+- lower the barrier to modelling
+- provide a high‑quality first draft
+- enable iterative refinement with AI
+- increase modelling consistency
+- support multiple input formats
+- make behaviour explicit early
+- strengthen early risk discovery
+- improve traceability  
 
 ---
 
