@@ -1,5 +1,5 @@
 # TestCompass  
-**early Model Based Testing with explicit models, AI assistance, and open standards**
+**early Model Based Testing with explicit models, AI assistance and open standards**
 
 TestCompass is a practical early Model Based Testing (eMBT) platform that helps teams reason clearly, uncover risks early and build shared understanding before development begins.
 It brings explicit behavioural modelling and AI‑assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
@@ -68,7 +68,7 @@ Export options include:
 - Excel test design  
 - Excel decision tables  
 - Gherkin feature files  
-- .CSV  
+- .CSV for TMS's, like Jira, Azure DevOps, etc
 
 ---
 
