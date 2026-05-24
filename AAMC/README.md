@@ -93,6 +93,8 @@ If the email is not verified, the system informs the user that verification is r
 ---
 
 ### Generated Model (Mermaid)
+AAMC generates a full TestCompass model.
+The Mermaid diagram shown below is only a documentation-friendly visualization of that model, not the model itself.
 
 ```mermaid
 flowchart TD
