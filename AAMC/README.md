@@ -77,6 +77,8 @@ The output is always:
 AAMC converts natural language requirements into a structured, semantically consistent eMBT model.  
 The example below demonstrates how AAMC interprets a short requirement, identifies decisions, and exposes incomplete behaviour without making assumptions.
 
+---
+
 ### Input Requirement (English)
 
 After creating an account, the system asks the user to complete their profile.
@@ -88,7 +90,7 @@ If the email is not verified, the system informs the user that verification is r
 (The requirement does not describe what happens if mandatory fields are missing.)
 (The requirement does not describe what happens after informing the user about email verification.)
 
-
+---
 
 ### Generated Model (Mermaid)
 
@@ -108,6 +110,7 @@ flowchart TD
     G --> H[Missing behaviour]
     H --> End([End])
 
+---
 
 Explanation
 - AAMC performs the following:
@@ -118,6 +121,7 @@ Explanation
 
 This example illustrates how AAMC exposes ambiguity in requirements instead of hiding it, enabling teams to clarify missing behaviour early in the process.
 
+---
 
 ## What AAMC Is *Not*
 
