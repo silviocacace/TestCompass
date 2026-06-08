@@ -1,1 +1,32 @@
-
+Mermaid Import & Export
+TestCompass supports Mermaid‑based import and export to make models easy to share, version, and review across teams. Mermaid is a text‑based notation that integrates naturally with Markdown, Git, and documentation workflows, enabling transparent and traceable collaboration.
+Purpose
+Mermaid import and export allow teams to:
+maintain models in Git with readable diffs
+include models directly in documentation and technical discussions
+reconstruct TestCompass models from existing Mermaid diagrams
+keep behaviour descriptions consistent across documentation, development, and testing
+The feature is designed for interoperability. The TestCompass model remains the authoritative representation for test generation and semantic validation.
+Import
+TestCompass can import Mermaid diagrams and convert them into a structured eMBT model.
+During import, TestCompass:
+interprets nodes and transitions according to eMBT semantics
+validates the structure and highlights inconsistencies
+preserves incomplete or ambiguous behaviour
+prevents hidden logic or implicit branches from being introduced
+Unsupported Mermaid constructs (for example, diagram types outside the TestCompass scope) are reported clearly so the user can adjust the source diagram.
+Export
+Any TestCompass model can be exported as a Mermaid diagram.
+The exported Mermaid:
+reflects the exact semantics of the underlying eMBT model
+is stable, deterministic, and suitable for version control
+can be embedded in Markdown, wikis, design documents, and code repositories
+provides a documentation‑friendly view without altering the model itself
+Exported diagrams are intended for communication and traceability. They are not a substitute for the TestCompass model used for test generation and impact analysis.
+Workflow Integration
+Mermaid import and export support common engineering workflows:
+Git versioning: text‑based diffs reveal structural changes
+Code reviews: reviewers can inspect model changes without opening TestCompass
+Documentation: models can be embedded directly in README files, wikis, and design specs
+Round‑tripping: teams can iterate between Mermaid diagrams and TestCompass models when needed
+This ensures that modelling, documentation, and development remain aligned throughout the lifecycle.
