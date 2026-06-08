@@ -1,8 +1,8 @@
-## Mermaid Import & Export ##
+# Mermaid Import & Export
 
-Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.
-
+Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.  
 Because Mermaid is a text‑based notation, it supports transparent collaboration, version control and readable diffs in Git.
+
 This page explains the purpose of Mermaid import and export, how they relate to modelling and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
 
 ---
@@ -11,12 +11,52 @@ This page explains the purpose of Mermaid import and export, how they relate to 
 
 Mermaid import and export enable teams to:
 
-- **include models directly in Markdown documentation**
--**maintain models in Git with clear, text‑based diffs**
--**reconstruct TestCompass models from existing Mermaid diagrams**
--**keep behaviour descriptions consistent across teams and artefacts**
+- include models directly in Markdown documentation  
+- maintain models in Git with clear, text‑based diffs  
+- reconstruct TestCompass models from existing Mermaid diagrams  
+- keep behaviour descriptions consistent across teams and artefacts  
+
+By supporting Mermaid as an interchange format, TestCompass improves traceability and reduces friction between modelling, documentation and development.
 
 ---
 
+## Import
 
+When importing a Mermaid diagram, TestCompass converts the diagram into a structured eMBT model.  
+During import, TestCompass:
+
+- interprets nodes and transitions according to eMBT semantics  
+- validates the structure and highlights inconsistencies  
+- preserves incomplete or ambiguous behaviour  
+- prevents hidden logic or implicit branches from being introduced  
+
+Unsupported Mermaid constructs are reported clearly so the user can adjust the source diagram.
+
+---
+
+## Export
+
+When exporting a model, TestCompass generates a Mermaid diagram that reflects the exact semantics of the underlying eMBT model.  
+The exported Mermaid:
+
+- is deterministic and suitable for version control  
+- can be embedded in README files, wikis and design documents  
+- provides a documentation‑friendly view of the model  
+- does not alter or simplify the underlying TestCompass model  
+
+Exported diagrams support communication and traceability, while the TestCompass model remains the authoritative source for test generation and impact analysis.
+
+---
+
+## Relationship to Modelling
+
+Mermaid import and export complement the TestCompass modelling workflow.  
+They make behaviour visible in documentation and version control, while TestCompass ensures that the model itself remains:
+
+- explicit  
+- semantically correct  
+- traceable  
+- aligned with eMBT principles  
+
+This combination supports clear communication and consistent understanding across the entire team.
 
