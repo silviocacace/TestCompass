@@ -43,10 +43,11 @@ Once the model is complete and validated, test cases are automatically generated
 
 The following coverage forms are commonly used:
 
-- **Node coverage**  
-- **Edge coverage**  
-- **Multiple condition coverage**  
-- **Path coverage**
+- **Node coverage (NC)**  
+- **Edge coverage (EC)**  
+- **Path Pair coverage (PPC)**
+- **Path Tripple coverage (PTC)** 
+- **Full Path coverage (FPC)**
 
 The chosen coverage level depends on risk, priority, and desired thoroughness.
 
