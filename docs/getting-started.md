@@ -6,7 +6,7 @@ This guide introduces the basic workflow in TestCompass and helps you understand
 
 TestCompass is based on early Model-Based Testing (eMBT). The approach makes expected behaviour explicit through models, helping teams clarify requirements, explore risks and establish a shared understanding before development begins.
 
-Read the [eMBT Approach](embt-approach.md) to learn more.
+Read the [eMBT Approach](eMBT-approach.md) to learn more.
 
 ## 2. Create or Explore a Behavioural Model
 
@@ -32,7 +32,7 @@ Read [Test Generation & Coverage](test-generation.md).
 ## 5. Explore Further Capabilities
 
 - [Impact Analysis](impact-analysis.md)
-- [Mermaid Import & Export](mermaid-import-export.md)
+- [Mermaid Import & Export](mermaid import & export.md)
 - [Export Formats](export-formats.md)
 - [Integrations](integrations.md)
 
