@@ -134,7 +134,7 @@ It does not contain the TestCompass source code.
 
 For more information about TestCompass or AI-assisted modelling:
 
-- Website: https://www.testcompass.com  
+- Website: https://www.compass-testservices.com  
 - LinkedIn: https://www.linkedin.com/in/silviocacace/
 
 ---
