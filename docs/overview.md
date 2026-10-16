@@ -65,13 +65,14 @@ The result is a shared understanding of behaviour before development begins — 
 
 This documentation provides conceptual guidance, examples, and background information on:
 
+- [eMBT Approach](embt-approach.md)
 - [Modelling](modelling.md)  
 - [Test Generation](test-generation.md)  
 - [Impact Analysis](impact-analysis.md)  
 - [Integrations](integrations.md)  
 - [Export Formats](export-formats.md)
-- [AAMR - AI Assisted Model Reflection](AAMR.md)
-- [AAMC - AI Assisted Model Creation](AAMC.md)
+- [AAMR - AI Assisted Model Reflection](aamr.md)
+- [AAMC - AI Assisted Model Creation](aamc.md)
 - [Mermaid Import and Export](mermaid%20import%20%26%20export.md)
 
 It does **not** replace the in-product Quick Start Guide or instructional videos, which provide step-by-step usage instructions.
