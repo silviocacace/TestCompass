@@ -31,7 +31,7 @@ By connecting intent to models and tests, TestCompass helps teams move from ambi
 early Model-Based Testing (eMBT) is a collaborative, model‑driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
 It structures the modelling and testing workflow into four iterative phases — Exploratory, Review, Coverage, and Checking — each focused on making behaviour explicit and improving shared understanding.
 
-➡️ Learn more: - [The eMBT Approach](eMBT-approach.md)
+➡️ Learn more: - [The eMBT Approach](docs/eMBT-approach.md)
 
 ---
 
@@ -54,13 +54,13 @@ It structures the modelling and testing workflow into four iterative phases — 
 AAMC generates an initial, semantically consistent model draft from requirements, user stories, or scenarios.  
 It accelerates modelling while keeping the tester fully in control.
 
-➡️ Full documentation: [AAMC - AI Assisted Model Creation](aamc.md)
+➡️ Full documentation: [AAMC – AI-Assisted Model Creation](docs/aamc.md)
 
 ### AI‑Assisted Model Reflection (AAMR)
 AAMR analyses a model and asks targeted, context‑aware questions that uncover assumptions, highlight risks, and strengthen the clarity of the behaviour.  
 It acts as a thinking partner that supports critical reasoning and early discovery.
 
-➡️ Full documentation: [AAMR - AI Assisted Model Reflection](aamr.md)
+➡️ Full documentation: [AAMR – AI-Assisted Model Rewflection](docs/aamr.md)
 
 ---
 
