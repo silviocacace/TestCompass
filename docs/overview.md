@@ -21,7 +21,6 @@ eMBT addresses this by making behaviour explicit early in the process, enabling 
 TestCompass supports this approach by providing a modelling environment that is easy to understand for all stakeholders, while still precise enough for deep testing.
 
 ➡️ Learn more: [eMBT Approach](../eMBT/README.md)
-➡️ Learn more: [eMBT Approach](https://github.com/silviocacace/TestCompass/blob/master/eMBT/README.md)
 
 ---
 
