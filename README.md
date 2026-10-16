@@ -147,6 +147,7 @@ For more information about TestCompass or AI-assisted modelling:
 - [Impact Analysis](docs/impact-analysis.md)  
 - [Integrations](docs/integrations.md)  
 - [Export Formats](docs/export-formats.md)
+- [Mermaid Import and Export](docs/mermaid-import-export.md)
 
 ---
 
