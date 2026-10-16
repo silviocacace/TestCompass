@@ -8,12 +8,12 @@ TestCompass helps teams make system intent explicit, model expected behaviour an
 
 - [TestCompass Overview](overview.md)
 - [Behavioural Modelling](modelling.md)
-- [The eMBT Approach](../eMBT/README.md)
+- [The eMBT Approach](../eMBT-approach/README.md)
 
 ## AI-Assisted Modelling
 
-- [AI-Assisted Model Creation (AAMC)](../AAMC/README.md)
-- [AI-Assisted Model Reflection (AAMR)](../AAMR/README.md)
+- [AI-Assisted Model Creation (AAMC)](../aamc/README.md)
+- [AI-Assisted Model Reflection (AAMR)](../aamr/README.md)
 
 ## Testing and Analysis
 
