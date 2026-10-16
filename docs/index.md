@@ -24,7 +24,7 @@ TestCompass helps teams make system intent explicit, model expected behaviour an
 
 - [Mermaid Import and Export](Mermaid%20Import%20%26%20Export.md)
 - [Integrations](integrations.md)
-- [Export Formats](../export-formats.md)
+- [Export Formats](export-formats.md)
 
 ## How This Documentation Relates to the Product
 
