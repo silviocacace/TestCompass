@@ -99,9 +99,11 @@ For details about compatibility and which model properties are preserved, refer 
 |---|---|
 | Excel — Test Design | Reviewing and refining test scenarios |
 | Excel — Decision Tables | Analysing business rules and condition combinations |
-| Gherkin | Describing scenarios in BDD format |
-| CSV | Exchanging structured test data |
-| Mermaid | Sharing and documenting behavioural models |
+| Gherkin (`.feature`) | Describing scenarios in BDD format |
+| CSV (`.csv`) | Exchanging structured test data with other tools |
+| PNG (`.png`) | Sharing a static visual representation of a model |
+| TCModel (`.tcmodel`) | Saving and transferring models in TestCompass's native format |
+| Mermaid | Sharing and documenting behavioural models as text-based diagrams |
 
 ## Exporting and Traceability
 
