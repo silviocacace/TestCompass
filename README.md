@@ -20,7 +20,7 @@ TestCompass connects seamlessly with tools such as Azure DevOps and Jira, making
 early Model-Based Testing (eMBT) is a collaborative, model‑driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
 It structures the modelling and testing workflow into four iterative phases — Exploratory, Review, Coverage, and Checking — each focused on making behaviour explicit and improving shared understanding.
 
-➡️ Learn more: [eMBT Approach](../eMBT/)
+➡️ Learn more:https://github.com/silviocacace/TestCompass/tree/master/eMBT
 
 ---
 
