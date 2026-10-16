@@ -1,5 +1,37 @@
 # TestCompass Documentation
 
+Welcome to the TestCompass documentation.
+
+TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through early Model-Based Testing (eMBT).
+
+## Getting Started
+
+- [TestCompass Overview](overview.md)
+- [Behavioural Modelling](modelling.md)
+- [The eMBT Approach](../eMBT/README.md)
+
+## AI-Assisted Modelling
+
+- [AI-Assisted Model Creation (AAMC)](../AAMC/README.md)
+- [AI-Assisted Model Reflection (AAMR)](../AAMR/README.md)
+
+## Testing and Analysis
+
+- [Test Generation and Coverage](test-generation.md)
+- [Impact Analysis](impact-analysis.md)
+
+## Import, Export and Integrations
+
+- [Mermaid Import and Export](Mermaid%20Import%20%26%20Export.md)
+- [Integrations](integrations.md)
+- [Export Formats](export-formats.md)
+
+
+
+
+
+# TestCompass Documentation
+
 Welcome to the TestCompass documentation.  
 This section provides the conceptual foundation behind early Model-Based Testing (eMBT), behavioural modelling, AI-assisted reasoning, test generation, impact analysis and integrations.
 
