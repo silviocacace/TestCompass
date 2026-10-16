@@ -32,7 +32,7 @@ Read [Test Generation & Coverage](test-generation.md).
 ## 5. Explore Further Capabilities
 
 - [Impact Analysis](impact-analysis.md)
-- [Mermaid Import and Export](mermaid%20import%20%26%20export.md)
+- [Mermaid Import and Export](mermaid-import-export.md)
 - [Export Formats](export-formats.md)
 - [Integrations](integrations.md)
 
