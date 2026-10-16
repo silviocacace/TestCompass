@@ -70,6 +70,9 @@ This documentation provides conceptual guidance, examples, and background inform
 - [Impact Analysis](impact-analysis.md)  
 - [Integrations](integrations.md)  
 - [Export Formats](export-formats.md)
+- [AAMR - AI Assisted Model Reflection](AAMR.md)
+- [AAMC - AI Assisted Model Creation](AAMC.md)
+- [Mermaid import & export](mermaid import & export.md)
 
 It does **not** replace the in-product Quick Start Guide or instructional videos, which provide step-by-step usage instructions.
 
