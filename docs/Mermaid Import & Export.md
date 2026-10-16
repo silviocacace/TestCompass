@@ -60,3 +60,17 @@ They make behaviour visible in documentation and version control, while TestComp
 
 This combination supports clear communication and consistent understanding across the entire team.
 
+---
+
+## AI-Assisted Mermaid Conversion
+
+While TestCompass supports Mermaid import, not every valid Mermaid diagram can be converted directly into a TestCompass model. This is because TestCompass applies additional modelling rules and constraints to ensure model consistency and support for test generation.
+
+To help with this, James Bach created a Claude Code skill that analyses Mermaid diagrams, identifies conflicts with TestCompass modelling rules and assists in producing a TestCompass-compatible Mermaid model.
+
+This community-contributed resource may be useful when working with Mermaid diagrams that require adaptations before they can be imported successfully into TestCompass.
+
+Download: 
+
+Note: This skill is an independent contribution from James Bach and is not part of the core TestCompass product.
+
