@@ -1,5 +1,5 @@
 # TestCompass  
-**Intent-driven early Model Based Testing with explicit models, AI assistance and and tool integration**
+**Intent-driven early Model Based Testing with explicit models, AI assistance and tool integration**
 
 TestCompass is a practical early Model Based Testing (eMBT) platform that helps teams make intent explicit, clarify expected behaviour, uncover risks early and build shared understanding before development begins.
 
