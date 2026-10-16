@@ -67,6 +67,32 @@ Mermaid represents diagrams as text, making models easier to review, version and
 
 For details, see [Mermaid Import & Export](Mermaid%20Import%20%26%20Export.md).
 
+### PNG — Model Image
+
+Export a behavioural model as a PNG image for visualisation and sharing.
+
+PNG provides a convenient way to include model diagrams in documentation, presentations, reports and other communication materials.
+
+**Typical use cases:**
+- Sharing model diagrams with stakeholders
+- Including models in documentation and presentations
+- Providing a visual reference for reviews and discussions
+
+A PNG export is a static image. It does not preserve the underlying model structure or allow the model to be edited in TestCompass.
+
+### TCModel — Native TestCompass Model
+
+Export a model as a `.tcmodel` file to preserve it in TestCompass's native model format.
+
+This format is intended for working with TestCompass models beyond a visual representation, allowing the model to be saved and transferred as a model file.
+
+**Typical use cases:**
+- Saving a model for later use
+- Sharing model files with other TestCompass users
+- Preserving the model in its native format
+
+For details about compatibility and which model properties are preserved, refer to the TestCompass documentation.
+
 ## Choosing the Right Format
 
 | Format | Primary purpose |
