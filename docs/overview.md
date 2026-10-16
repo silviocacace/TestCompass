@@ -73,7 +73,7 @@ This documentation provides conceptual guidance, examples, and background inform
 - [Export Formats](export-formats.md)
 - [AAMR - AI Assisted Model Reflection](aamr.md)
 - [AAMC - AI Assisted Model Creation](aamc.md)
-- [Mermaid Import and Export](mermaid%20import%20%26%20export.md)
+- [Mermaid Import and Export](mermaid-import-export.md)
 
 It does **not** replace the in-product Quick Start Guide or instructional videos, which provide step-by-step usage instructions.
 
