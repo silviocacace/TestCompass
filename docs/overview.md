@@ -65,7 +65,7 @@ The result is a shared understanding of behaviour before development begins — 
 
 This documentation provides conceptual guidance, examples, and background information on:
 
-- [eMBT Approach](embt-approach.md)
+- [The eMBT Approach](eMBT-approach.md)
 - [Modelling](modelling.md)  
 - [Test Generation](test-generation.md)  
 - [Impact Analysis](impact-analysis.md)  
