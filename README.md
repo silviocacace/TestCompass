@@ -60,7 +60,7 @@ It accelerates modelling while keeping the tester fully in control.
 AAMR analyses a model and asks targeted, context‑aware questions that uncover assumptions, highlight risks, and strengthen the clarity of the behaviour.  
 It acts as a thinking partner that supports critical reasoning and early discovery.
 
-➡️ Full documentation: [AAMR - AI Assisted Model Reflection](aamc.md)
+➡️ Full documentation: [AAMR - AI Assisted Model Reflection](aamr.md)
 
 ---
 
