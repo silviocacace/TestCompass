@@ -65,7 +65,7 @@ Mermaid represents diagrams as text, making models easier to review, version and
 - Including diagrams in Markdown documentation
 - Reviewing model changes in version control
 
-For details, see [Mermaid Import & Export](Mermaid%20Import%20%26%20Export.md).
+For details, see - [Mermaid Import and Export](docs/mermaid-import-export.md)
 
 ### PNG — Model Image
 
