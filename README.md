@@ -31,7 +31,7 @@ By connecting intent to models and tests, TestCompass helps teams move from ambi
 early Model-Based Testing (eMBT) is a collaborative, model‑driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
 It structures the modelling and testing workflow into four iterative phases — Exploratory, Review, Coverage, and Checking — each focused on making behaviour explicit and improving shared understanding.
 
-➡️ Learn more: [eMBT](eMBT/README.md)
+➡️ Learn more: [eMBT Approach](eMBT-approach/README.md)
 
 ---
 
