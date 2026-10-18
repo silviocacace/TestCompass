@@ -1,5 +1,12 @@
 ← [Home](index.md)
 
+## New to TestCompass?
+
+For a guided introduction and first steps, use the Quick Start Guide available directly from TestCompass via the Help menu and Book icon.
+
+This documentation provides detailed information about TestCompass concepts, features and integrations.
+
+
 The Quick Start Guide is available directly from TestCompass via the Help menu and Book icon.
 
 The Quick Start Guide provides a guided introduction for new users.
