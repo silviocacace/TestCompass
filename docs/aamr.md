@@ -1,3 +1,7 @@
+[← Back to Documentation - Home](index.md)
+
+---
+
 # AAMC – AI-Assisted Model Reflection
 
 AAMR (AI-Assisted Model Reflection) is an AI-supported capability within the TestCompass eMBT workflow.
