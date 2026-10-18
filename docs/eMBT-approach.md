@@ -7,9 +7,6 @@
 early Model Based Testing (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle.  
 It improves communication between business and technical stakeholders and optimizes the test design phase.
 
-As described in the original article:  
-> “eMBT stimulates communication and collaboration between all stakeholders… with the aim of getting early feedback and a shared understanding of the requirements.”
-
 eMBT consists of four iterative phases.
 
 ---
