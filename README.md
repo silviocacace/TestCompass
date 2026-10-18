@@ -7,6 +7,16 @@ It brings explicit behavioural modelling and AI-assisted model creation into the
 
 ---
 
+## Documentation
+
+📚 Full Documentation:
+https://silviocacace.github.io/TestCompass/
+
+🚀 Quick Start Guide:
+Available directly from TestCompass via the Help menu.
+
+---
+
 ## Overview
 
 TestCompass provides a complete workflow for early Model‑Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early and generate reproducible tests from well‑structured models.
