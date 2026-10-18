@@ -4,6 +4,13 @@ Welcome to the TestCompass documentation.
 
 TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through early Model-Based Testing (eMBT).
 
+## New to TestCompass?
+
+The Quick Start Guide is available directly from TestCompass via the Help menu and Book icon.
+
+This documentation focuses on concepts, capabilities and detailed feature documentation.
+
+
 ## Core Concepts
 
 - [TestCompass Overview](overview.md)
@@ -26,9 +33,9 @@ TestCompass helps teams make system intent explicit, model expected behaviour an
 - [Integrations](integrations.md)
 - [Export Formats](export-formats.md)
 
-## Recourse
+## Getting Started
 
-- [Quick Start Guide](quick-start-guide.md)
+The Quick Start Guide is available directly from TestCompass via the Help menu and Book icon.
 
 ## How This Documentation Relates to the Product
 
