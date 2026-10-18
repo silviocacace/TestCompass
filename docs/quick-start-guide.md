@@ -1,4 +1,6 @@
-← [Home](index.md)
+[← Back to Documentation - Home](index.md)
+
+---
 
 ## New to TestCompass --> Quick Start Guide
 
