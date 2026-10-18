@@ -1,3 +1,7 @@
+[← Back to Documentation - Home](index.md)
+
+---
+
 # Impact Analysis
 
 Impact analysis in TestCompass helps teams understand how changes in requirements affect existing behaviour, models and generated test scenarios.  
