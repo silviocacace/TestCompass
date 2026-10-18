@@ -1,3 +1,7 @@
+[← Back to Documentation - Home](index.md)
+
+---
+
 # AAMC – AI-Assisted Model Creation
 
 AAMC (AI‑Assisted Model Creation) is an AI‑supported capability within the TestCompass eMBT workflow.
