@@ -4,7 +4,7 @@ Welcome to the TestCompass documentation.
 
 TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through early Model-Based Testing (eMBT).
 
-## Getting Started
+## Core Concepts
 
 - [TestCompass Overview](overview.md)
 - [Behavioural Modelling](modelling.md)
@@ -25,6 +25,10 @@ TestCompass helps teams make system intent explicit, model expected behaviour an
 - [Mermaid Import and Export](mermaid-import-export.md)
 - [Integrations](integrations.md)
 - [Export Formats](export-formats.md)
+
+## Recourse
+
+- [Quick Start Guide](quick-start-guide.md)
 
 ## How This Documentation Relates to the Product
 
