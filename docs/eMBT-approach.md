@@ -80,9 +80,6 @@ This prevents unnecessary test work and reduces false positives and false negati
 ---
 
 ## Why eMBT?
-As noted in the article:  
-> “35% of all bugs in production can still be traced back to the requirements.”
-
 eMBT helps teams:
 
 - clarify requirements early  
