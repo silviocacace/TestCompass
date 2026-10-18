@@ -5,16 +5,13 @@
 # AAMC – AI-Assisted Model Creation
 
 AAMC (AI‑Assisted Model Creation) is an AI‑supported capability within the TestCompass eMBT workflow.
-It generates a first, semantically consistent model draft from plain‑language inputs such as requirements, user stories, or scenarios.
+It generates a first, semantically consistent model draft from plain‑language inputs such as requirements, user stories. But also other input allowed, such as discussion table, Json, XML, BPMBN, etc.
 AAMC accelerates early modelling while keeping the tester fully in control.
 
-AAMC follows strict eMBT principles:  
-it models only explicitly described behaviour, does not invent missing steps, does not populate implicit branches, does not generate Result Nodes unless a result is explicitly stated, and ends a model only when the requirement describes a natural conclusion. Underspecified behaviour remains intentionally incomplete.
-Because AAMC is AI‑driven, the exact visual form of the model may vary (for example, whether an End Node is included).
-This does not affect semantics: AAMC never models behaviour that is not explicitly described.
+AAMC is designed to follow eMBT principles as closely as possible. It aims to model only explicitly described behaviour, avoid introducing assumptions, and leave ambiguities visible rather than filling them in automatically. For example, if a decision describes only a "Yes" outcome, AAMC will not automatically invent a corresponding "No" branch. Decision outcomes and alternative paths are modelled only when they are described in the source material. Result Nodes are created only when outcomes are explicitly stated, and models are ended only when the requirement indicates a natural conclusion. As a result, underspecified behaviour may remain intentionally incomplete.
 
-TestCompass automatically validates the generated model and highlights issues directly in the diagram.
-Missing paths, ambiguous behaviour, invalid node semantics, and structural inconsistencies are marked with clear red exclamation marks, making uncertainty visible early — a core principle of eMBT.
+TestCompass automatically validates the generated model and highlights issues directly in the model.
+Missing paths, ambiguous behaviour, invalid node semantics and structural inconsistencies are marked with clear red exclamation marks, making uncertainty visible early — a core principle of eMBT.
 
 ---
 
@@ -33,7 +30,7 @@ This allows testers to begin working in TestCompass sooner and focus their time 
 critical thinking, refinement and deeper exploration of system behaviour.
 
 AAMC does not replace modelling expertise.
-It provides an initial model that the tester reviews, corrects, and evolves into a mature Test Model.
+It provides an initial model that the tester can review, correct and evolve into a mature TestCompass Test Model.
 
 ---
 
