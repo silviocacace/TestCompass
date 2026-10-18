@@ -1,4 +1,12 @@
-# Getting Started
+← [Home](index.md)
+
+The Quick Start Guide is available directly from TestCompass via the Help menu and Book icon.
+
+The Quick Start Guide provides a guided introduction for new users.
+
+
+
+# Quick Start Guide
 
 This guide introduces the basic workflow in TestCompass and helps you understand how its modelling-based approach supports early testing.
 
