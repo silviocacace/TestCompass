@@ -1,14 +1,12 @@
 [← Back to Documentation Home](index.md)
 
-← [Home](index.md)
+n this section
 
-## In this section
-
-- overview.md
-- modelling.md
-- eMBT-approach.md
-- test-generation.md
-- impact-analysis.md
+overview.md
+modelling.md
+eMBT-approach.md
+test-generation.md
+impact-analysis.md
 
 # Overview
 
