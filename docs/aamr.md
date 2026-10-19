@@ -85,21 +85,21 @@ The final modelling decisions always remain with the tester.
 
 ## Relationship with AAMC
 
-AAMC and AAMR serve different purposes within the modelling workflow.
+AAMC and AAMR address different stages of the modelling process.
 
-### AAMC
+### AAMC (AI-Assisted Model Creation)
 
-- generates an initial model draft
-- transforms behavioural descriptions into model structures
-- accelerates model creation
+AAMC helps create an initial model draft from behavioural descriptions.
 
-### AAMR
+Its primary goal is to accelerate model creation.
 
-- analyses an existing model
-- challenges assumptions and interpretations
-- stimulates critical thinking and discussion
+### AAMR (AI-Assisted Model Reflection)
 
-Together, they support both the creation and improvement of TestCompass models.
+AAMR helps review, challenge and strengthen an existing model.
+
+Its primary goal is to stimulate critical thinking and uncover gaps, ambiguities and potential risks.
+
+Together, AAMC and AAMR support both the creation and continuous improvement of TestCompass models.
 
 ---
 
