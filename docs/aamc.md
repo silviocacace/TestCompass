@@ -4,68 +4,49 @@
 
 # AAMC – AI-Assisted Model Creation
 
-AAMC (AI‑Assisted Model Creation) is an AI‑supported capability within the TestCompass eMBT workflow.
-It generates a first, semantically consistent model draft from plain‑language inputs such as requirements, user stories. But also other input allowed, such as discussion table, Json, XML, BPMBN, etc.
-AAMC accelerates early modelling while keeping the tester fully in control.
+AAMC (AI-Assisted Model Creation) is an AI-supported capability within TestCompass that helps transform behavioural descriptions into an initial TestCompass model draft.
 
-AAMC is designed to follow eMBT principles as closely as possible. It aims to model only explicitly described behaviour, avoid introducing assumptions, and leave ambiguities visible rather than filling them in automatically. For example, if a decision describes only a "Yes" outcome, AAMC will not automatically invent a corresponding "No" branch. Decision outcomes and alternative paths are modelled only when they are described in the source material. Result Nodes are created only when outcomes are explicitly stated, and models are ended only when the requirement indicates a natural conclusion. As a result, underspecified behaviour may remain intentionally incomplete.
+It allows users to start modelling from requirements, user stories, workshop notes, business process descriptions, and other behavioural sources rather than creating a model manually from scratch.
 
-TestCompass automatically validates the generated model and highlights issues directly in the model.
-Missing paths, ambiguous behaviour, invalid node semantics and structural inconsistencies are marked with clear red exclamation marks, making uncertainty visible early — a core principle of eMBT.
+The generated draft can then be reviewed, refined and extended within TestCompass.
 
 ---
 
-## Purpose
+# Supported Inputs
 
-AAMC is designed to support early Model Based Testing (eMBT) by helping teams:
+AAMC can process both natural-language and structured inputs, including:
 
-- make behaviour explicit early
-- avoid assumptions
-- uncover risks sooner
-- build shared understanding before development begins
-- create a structured starting point for deeper modelling and test design
-
-AAMC accelerates the start of the modelling process by generating a high‑quality first draft.
-This allows testers to begin working in TestCompass sooner and focus their time on what matters most:
-critical thinking, refinement and deeper exploration of system behaviour.
-
-AAMC does not replace modelling expertise.
-It provides an initial model that the tester can review, correct and evolve into a mature TestCompass Test Model.
-
----
-
-## How AAMC Works
-
-AAMC can process a wide range of inputs.
-It accepts natural‑language descriptions such as:
-
+Natural Language
 - requirements
 - user stories
 - acceptance criteria
 - scenarios
 - domain descriptions
+- workshop or discussion notes
 
-AAMC can also interpret structured inputs, including:
-
+Structured Inputs
 - BPMN 2.0 XML
-- JSON representations of workflows or state transitions
+- JSON workflow definitions
+- XML behaviour descriptions
 - Mermaid diagrams
 - Gherkin scenarios
-- Other machine‑readable formats that describe behaviour
+- other machine-readable behavioural formats
 
-From these inputs, AAMC produces:
+---
 
-- an initial model structure
-- nodes and transitions with consistent semantics
-- a clear behavioural flow
-- a model that is immediately testable in TestCompass
+# Generated Output
 
-The output is always:
+AAMC generates an initial TestCompass model draft containing:
 
-- explicit
-- traceable
-- reproducible
-- aligned with eMBT principles 
+- model structure
+- actions
+- decisions
+- transitions
+- behavioural flows
+
+The generated model can immediately be reviewed, refined and further developed inside TestCompass.
+
+After generation, TestCompass automatically validates the model and highlights any detected modelling or semantic issues directly within the model.
 
 ---
 
@@ -110,7 +91,6 @@ flowchart TD
     H --> End([End])
 ```
 
-
 ## Explanation
 - AAMC performs the following:
 - Identifies decisions (“All mandatory fields filled?”, “Email verified?”)
@@ -122,27 +102,13 @@ This example illustrates how AAMC exposes ambiguity in requirements instead of h
 
 ---
 
-## What AAMC Is *Not*
-
-AAMC is **not**:
-
-- a flowchart generator  
-- a diagram beautifier  
-- a replacement for modelling expertise  
-- a tool that “guesses” behaviour  
-
-It is an **engineering-grade modelling assistant** that supports critical thinking and early discovery.
-
----
-
 ## Example Workflow
 
-1. Provide AAMC with a requirement, user story, or structured input
-2. AAMC generates a first model draft
-3. The tester reviews the structure and requests adjustments from the AI if needed
-4. The tester iterates with AAMC until the draft reflects the intended behaviour
-5. Once accepted, the model becomes editable in TestCompass for manual refinement
-6. The refined model forms the basis for test generation and impact analysis
+1. Provide AAMC with behavioural input
+2. Generate an initial model draft
+3. Review and refine the generated model
+4. Continue modelling within TestCompass
+5. Use the refined model for test generation and impact analysis
 
 This workflow supports early exploration, accelerates the modelling process and reduces the time needed to reach a stable, explicit model.
 
@@ -166,31 +132,6 @@ AAMC helps teams:
 - make behaviour explicit early
 - strengthen early risk discovery
 - improve traceability  
-
----
-
-## Relation to eMBT
-
-AAMC is fully aligned with the eMBT philosophy:
-
-- **explicit models**  
-- **no hidden logic**  
-- **no assumptions**  
-- **traceable test generation**  
-- **early risk discovery**  
-
-AAMC strengthens the early phase of modelling by providing a structured starting point that supports deeper reasoning.
-
----
-
-## Roadmap
-
-Future enhancements may include:
-
-- additional model refinement suggestions  
-- domain‑specific modelling patterns  
-- improved semantic validation  
-- deeper integration with AAMR  
 
 ---
 
