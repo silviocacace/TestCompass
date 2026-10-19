@@ -34,7 +34,7 @@ AAMR analyses the structure and semantics of a TestCompass model and generates r
 - clarification questions
 - observations about model structure
 - potential ambiguities
-- possible missing behaviour
+- ppotentially missing behaviour
 - alternative interpretations
 - risk-oriented discussion points
 - model improvement suggestions
@@ -102,10 +102,6 @@ Its primary goal is to stimulate critical thinking and uncover gaps, ambiguities
 Together, AAMC and AAMR support both the creation and continuous improvement of TestCompass models.
 
 ---
-
-## History
-
-AAMR was first publicly documented in this repository in May 2026.
 
 ## Contact
 
