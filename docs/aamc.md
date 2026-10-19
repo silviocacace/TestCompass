@@ -12,6 +12,14 @@ The generated draft can then be reviewed, refined and extended within TestCompas
 
 ---
 
+## Purpose
+
+AAMC is designed to accelerate the creation of initial TestCompass models from behavioural descriptions.
+
+It provides a structured starting point that helps teams begin modelling earlier and spend more time reviewing, refining and exploring behaviour rather than creating a model from scratch.
+
+---
+
 # Supported Inputs
 
 AAMC can process both natural-language and structured inputs, including:
