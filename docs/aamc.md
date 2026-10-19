@@ -79,7 +79,7 @@ If the email is not verified, the system informs the user that verification is r
 ---
 
 ### Generated Model (Mermaid)
-AAMC generates a full TestCompass model.
+AAMC generates an initial TestCompass model draft.
 The Mermaid diagram shown below is only a documentation-friendly visualization of that model, not the model itself.
 
 ```mermaid
@@ -126,25 +126,14 @@ This workflow supports early exploration, accelerates the modelling process and 
 
 AAMC helps teams:
 
-- start modelling earlier  
+- start modelling earlier
 - reduce ambiguity
 - identify missing behaviour
-- challenge assumptions
-- accelerate the path to testable models
-- improve collaboration between testers, analysts, and developers
-- lower the barrier to modelling
-- provide a high‑quality first draft
-- enable iterative refinement with AI
-- increase modelling consistency
+- create high-quality initial model drafts
+- improve modelling consistency
 - support multiple input formats
-- make behaviour explicit early
-- strengthen early risk discovery
-- improve traceability  
-
----
-
-## History
-AAMC was first publicly documented in this repository in May 2026.
+- accelerate the path to testable models
+- improve collaboration between testers, analysts and developers
 
 ---
 
