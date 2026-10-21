@@ -24,11 +24,11 @@ eMBT addresses this by making behaviour explicit early in the process, enabling 
 
 TestCompass supports this approach by providing a modelling environment that is easy to understand for all stakeholders, while still precise enough for deep testing.
 
-➡️ Learn more: - [The eMBT Approach](eMBT-approach.md)
+➡️ **Learn more:** [The eMBT Approach](eMBT-approach.md)
 
 ---
 
-## What TestCompass provides
+## What TestCompass Provides
 
 TestCompass offers a complete workflow for early MBT:
 
@@ -52,7 +52,7 @@ TestCompass offers a complete workflow for early MBT:
 
 ---
 
-## How TestCompass fits into the development workflow
+## How TestCompass Fits into the Development Workflow
 
 TestCompass is designed to support modern, iterative development practices:
 
@@ -61,27 +61,26 @@ TestCompass is designed to support modern, iterative development practices:
 - Supports refinement, BDD-style conversations, and shift-left testing  
 - Produces artefacts that are traceable, reviewable, and easy to maintain  
 
-The result is a shared understanding of behaviour before development begins — reducing rework, improving quality, and strengthening team alignment.
+The result is a shared understanding of behaviour before development begins—reducing rework, improving quality, and strengthening team alignment.
 
 ---
 
-## What this documentation covers
+## What This Documentation Covers
 
 This documentation provides conceptual guidance, examples, and background information on:
 
 - [The eMBT Approach](eMBT-approach.md)
-- [Modelling](modelling.md)  
-- [Test Generation](test-generation.md)  
+- [Behavioural Modelling](modelling.md)  
+- [Test Generation and Coverage](test-generation.md)  
 - [Impact Analysis](impact-analysis.md)  
 - [Integrations](integrations.md)  
 - [Export Formats](export-formats.md)
-- [AAMR - AI Assisted Model Reflection](aamr.md)
-- [AAMC - AI Assisted Model Creation](aamc.md)
+- [AAMC – AI-Assisted Model Creation](aamc.md)
+- [AAMR – AI-Assisted Model Reflection](aamr.md)
 - [Mermaid Import and Export](mermaid-import-export.md)
 
-It does **not** replace the in-product Quick Start Guide or instructional videos, which provide step-by-step usage instructions.
+*(Note: This documentation does **not** replace the in-product Quick Start Guide or instructional videos, which provide step-by-step UI instructions.)*
 
 ---
 
 If you are looking for a structured, transparent, and collaborative approach to early testing, TestCompass provides the tools and workflow to support it.
-
