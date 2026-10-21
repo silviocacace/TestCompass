@@ -1,11 +1,28 @@
-[← Back to Documentation - Home](index.md)
-
+[← Back to Documentation Index](index.md)
 
 # Early Model-Based Testing (eMBT)
 
-'early Model-Based Testing' (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle. It does much more than simply optimize or accelerate test design: eMBT actively stimulates critical thinking and communication between business and technical stakeholders. The earlier misunderstandings, ambiguities or missing details are discovered, the more effectively teams can prevent costly defects later.
+'Early Model-Based Testing' (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle. It does much more than simply optimize or accelerate test design: eMBT actively stimulates critical thinking and communication between business and technical stakeholders. The earlier misunderstandings, ambiguities, or missing details are discovered, the more effectively teams can prevent costly defects later.
 
-eMBT consists of four iterative phases.
+---
+
+## Why eMBT Matters
+
+This is precisely why Early Model-Based Testing (eMBT) supported by TestCompass is so powerful. By visually modelling the intended system behaviour during the initial design phase, you don't just capture specifications—you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, and test ideas at an early stage. It forces a true shared understanding between business and IT before a single line of code is written.
+
+That’s how you shift from a late 'QA' stamp of approval to driving real customer value right from the start.
+
+---
+
+## The Four Iterative Phases of eMBT
+
+eMBT consists of four iterative phases:
+
+<p align="center">
+  <img src="eMBT_phases.jpg" alt="Early Model-Based Testing Phases" width="500">
+</p>
+
+---
 
 <img src="eMBT_phases.jpg" alt="Generated TestCompass Model" width="500">
 
