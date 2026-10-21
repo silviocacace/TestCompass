@@ -1,6 +1,4 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # AAMC – AI-Assisted Model Creation
 
@@ -20,11 +18,11 @@ It provides a structured starting point that helps teams begin modelling earlier
 
 ---
 
-# Supported Inputs
+## Supported Inputs
 
 AAMC can process both natural-language and structured inputs, including:
 
-Natural Language
+### Natural Language
 - requirements
 - user stories
 - acceptance criteria
@@ -32,7 +30,7 @@ Natural Language
 - domain descriptions
 - workshop or discussion notes
 
-Structured Inputs
+### Structured Inputs
 - BPMN 2.0 XML
 - JSON workflow definitions
 - XML behaviour descriptions
@@ -42,7 +40,7 @@ Structured Inputs
 
 ---
 
-# Generated Output
+## Generated Output
 
 AAMC generates an initial TestCompass model draft containing:
 
@@ -73,12 +71,13 @@ The system checks whether all mandatory fields are filled in.
 If all mandatory fields are provided, the system verifies the user’s email address.
 If the email is verified, the system activates the user’s account.
 If the email is not verified, the system informs the user that verification is required.
-(The requirement does not describe what happens if mandatory fields are missing.)
-(The requirement does not describe what happens after informing the user about email verification.)
+*(The requirement does not describe what happens if mandatory fields are missing.)*
+*(The requirement does not describe what happens after informing the user about email verification.)*
 
 ---
 
 ### Generated Model (Mermaid)
+
 AAMC generates an initial TestCompass model draft.
 The Mermaid diagram shown below is only a documentation-friendly visualization of that model, not the model itself.
 
@@ -97,46 +96,3 @@ flowchart TD
     F --> End([End])
     G --> H[Missing behaviour]
     H --> End([End])
-```
-
-## Explanation
-- AAMC performs the following:
-- Identifies decisions (“All mandatory fields filled?”, “Email verified?”)
-- Creates a clean, readable model without adding behaviour that is not explicitly described
-- Leaves incomplete paths open, marking them as missing behaviour
-- Ensures semantic correctness according to eMBT rules
-
-This example illustrates how AAMC exposes ambiguity in requirements instead of hiding it, enabling teams to clarify missing behaviour early in the process.
-
----
-
-## Example Workflow
-
-1. Provide AAMC with behavioural input
-2. Generate an initial model draft
-3. Review and refine the generated model
-4. Continue modelling within TestCompass
-5. Use the refined model for test generation and impact analysis
-
-This workflow supports early exploration, accelerates the modelling process and reduces the time needed to reach a stable, explicit model.
-
----
-
-## Benefits
-
-AAMC helps teams:
-
-- start modelling earlier
-- reduce ambiguity
-- identify missing behaviour
-- create high-quality initial model drafts
-- improve modelling consistency
-- support multiple input formats
-- accelerate the path to testable models
-- improve collaboration between testers, analysts and developers
-
----
-
-## Contact
-
-For more information about AAMC or the TestCompass eMBT workflow, please visit the website or reach out via LinkedIn.
