@@ -73,6 +73,8 @@ TestCompass models use a small set of node types to keep diagrams simple and rea
 
 These elements are sufficient to express complex behaviour without overwhelming the reader.
 
+![TestCompass Node Types and Canvas](jouw-screenshot-naam.png)
+
 ---
 
 ## Model Validation
