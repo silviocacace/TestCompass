@@ -1,6 +1,4 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # Modelling
 
@@ -35,19 +33,19 @@ The goal is not to create a perfect diagram, but to create a **shared understand
 Key principles:
 
 - **High-level abstraction**  
-  Models should be understandable by both business and IT.
+  Models should be understandable by both business and IT.  
 
 - **Explicit decisions**  
-  Every decision is represented visually, making happy and unhappy paths visible.
+  Every decision is represented visually, making happy and unhappy paths visible.  
 
 - **Clear outcomes**  
-  Each path leads to a result that reflects the expected system behaviour.
+  Each path leads to a result that reflects the expected system behaviour.  
 
 - **No hidden assumptions**  
-  If something is unclear, it becomes visible in the model.
+  If something is unclear, it becomes visible in the model.  
 
 - **Iterative refinement**  
-  Models evolve as requirements become clearer.
+  Models evolve as requirements become clearer.  
 
 ---
 
@@ -56,26 +54,22 @@ Key principles:
 TestCompass models use a small set of node types to keep diagrams simple and readable:
 
 - **Start**  
-  The entry point of the behaviour. A model always begins with exactly one Start node.
+  The entry point of the behaviour. A model always begins with exactly one Start node.  
 
 - **Action / State**  
-  Represents an action or a state in the flow.  
-  Has exactly one outgoing link.
+  Represents an action or a state in the flow. Has exactly one outgoing link.  
 
 - **Decision**  
-  Represents a branching point with two explicit outcomes: Yes and No.  
-  These branches are classified as test paths and are important for test generation.
+  Represents a branching point with two explicit outcomes: Yes and No. These branches are classified as test paths and are important for test generation.  
 
 - **Result**  
-  Represents an expected outcome or observable effect.
+  Represents an expected outcome or observable effect.  
 
 - **End**  
-  Represents the termination of the behaviour.  
-  A model must contain at least one End node.
+  Represents the termination of the behaviour. A model must contain at least one End node.  
 
 - **Comment**  
-  Used to capture questions, ambiguities, contradictions, or open ends.  
-  Comments are not connected to the flow and serve as prompts for review.
+  Used to capture questions, ambiguities, contradictions, or open ends. Comments are not connected to the flow and serve as prompts for review.  
 
 These elements are sufficient to express complex behaviour without overwhelming the reader.
 
@@ -93,7 +87,7 @@ Validation checks include:
 - structural inconsistencies in decision logic  
 
 These validations help teams detect structural issues early, before generating tests or exporting artefacts.  
-Validation is not a replacement for review — it is a safeguard that supports clear, explicit modelling.
+*(Note: Validation is not a replacement for review — it is a safeguard that supports clear, explicit modelling.)*
 
 ---
 
@@ -114,20 +108,12 @@ Preconditions and data do not change the structure of the model, but they make t
 
 Modelling typically follows an iterative workflow aligned with the eMBT phases:
 
-1. **Exploratory**  
-   Initial model creation based on available requirements.  
-   Questions, ambiguities, and assumptions are captured using comment nodes.
+1. **Exploratory:** Initial model creation based on available requirements. Questions, ambiguities, and assumptions are captured using comment nodes.  
+2. **Review:** The team discusses the model, resolves uncertainties, and updates the behaviour accordingly.  
+3. **Coverage:** Once validated, the model becomes the basis for systematic test generation.  
+4. **Checking:** The model and generated tests are used to verify the system under test.  
 
-2. **Review**  
-   The team discusses the model, resolves uncertainties, and updates the behaviour accordingly.
-
-3. **Coverage**  
-   Once validated, the model becomes the basis for systematic test generation.
-
-4. **Checking**  
-   The model and generated tests are used to verify the system under test.
-
-This workflow ensures that modelling is not a one‑time activity but a continuous source of clarity.
+This workflow ensures that modelling is not a one-time activity but a continuous source of clarity.
 
 ---
 
@@ -156,8 +142,7 @@ TestCompass supports modelling using Gherkin concepts such as:
 
 This allows teams to generate Gherkin feature files directly from the model, ensuring that executable specifications remain aligned with the behavioural structure.
 
-Gherkin modelling is flexible:  
-the model expresses the behaviour, while the Gherkin labels provide semantic meaning for BDD workflows.
+Gherkin modelling is flexible: the model expresses the behaviour, while the Gherkin labels provide semantic meaning for BDD workflows.
 
 ---
 
@@ -170,13 +155,11 @@ TestCompass supports open, text-based modelling through Mermaid:
 
 This enables teams to collaborate using plain text, pull requests, and version-controlled workflows.
 
-➡️ See examples in the repository’s Mermaid section.
-
 ---
 
 ## Relationship to Test Generation
 
-A well‑structured model directly enables:
+A well-structured model directly enables:
 
 - path-based test generation  
 - decision coverage  
@@ -186,7 +169,7 @@ A well‑structured model directly enables:
 
 The quality of the model determines the quality of the generated tests.
 
-➡️ Learn more: **[Test Generation](ca://s?q=Open_test_generation_documentation)**
+➡️ **Learn more:** [Test Generation and Coverage](test-generation.md)
 
 ---
 
@@ -202,10 +185,9 @@ TestCompass automatically identifies which generated scenarios are:
 
 This keeps test suites maintainable and aligned with evolving requirements.
 
-➡️ Learn more: **[Impact Analysis](ca://s?q=Open_impact_analysis_documentation)**
+➡️ **Learn more:** [Impact Analysis](impact-analysis.md)
 
 ---
 
 Modelling is not about drawing diagrams — it is about creating clarity.  
 TestCompass provides the structure, the notation, and the workflow to make that clarity possible.
-
