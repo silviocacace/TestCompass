@@ -6,17 +6,10 @@ TestCompass helps teams make system intent explicit, model expected behaviour an
 
 eMBT is the core testing philosophy and methodology behind TestCompass. It shifts testing to the earliest phases of development, transforming testing from a late "QA stamp" into an active driver of shared understanding and customer value.
 
-➡️ **Learn more about our core philosophy:** [The eMBT Approach](docs/eMBT-approach.md)
 ➡️ **Learn more:** [The eMBT Approach](eMBT-approach.md)
 
 ---
 
-
-# TestCompass Documentation   
-
-Welcome to the TestCompass documentation
-
-TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through early Model-Based Testing (eMBT).
 
 <img src="TestCompass.jpg" alt="Generated TestCompass Model" width="500">
 
