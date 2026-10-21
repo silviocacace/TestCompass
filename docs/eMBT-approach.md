@@ -117,9 +117,9 @@ TestCompass supports the full eMBT workflow:
 In addition, TestCompass provides AI-assistance through:
 
 - **AAMC** – AI-Assisted Model Creation
-➡️ **Learn more:**  [AI-Assisted Model Creation (AAMC)](aamc.md)
+➡️ **Learn more:**  [AAMC](aamc.md)
 
 - **AAMR** – AI-Assisted Model Reflection
-➡️ **Learn more:**  [AI-Assisted Model Reflection (AAMR)](aamr.md)
+➡️ **Learn more:**  [AAMR](aamr.md)
 
 These capabilities accelerate modelling and improve the quality of reasoning.
