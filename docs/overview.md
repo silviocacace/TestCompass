@@ -7,6 +7,8 @@ It brings together explicit behavioural modelling, AI-assisted model creation an
 
 This overview explains the purpose of TestCompass, the principles behind early MBT, and how the platform supports a structured, collaborative testing workflow.
 
+<img src="Silvio.jpg" alt="Silvio met logo TC" width="200"> 
+
 ---
 
 ## Why early Model-Based Testing?
