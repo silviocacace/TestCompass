@@ -54,6 +54,8 @@ The generated model can immediately be reviewed, refined and further developed i
 
 After generation, TestCompass automatically validates the model and highlights any detected modelling or semantic issues directly within the model.
 
+![TestCompass Node Types and Canvas](AAMC_explanation.png)
+
 ---
 
 ## Example: Generating an eMBT Model from Natural Language Requirements
