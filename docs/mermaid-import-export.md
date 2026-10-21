@@ -1,11 +1,9 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # Mermaid Import & Export
 
 Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.  
-Because Mermaid is a text‑based notation, it supports transparent collaboration, version control and readable diffs in Git.
+Because Mermaid is a text-based notation, it supports transparent collaboration, version control and readable diffs in Git.
 
 This page explains the purpose of Mermaid import and export, how they relate to modelling and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
 
@@ -16,7 +14,7 @@ This page explains the purpose of Mermaid import and export, how they relate to 
 Mermaid import and export enable teams to:
 
 - include models directly in Markdown documentation  
-- maintain models in Git with clear, text‑based diffs  
+- maintain models in Git with clear, text-based diffs  
 - reconstruct TestCompass models from existing Mermaid diagrams  
 - keep behaviour descriptions consistent across teams and artefacts  
 
@@ -45,7 +43,7 @@ The exported Mermaid:
 
 - is deterministic and suitable for version control  
 - can be embedded in README files, wikis and design documents  
-- provides a documentation‑friendly view of the model  
+- provides a documentation-friendly view of the model  
 - does not alter or simplify the underlying TestCompass model  
 
 Exported diagrams support communication and traceability, while the TestCompass model remains the authoritative source for test generation and impact analysis.
@@ -74,9 +72,8 @@ To help with this, James Bach created a Claude Code skill that analyses Mermaid 
 
 This community-contributed resource may be useful when working with Mermaid diagrams that require adaptations before they can be imported successfully into TestCompass.
 
-Download: (https://github.com/silviocacace/TestCompass/blob/master/JamesBach-Claude-Code-Skill.zip)
+🔗 **[Download James Bach Claude Code Skill](https://github.com/silviocacace/TestCompass/blob/master/JamesBach-Claude-Code-Skill.zip)**
 
-Special thanks to James Bach for creating and sharing this skill with the TestCompass community.
+*Special thanks to James Bach for creating and sharing this skill with the TestCompass community.*
 
-Note: This skill is an independent contribution from James Bach and is not part of the core TestCompass product.
-
+*(Note: This skill is an independent contribution from James Bach and is not part of the core TestCompass product.)*
