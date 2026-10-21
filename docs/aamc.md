@@ -78,7 +78,7 @@ The example below demonstrates how AAMC interprets a short requirement, identifi
 
 AAMC generates an initial model draft directly inside TestCompass:
 
-![Generated TestCompass Model for Account Creation](images/aamc-generated-model.png)
+![Generated TestCompass Model for Account Creation](images/Model_AAMC.png)
 
 *(Replace `images/aamc-generated-model.png` with the actual filename of your uploaded image)*
 
