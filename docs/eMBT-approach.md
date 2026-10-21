@@ -1,6 +1,5 @@
 [← Back to Documentation - Home](index.md)
 
----
 
 # Early Model-Based Testing (eMBT)
 
