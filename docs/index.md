@@ -20,7 +20,7 @@ This documentation explains the **concepts** behind TestCompass:
 - how impact analysis supports continuous testing  
 - how open formats enable integration  
 
-The **Quick Start Guide** (available directly inside TestCompass via the Help menu and Book icon) explains the **practical steps** within the application. Together, they provide a complete understanding—from the underlying philosophy to the daily workflow.
+The **Quick Start Guide** (available directly inside TestCompass via the Help menu and Book icon) explains the **practical steps** within the application. Together, they provide a complete understanding, from the underlying philosophy to the daily workflow.
 
 ---
 
