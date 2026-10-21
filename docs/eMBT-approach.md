@@ -18,10 +18,6 @@ That’s how you shift from a late 'QA' stamp of approval to driving real custom
 
 eMBT consists of four iterative phases:
 
-<p align="center">
-  <img src="eMBT_phases.jpg" alt="Early Model-Based Testing Phases" width="500">
-</p>
-
 ---
 
 <img src="eMBT_phases.jpg" alt="Generated TestCompass Model" width="500">
