@@ -5,7 +5,7 @@ TestCompass is a practical early Model-Based Testing (eMBT) platform that helps 
 
 It brings explicit behavioural modelling and AI-assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
 
-<img src="Silvio_met_logo_TC.jpg" alt="Silvio met logo TC" width="500">
+<img src="Silvio.jpg" alt="Silvio met logo TC" width="500">
 
 ---
 
