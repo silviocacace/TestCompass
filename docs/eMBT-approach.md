@@ -8,9 +8,7 @@ It improves communication between business and technical stakeholders and optimi
 
 eMBT consists of four iterative phases.
 
-<img src="eMBT_phases.jpg" alt="Generated TestCompass Model" width="700">
-
-![TestCompass Node Types and Canvas](eMBT_phases.jpg)
+<img src="eMBT_phases.jpg" alt="Generated TestCompass Model" width="500">
 
 ---
 
