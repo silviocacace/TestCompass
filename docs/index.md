@@ -1,12 +1,19 @@
-<style>
-  /* Maak de automatische GitHub Pages titel onklikbaar */
-  .page-header h1 a, .site-title a, .project-name {
-    pointer-events: none;
-    cursor: default;
-    color: inherit;
-    text-decoration: none;
-  }
-</style>
+<<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // Zoek naar de titel-link bovenaan de pagina en maak hem onklikbaar
+    const topLinks = document.querySelectorAll('header a, .page-header a, .site-title a, .project-name');
+    topLinks.forEach(link => {
+      // Controleer of het om de hoofdtitel gaat
+      if (link.textContent.trim() === "TestCompass") {
+        link.removeAttribute('href');
+        link.style.pointerEvents = 'none';
+        link.style.cursor = 'default';
+        link.style.color = 'inherit';
+        link.style.textDecoration = 'none';
+      }
+    });
+  });
+</script>
 
 # TestCompass Documentation   
 
