@@ -54,6 +54,8 @@ When analysing a model, AAMR may generate questions such as:
 
 These questions help expose uncertainty and encourage deeper examination of the model.
 
+![TestCompass Node Types and Canvas](AAMR_explanation.png)
+
 ---
 
 ## Typical Workflow
