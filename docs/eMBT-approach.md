@@ -92,7 +92,8 @@ This prevents unnecessary test work and reduces false positives and false negati
 
 ---
 
-## Why eMBT?
+## Key Benefits of eMBT
+
 eMBT helps teams:
 
 - clarify requirements early  
@@ -105,12 +106,13 @@ eMBT helps teams:
 ---
 
 ## Relation to TestCompass
+
 TestCompass supports the full eMBT workflow:
 
 - modelling (Exploratory)  
 - reviewing and iteration (Review)  
 - automated test generation (Coverage)  
-- impact analysis and execution support (Checking)
+- impact analysis and execution support (Checking)  
 
 In addition, TestCompass provides AI-assistance through:
 
