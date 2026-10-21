@@ -1,4 +1,12 @@
-
+<style>
+  /* Maak de automatische GitHub Pages titel onklikbaar */
+  .page-header h1 a, .site-title a, .project-name {
+    pointer-events: none;
+    cursor: default;
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
 # TestCompass Documentation   
 
 Welcome to the TestCompass documentation
