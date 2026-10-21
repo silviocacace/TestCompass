@@ -7,6 +7,8 @@ Welcome to the TestCompass documentation.
 
 TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through early Model-Based Testing (eMBT).
 
+<img src="TestCompass.jpg" alt="Generated TestCompass Model" width="500">
+
 ---
 
 ## How This Documentation Relates to the Product
