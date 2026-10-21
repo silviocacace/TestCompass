@@ -58,41 +58,37 @@ After generation, TestCompass automatically validates the model and highlights a
 
 ## Example: Generating an eMBT Model from Natural Language Requirements
 
-AAMC converts natural language requirements into a structured, semantically consistent eMBT model.  
+AAMC converts natural language requirements directly into a structured, semantically consistent TestCompass model.  
 The example below demonstrates how AAMC interprets a short requirement, identifies decisions, and exposes incomplete behaviour without making assumptions.
 
 ---
 
 ### Input Requirement (English)
 
-After creating an account, the system asks the user to complete their profile.
-The user provides the requested information.
-The system checks whether all mandatory fields are filled in.
-If all mandatory fields are provided, the system verifies the user’s email address.
-If the email is verified, the system activates the user’s account.
-If the email is not verified, the system informs the user that verification is required.
-*(The requirement does not describe what happens if mandatory fields are missing.)*
-*(The requirement does not describe what happens after informing the user about email verification.)*
+> After creating an account, the system asks the user to complete their profile.  
+> The user provides the requested information.  
+> The system checks whether all mandatory fields are filled in.  
+> If all mandatory fields are provided, the system verifies the user’s email address.  
+> If the email is verified, the system activates the user’s account.  
+> If the email is not verified, the system informs the user that verification is required.
 
 ---
 
-### Generated Model (Mermaid)
+### Generated Model
 
-AAMC generates an initial TestCompass model draft.
-The Mermaid diagram shown below is only a documentation-friendly visualization of that model, not the model itself.
+AAMC generates an initial model draft directly inside TestCompass:
 
-```mermaid
-flowchart TD
-    Start([Start]) --> A[Ask user to complete profile]
-    A --> B[User provides requested information]
-    B --> C{All mandatory fields filled?}
+![Generated TestCompass Model for Account Creation](images/aamc-generated-model.png)
 
-    C -->|Yes| D{Email verified?}
-    C -->|No| E[Missing behaviour]
+*(Replace `images/aamc-generated-model.png` with the actual filename of your uploaded image)*
 
-    D -->|Yes| F[Activate user's account]
-    D -->|No| G[Inform user that verification is required]
+---
 
-    F --> End([End])
-    G --> H[Missing behaviour]
-    H --> End([End])
+### Explanation & Workflow
+
+- **Explicit Decisions:** AAMC identifies the key branching logic ("All mandatory fields filled in?", "Email verified?").
+- **No Assumptions:** AAMC does not guess or invent logic for missing requirements.
+- **Exposing Incomplete Behaviour:** Paths that lack description are left open and marked with an indicator (such as an exclamation mark). 
+- **Integrated Validation:** Once you accept the AAMC draft into the TestCompass workflow, these markers become part of the model. TestCompass then highlights them to show that the path is unverified or incomplete, enabling teams to address missing specifications early.
+
+This example illustrates how AAMC exposes ambiguity and missing paths instead of hiding them, allowing teams to clarify requirements before development begins.
