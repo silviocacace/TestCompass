@@ -1,5 +1,5 @@
 
-# TestCompass Documentation   <img src="Silvio.jpg" alt="Silvio met logo TC" width="200">
+<img src="Silvio.jpg" alt="Silvio met logo TC" width="200"> # TestCompass Documentation   
 
 Welcome to the TestCompass documentation
 
