@@ -1,6 +1,4 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # Integrations
 
@@ -64,9 +62,8 @@ can be used with TestCompass.
 
 TestCompass follows three principles for integrations:
 
-### 1. **Open formats**
+### 1. Open Formats
 All exports use open, text-based, tool-agnostic formats such as:
-
 - CSV  
 - Excel  
 - Gherkin  
@@ -74,9 +71,8 @@ All exports use open, text-based, tool-agnostic formats such as:
 
 This ensures long-term compatibility and avoids vendor lock-in.
 
-### 2. **Traceability through structure**
+### 2. Traceability Through Structure
 Because models are explicit and structured, exported artefacts retain:
-
 - decision logic  
 - expected outcomes  
 - test paths  
@@ -84,9 +80,8 @@ Because models are explicit and structured, exported artefacts retain:
 
 This makes it easy to trace a test back to the model and the underlying requirement.
 
-### 3. **Separation of concerns**
+### 3. Separation of Concerns
 TestCompass focuses on:
-
 - modelling  
 - reasoning  
 - test generation  
@@ -101,7 +96,7 @@ Execution and reporting are delegated to the tools teams already use.
 Integrations rely on the export formats provided by TestCompass.  
 Each export format is designed to map cleanly to one or more external tools.
 
-➡️ Learn more: [Export Formats](export-formats.md)
+➡️ **Learn more:** [Export Formats](export-formats.md)
 
 ---
 
