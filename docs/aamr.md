@@ -1,6 +1,4 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # AAMR – AI-Assisted Model Reflection
 
@@ -34,7 +32,7 @@ AAMR analyses the structure and semantics of a TestCompass model and generates r
 - clarification questions
 - observations about model structure
 - potential ambiguities
-- ppotentially missing behaviour
+- potentially missing behaviour
 - alternative interpretations
 - risk-oriented discussion points
 - model improvement suggestions
@@ -88,15 +86,11 @@ The final modelling decisions always remain with the tester.
 AAMC and AAMR address different stages of the modelling process.
 
 ### AAMC (AI-Assisted Model Creation)
-
-AAMC helps create an initial model draft from behavioural descriptions.
-
+AAMC helps create an initial model draft from behavioural descriptions.  
 Its primary goal is to accelerate model creation.
 
 ### AAMR (AI-Assisted Model Reflection)
-
-AAMR helps review, challenge and strengthen an existing model.
-
+AAMR helps review, challenge and strengthen an existing model.  
 Its primary goal is to stimulate critical thinking and uncover gaps, ambiguities and potential risks.
 
 Together, AAMC and AAMR support both the creation and continuous improvement of TestCompass models.
@@ -106,4 +100,3 @@ Together, AAMC and AAMR support both the creation and continuous improvement of 
 ## Contact
 
 For more information about AAMR or the TestCompass eMBT workflow, please visit the website or reach out via LinkedIn.
-
