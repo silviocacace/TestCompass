@@ -39,6 +39,8 @@ AAMR analyses the structure and semantics of a TestCompass model and generates r
 
 The purpose of these reflections is to stimulate analysis and discussion, not to automatically modify the model.
 
+![TestCompass Node Types and Canvas](AAMR_explanation.png)
+
 ---
 
 ## Example Reflections
@@ -53,8 +55,6 @@ When analysing a model, AAMR may generate questions such as:
 - Could different stakeholders interpret this behaviour differently?
 
 These questions help expose uncertainty and encourage deeper examination of the model.
-
-![TestCompass Node Types and Canvas](AAMR_explanation.png)
 
 ---
 
