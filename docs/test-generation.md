@@ -1,10 +1,10 @@
-[← Back to Documentation - Home](index.md)
+[← Back to Documentation Index](index.md)
 
 ---
 
 # Test Generation
 
-Test generation in TestCompass is based on the principle that explicit behavioural models enable systematic, reproducible, and risk‑aligned testing.  
+Test generation in TestCompass is based on the principle that explicit behavioural models enable systematic, reproducible, and risk-aligned testing.  
 Once a model has been validated and reviewed, TestCompass can automatically generate test scenarios using a selected coverage strategy.
 
 This page explains the conceptual foundations of test generation and describes the coverage forms supported by TestCompass.
@@ -79,7 +79,7 @@ To ensure practical generation:
 - Redundant paths are pruned  
 - A configurable maximum number of scenarios is applied  
 
-This ensures that generated scenarios are meaningful, non‑redundant, and aligned with the selected coverage strategy.
+This ensures that generated scenarios are meaningful, non-redundant, and aligned with the selected coverage strategy.
 
 ---
 
@@ -99,16 +99,16 @@ Exports include:
 - expected results  
 - preconditions and data (if provided)
 
-➡️ See: **[Export Formats](ca://s?q=Open_export_formats_documentation)**
+➡️ **See:** [Export Formats](export-formats.md)
 
 ---
 
 ## Relationship to Modelling
 
 The quality of the generated tests depends directly on the quality of the model.  
-Clear decisions, explicit boundaries, and well‑defined outcomes lead to stronger and more meaningful test scenarios.
+Clear decisions, explicit boundaries, and well-defined outcomes lead to stronger and more meaningful test scenarios.
 
-➡️ Learn more: **[Modelling](ca://s?q=Open_modelling_documentation)**
+➡️ **Learn more:** [Modelling](modelling.md)
 
 ---
 
@@ -124,9 +124,8 @@ Impact analysis identifies which scenarios are:
 
 This keeps test suites aligned with evolving behaviour.
 
-➡️ Learn more: **[Impact Analysis](ca://s?q=Open_impact_analysis_documentation)**
+➡️ **Learn more:** [Impact Analysis](impact-analysis.md)
 
 ---
 
 Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding — not assumptions.
-
