@@ -2,9 +2,9 @@
 
 ---
 
-# early Model Based Testing (eMBT)
+# Early Model-Based Testing (eMBT)
 
-early Model Based Testing (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle.  
+Early Model-Based Testing (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle.  
 It improves communication between business and technical stakeholders and optimizes the test design phase.
 
 eMBT consists of four iterative phases.
@@ -46,9 +46,9 @@ The following coverage forms are commonly used:
 
 - **Node coverage (NC)**  
 - **Edge coverage (EC)**  
-- **Path Pair coverage (PPC)**
-- **Path Tripple coverage (PTC)** 
-- **Full Path coverage (FPC)**
+- **Path Pair coverage (PPC)**  
+- **Path Triple coverage (PTC)**  
+- **Full Path coverage (FPC)**  
 
 The chosen coverage level depends on risk, priority, and desired thoroughness.
 
@@ -99,12 +99,9 @@ TestCompass supports the full eMBT workflow:
 - automated test generation (Coverage)  
 - impact analysis and execution support (Checking)
 
-In addition, TestCompass provides AI‑assistance through:
+In addition, TestCompass provides AI-assistance through:
 
-- **AAMC** – AI‑Assisted Model Creation  
-- **AAMR** – AI‑Assisted Model Reflection  
+- **AAMC** – AI-Assisted Model Creation  
+- **AAMR** – AI-Assisted Model Reflection  
 
 These capabilities accelerate modelling and improve the quality of reasoning.
-
-
-
