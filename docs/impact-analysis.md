@@ -1,6 +1,4 @@
-[← Back to Documentation - Home](index.md)
-
----
+[← Back to Documentation Index](index.md)
 
 # Impact Analysis
 
@@ -19,7 +17,7 @@ Impact analysis answers four essential questions:
 - **What behaviour has been added?**  
 - **What behaviour has been removed?**  
 - **What behaviour has changed?**  
-- **What behaviour remains valid?**
+- **What behaviour remains valid?**  
 
 By identifying these differences automatically, TestCompass prevents unnecessary rework and reduces the risk of false positives and false negatives.
 
@@ -30,7 +28,7 @@ By identifying these differences automatically, TestCompass prevents unnecessary
 Impact analysis compares two versions of the same model:
 
 1. **The previous version** (before the change)  
-2. **The updated version** (after the change)
+2. **The updated version** (after the change)  
 
 TestCompass examines:
 
@@ -94,7 +92,7 @@ When the model changes, the impact becomes:
 - explainable  
 - traceable  
 
-➡️ Learn more: **[Modelling](ca://s?q=Open_modelling_documentation)**
+➡️ **Learn more:** [Modelling](modelling.md)
 
 ---
 
@@ -108,7 +106,7 @@ After running impact analysis, teams can:
 
 This ensures that generated test scenarios always reflect the latest version of the model.
 
-➡️ Learn more: **[Test Generation](ca://s?q=Open_test_generation_documentation)**
+➡️ **Learn more:** [Test Generation and Coverage](test-generation.md)
 
 ---
 
