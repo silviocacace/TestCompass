@@ -72,7 +72,7 @@ To help with this, James Bach created a Claude Code skill that analyses Mermaid 
 
 This community-contributed resource may be useful when working with Mermaid diagrams that require adaptations before they can be imported successfully into TestCompass.
 
-🔗 **[Download James Bach Claude Code Skill](https://github.com/silviocacace/TestCompass/blob/master/JamesBach-Claude-Code-Skill.zip)**
+🔗 **[Download James Bach Claude Code Skill](https://github.com/silviocacace/TestCompass/blob/master/tools/testcompass-claude-code-skill.zip)**
 
 *Special thanks to James Bach for creating and sharing this skill with the TestCompass community.*
 
