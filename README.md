@@ -1,7 +1,7 @@
 # TestCompass  
-**Intent-driven early Model Based Testing with explicit models, AI assistance and tool integration**
+**Intent-driven early Model-Based Testing with explicit models, AI assistance and tool integration**
 
-TestCompass is a practical early Model Based Testing (eMBT) platform that helps teams make intent explicit, clarify expected behaviour, uncover risks early and build shared understanding before development begins.
+TestCompass is a practical early Model-Based Testing (eMBT) platform that helps teams make intent explicit, clarify expected behaviour, uncover risks early and build shared understanding before development begins.
 
 It brings explicit behavioural modelling and AI-assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
 
@@ -9,18 +9,18 @@ It brings explicit behavioural modelling and AI-assisted model creation into the
 
 ## Documentation
 
-📚 Full Documentation:
-https://silviocacace.github.io/TestCompass/
+📚 **Full Documentation:**  
+[https://silviocacace.github.io/TestCompass/](https://silviocacace.github.io/TestCompass/)
 
-🚀 Quick Start Guide:
+🚀 **Quick Start Guide:**  
 Available directly from TestCompass via the Help menu.
 
 ---
 
 ## Overview
 
-TestCompass provides a complete workflow for early Model‑Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early and generate reproducible tests from well‑structured models.
-It supports open, text‑based modelling formats — including Mermaid, JSON, XML, UML and other industry‑standard formats — and integrates naturally with version‑controlled development workflows.
+TestCompass provides a complete workflow for early Model-Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early and generate reproducible tests from well-structured models.  
+It supports open, text-based modelling formats — including Mermaid, JSON, XML, UML and other industry-standard formats — and integrates naturally with version-controlled development workflows.
 
 TestCompass connects seamlessly with tools such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
 
@@ -36,12 +36,12 @@ By connecting intent to models and tests, TestCompass helps teams move from ambi
 
 ---
 
-## early Model-Based Testing (eMBT)
+## Early Model-Based Testing (eMBT)
 
-early Model-Based Testing (eMBT) is a collaborative, model‑driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
+Early Model-Based Testing (eMBT) is a collaborative, model-driven approach that helps teams clarify behaviour early, reduce ambiguity, and design tests systematically.  
 It structures the modelling and testing workflow into four iterative phases — Exploratory, Review, Coverage, and Checking — each focused on making behaviour explicit and improving shared understanding.
 
-➡️ Learn more: - [The eMBT Approach](docs/eMBT-approach.md)
+➡️ **Learn more:** [The eMBT Approach](docs/eMBT-approach.md)
 
 ---
 
@@ -54,23 +54,23 @@ It structures the modelling and testing workflow into four iterative phases — 
 - **Multiple test coverage strategies**  
 - **Impact analysis on model changes**  
 - **Mermaid import and export**  
-- **Extensive export and integration options**
+- **Extensive export and integration options**  
 
 ---
 
 ## AI Features
 
-### AI‑Assisted Model Creation (AAMC)
+### AI-Assisted Model Creation (AAMC)
 AAMC generates an initial, semantically consistent model draft from requirements, user stories, or scenarios.  
 It accelerates modelling while keeping the tester fully in control.
 
-➡️ Full documentation: [AAMC – AI-Assisted Model Creation](docs/aamc.md)
+➡️ **Full documentation:** [AAMC – AI-Assisted Model Creation](docs/aamc.md)
 
-### AI‑Assisted Model Reflection (AAMR)
-AAMR analyses a model and asks targeted, context‑aware questions that uncover assumptions, highlight risks, and strengthen the clarity of the behaviour.  
+### AI-Assisted Model Reflection (AAMR)
+AAMR analyses a model and asks targeted, context-aware questions that uncover assumptions, highlight risks, and strengthen the clarity of the behaviour.  
 It acts as a thinking partner that supports critical reasoning and early discovery.
 
-➡️ Full documentation: [AAMR – AI-Assisted Model Reflection](docs/aamr.md)
+➡️ **Full documentation:** [AAMR – AI-Assisted Model Reflection](docs/aamr.md)
 
 ---
 
@@ -79,17 +79,16 @@ It acts as a thinking partner that supports critical reasoning and early discove
 TestCompass generates test scenarios directly from the model using multiple coverage strategies:
 
 - Node Coverage (NC)  
-- Edge Coverage (EC) 
+- Edge Coverage (EC)  
 - Path Pair Coverage (PPC)  
 - Path Triple Coverage (PTC)  
-- Full Path Coverage (FPC) 
+- Full Path Coverage (FPC)  
 
 Export options include:
-
 - Excel test design  
 - Excel decision tables  
 - Gherkin feature files  
-- .CSV for TMS's, like Jira, Azure DevOps, etc
+- CSV for Test Management Systems (like Jira, Azure DevOps, etc.)
 
 ---
 
@@ -114,12 +113,11 @@ This reduces maintenance effort and supports continuous testing.
 
 ### Integrations
 TestCompass integrates with:
-
 - Azure DevOps  
 - Jira  
 - Zephyr  
-- Xray
-- QMetry
+- Xray  
+- QMetry  
 - Other test management platforms  
 
 ---
@@ -140,24 +138,24 @@ It does not contain the TestCompass source code.
 
 ---
 
+## Documentation Index
+
+- [Overview](docs/overview.md)  
+- [Modelling](docs/modelling.md)  
+- [Test Generation and Coverage](docs/test-generation.md)  
+- [Impact Analysis](docs/impact-analysis.md)  
+- [Integrations](docs/integrations.md)  
+- [Export Formats](docs/export-formats.md)  
+- [Mermaid Import and Export](docs/mermaid-import-export.md)  
+
+---
+
 ## Contact
 
 For more information about TestCompass or AI-assisted modelling:
 
-- Website: https://www.compass-testservices.com  
-- LinkedIn: https://www.linkedin.com/in/silviocacace/
-
----
-
-## Documentation
-
-- [Overview](docs/overview.md)  
-- [Modelling](docs/modelling.md)  
-- [Test Generation](docs/test-generation.md)  
-- [Impact Analysis](docs/impact-analysis.md)  
-- [Integrations](docs/integrations.md)  
-- [Export Formats](docs/export-formats.md)
-- [Mermaid Import and Export](docs/mermaid-import-export.md)
+- **Website:** [www.compass-testservices.com](https://www.compass-testservices.com)  
+- **LinkedIn:** [Silvio Cacace](https://www.linkedin.com/in/silviocacace/)  
 
 ---
 
