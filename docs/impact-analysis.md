@@ -5,7 +5,7 @@
 Impact analysis in TestCompass helps teams understand how changes in requirements affect existing behaviour, models, and generated test scenarios.  
 Because requirements evolve continuously, impact analysis ensures that test scenarios remain accurate, relevant, and aligned with the latest understanding of the system.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > When behaviour changes, the model changes—and therefore the test scenarios change as well. Impact analysis automatically tracks these changes to prevent unnecessary rework and reduce the risk of false positives and false negatives.
 
 This page explains the purpose of impact analysis, how it relates to modelling and test generation, and how TestCompass supports a structured approach to managing change.
@@ -99,5 +99,5 @@ This ensures that generated test scenarios always reflect the latest version of 
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Impact analysis ensures that change is not disruptive but manageable. It keeps your models, tests, and team understanding fully aligned as the system evolves.
