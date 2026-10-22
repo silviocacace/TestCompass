@@ -65,6 +65,10 @@ Useful when decisions influence each other across multiple steps.
 Covers **all possible paths** from Start to End.  
 This is the strongest form of coverage and typically produces the largest number of scenarios.
 
+<p align="center">
+  <img src="Testcoverage.jpg" alt="Testcoverage forms" width="220">
+</p>
+
 ---
 
 ## Maximum Number of Test Scenarios
