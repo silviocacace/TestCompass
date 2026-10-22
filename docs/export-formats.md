@@ -59,6 +59,9 @@ CSV is a widely supported tabular format. Depending on the target system, the ex
 
 ## Model Import and Export
 
+<img src="Mermaid_export.png" alt="Mermaid_export" width="400">
+
+
 ### Mermaid
 TestCompass supports Mermaid import and export for visualising, sharing and documenting behavioural models.
 
