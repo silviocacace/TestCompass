@@ -5,7 +5,7 @@
 Test generation in TestCompass is based on the principle that explicit behavioural models enable systematic, reproducible, and risk-aligned testing.  
 Once a model has been validated and reviewed, TestCompass can automatically generate test scenarios using a selected coverage strategy.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > Test generation transforms validated behavioural models into systematic, reproducible test scenarios, ensuring your test suite covers the right decisions, paths, and risk levels without manual rewriting.
 
 This page explains the conceptual foundations of test generation and describes the coverage forms supported by TestCompass.
@@ -130,5 +130,5 @@ This keeps test suites aligned with evolving behaviour.
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding rather than hidden assumptions.
