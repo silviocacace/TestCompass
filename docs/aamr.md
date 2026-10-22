@@ -12,7 +12,7 @@ AAMR is designed to support reflective thinking while keeping all modelling deci
 
 ## Purpose
 
-> 🧐 **The Power of Reflection**  
+>  **The Power of Reflection**  
 > AAMR acts as a collaborative modelling partner that encourages critical thinking and discussion. 
 
 AAMR helps users:
@@ -29,13 +29,13 @@ AAMR helps users:
 
 AAMR analyses the structure and semantics of a TestCompass model and generates reflections such as:
 
-- ❓ **Clarification questions** about decision branches and states
-- 🔍 **Observations** about model structure and flow
-- ⚠️ **Potential ambiguities** or unhandled paths
-- 🚫 **Potentially missing behaviour** or exception handling
-- 🔄 **Alternative interpretations** of requirements
-- 🎯 **Risk-oriented discussion points** for team reviews
-- ✨ **Model improvement suggestions**
+-  **Clarification questions** about decision branches and states
+-  **Observations** about model structure and flow
+-  **Potential ambiguities** or unhandled paths
+-  **Potentially missing behaviour** or exception handling
+-  **Alternative interpretations** of requirements
+-  **Risk-oriented discussion points** for team reviews
+-  **Model improvement suggestions**
 
 *(Note: The purpose of these reflections is to stimulate analysis and discussion, not to automatically modify the model.)*
 
@@ -80,7 +80,7 @@ AAMR is **not**:
 - a system that determines the single "correct" answer
 - a mechanism that automatically changes models
 
-> 🔒 **Human-in-the-Loop**  
+>  **Human-in-the-Loop**  
 > The final modelling decisions and interpretations always remain fully with the tester.
 
 ---
@@ -89,11 +89,11 @@ AAMR is **not**:
 
 AAMC and AAMR address different, complementary stages of the modelling workflow:
 
-### ⚡ AAMC (AI-Assisted Model Creation)
+###  AAMC (AI-Assisted Model Creation)
 - **Focus:** Jumpstarting the process.
 - **Goal:** Helps create an initial model draft from raw behavioural descriptions or text.
 
-### 🧐 AAMR (AI-Assisted Model Reflection)
+###  AAMR (AI-Assisted Model Reflection)
 - **Focus:** Strengthening and challenging.
 - **Goal:** Helps review, challenge, and refine an existing model by uncovering gaps, risks, and assumptions.
 
