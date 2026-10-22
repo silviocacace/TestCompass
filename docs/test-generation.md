@@ -66,7 +66,7 @@ Covers **all possible paths** from Start to End.
 This is the strongest form of coverage and typically produces the largest number of scenarios.
 
 <p align="center">
-  <img src="docs\Testcoverage.jpg" alt="Testcoverage forms" width="220">
+  <img src="Testcoverage.jpg" alt="Testcoverage forms" width="220">
 </p>
 
 ---
