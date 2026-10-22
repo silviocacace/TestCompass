@@ -1,10 +1,12 @@
 [← Back to Documentation Index](index.md)
 
-
 # Test Generation
 
 Test generation in TestCompass is based on the principle that explicit behavioural models enable systematic, reproducible, and risk-aligned testing.  
 Once a model has been validated and reviewed, TestCompass can automatically generate test scenarios using a selected coverage strategy.
+
+> 🎯 **Core Purpose**  
+> Test generation transforms validated behavioural models into systematic, reproducible test scenarios, ensuring your test suite covers the right decisions, paths, and risk levels without manual rewriting.
 
 This page explains the conceptual foundations of test generation and describes the coverage forms supported by TestCompass.
 
@@ -27,11 +29,8 @@ Because the tests are generated from the model, they remain consistent, structur
 
 TestCompass distinguishes between two types of scenarios:
 
-- **Abstract test scenarios**  
-  Generated directly from the model. They describe the logical flow and help teams understand behaviour, explore ideas, and ask questions.
-
-- **Concrete test scenarios**  
-  Created when preconditions, data, or concrete values are added. These scenarios are executable and suitable for manual or automated testing.
+- **Abstract test scenarios** — Generated directly from the model. They describe the logical flow and help teams understand behaviour, explore ideas, and ask questions.  
+- **Concrete test scenarios** — Created when preconditions, data, or concrete values are added. These scenarios are executable and suitable for manual or automated testing.  
 
 This separation ensures clarity: the model defines behaviour, while concrete details are added only when needed.
 
@@ -96,7 +95,7 @@ Exports include:
 - node text  
 - decision logic  
 - expected results  
-- preconditions and data (if provided)
+- preconditions and data (if provided)  
 
 ➡️ **See:** [Export Formats](export-formats.md)
 
@@ -127,4 +126,5 @@ This keeps test suites aligned with evolving behaviour.
 
 ---
 
-Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding — not assumptions.
+> 🚀 **Key Takeaway**  
+> Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding rather than hidden assumptions.
