@@ -67,13 +67,13 @@ This classification provides immediate insight into the scope and impact of the 
 Impact analysis supports:
 
 - **Continuous testing**  
-  Tests stay aligned with evolving requirements.
+  Test scenarios stay aligned with evolving requirements.
 
 - **Reduced maintenance effort**  
-  Only affected scenarios require attention.
+  Only affected test scenarios require attention.
 
 - **Traceability**  
-  Teams can see exactly why a scenario changed.
+  Teams can see exactly why a test scenario changed.
 
 - **Risk management**  
   Changes in critical behaviour become visible early.
@@ -100,11 +100,11 @@ When the model changes, the impact becomes:
 
 After running impact analysis, teams can:
 
-- regenerate scenarios  
+- regenerate test scenarios  
 - update only the affected ones  
 - maintain a clean, consistent test suite  
 
-This ensures that generated test scenarios always reflect the latest version of the model.
+This ensures that generated test scenarios always reflect the latest version of the test model.
 
 ➡️ **Learn more:** [Test Generation and Coverage](test-generation.md)
 
