@@ -4,7 +4,7 @@
 
 For a guided, hands-on introduction and your first steps with TestCompass, use the interactive **Quick Start Guide** available directly inside the application via the **Help menu** and the **Book icon**.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > While this documentation explains the *why* and the *what* behind eMBT, the in-app Quick Start Guide provides hands-on guidance on *how* to use the interface and build your very first model.
 
 ---
@@ -18,5 +18,5 @@ Together, they provide everything you need to master TestCompass, from your very
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Start with the in-app Quick Start Guide for hands-on UI familiarity, and use this documentation library to dive deeper into the core concepts, workflows, and advanced capabilities of TestCompass.
