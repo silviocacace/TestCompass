@@ -4,7 +4,7 @@
 
 TestCompass transforms explicit behavioural models into structured test scenarios that can be reviewed, shared, and used in different testing workflows.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > Choosing the right export format ensures that your modelled behaviour translates seamlessly into actionable test artifacts, whether for human review, BDD automation, or test management systems.
 
 This page provides a comprehensive overview of the available export formats and their intended use.
@@ -132,5 +132,5 @@ For more information, see:
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Open and flexible export formats ensure that TestCompass models connect effortlessly to your team's existing tools and daily testing routines.
