@@ -6,7 +6,7 @@ Modelling is the foundation of early Model-Based Testing (eMBT).
 In TestCompass, a model represents the intended behaviour of a system in a clear, structured, and explicit way.  
 It serves as a shared thinking tool for business and technical stakeholders, enabling early discovery of ambiguities, risks, and misunderstandings.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that drives early risk discovery, systematic test generation, and seamless collaboration.
 
 This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis, and collaborative understanding.
@@ -176,5 +176,5 @@ This keeps test suites maintainable and aligned with evolving requirements.
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Modelling is not about drawing diagrams — it is about creating clarity. TestCompass provides the structure, the notation, and the workflow to make that clarity possible.
