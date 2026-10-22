@@ -6,6 +6,9 @@ Modelling is the foundation of early Model-Based Testing (eMBT).
 In TestCompass, a model represents the intended behaviour of a system in a clear, structured, and explicit way.  
 It serves as a shared thinking tool for business and technical stakeholders, enabling early discovery of ambiguities, risks, and misunderstandings.
 
+> 🎯 **Core Purpose**  
+> Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that drives early risk discovery, systematic test generation, and seamless collaboration.
+
 This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis, and collaborative understanding.
 
 ---
@@ -32,20 +35,11 @@ The goal is not to create a perfect diagram, but to create a **shared understand
 
 Key principles:
 
-- **High-level abstraction**  
-  Models should be understandable by both business and IT.  
-
-- **Explicit decisions**  
-  Every decision is represented visually, making happy and unhappy paths visible.  
-
-- **Clear outcomes**  
-  Each path leads to a result that reflects the expected system behaviour.  
-
-- **No hidden assumptions**  
-  If something is unclear, it becomes visible in the model.  
-
-- **Iterative refinement**  
-  Models evolve as requirements become clearer.  
+- **High-level abstraction** — Models should be understandable by both business and IT.  
+- **Explicit decisions** — Every decision is represented visually, making happy and unhappy paths visible.  
+- **Clear outcomes** — Each path leads to a result that reflects the expected system behaviour.  
+- **No hidden assumptions** — If something is unclear, it becomes visible in the model.  
+- **Iterative refinement** — Models evolve as requirements become clearer.  
 
 ---
 
@@ -53,27 +47,18 @@ Key principles:
 
 TestCompass models use a small set of node types to keep diagrams simple and readable:
 
-- **Start**  
-  The entry point of the behaviour. A model always begins with exactly one Start node.  
-
-- **Action / State**  
-  Represents an action or a state in the flow. Has exactly one outgoing link.  
-
-- **Decision**  
-  Represents a branching point with two explicit outcomes: Yes and No. These branches are classified as test paths and are important for test generation.  
-
-- **Result**  
-  Represents an expected outcome or observable effect.  
-
-- **End**  
-  Represents the termination of the behaviour. A model must contain at least one End node.  
-
-- **Comment**  
-  Used to capture questions, ambiguities, contradictions, or open ends. Comments are not connected to the flow and serve as prompts for review.  
+- **Start** — The entry point of the behaviour. A model always begins with exactly one Start node.  
+- **Action / State** — Represents an action or a state in the flow. Has exactly one outgoing link.  
+- **Decision** — Represents a branching point with two explicit outcomes: Yes and No. These branches are classified as test paths and are important for test generation.  
+- **Result** — Represents an expected outcome or observable effect.  
+- **End** — Represents the termination of the behaviour. A model must contain at least one End node.  
+- **Comment** — Used to capture questions, ambiguities, contradictions, or open ends. Comments are not connected to the flow and serve as prompts for review.  
 
 These elements are sufficient to express complex behaviour without overwhelming the reader.
 
-![TestCompass Node Types and Canvas](Model_1.png)
+<p align="center">
+  <img src="Model_1.png" alt="TestCompass Node Types and Canvas" width="650">
+</p>
 
 ---
 
@@ -191,5 +176,5 @@ This keeps test suites maintainable and aligned with evolving requirements.
 
 ---
 
-Modelling is not about drawing diagrams — it is about creating clarity.  
-TestCompass provides the structure, the notation, and the workflow to make that clarity possible.
+> 🚀 **Key Takeaway**  
+> Modelling is not about drawing diagrams — it is about creating clarity. TestCompass provides the structure, the notation, and the workflow to make that clarity possible.
