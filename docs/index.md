@@ -1,47 +1,57 @@
 # TestCompass Documentation
 
-Welcome to the TestCompass documentation.
+Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins.
 
-TestCompass helps teams make system intent explicit, model expected behaviour and derive systematic test scenarios through **early Model-Based Testing (eMBT)**.
-
-> 💡 **Core Methodology**  
-> eMBT is the core testing philosophy behind TestCompass. It shifts testing to the earliest phases of development, transforming testing from a late "QA stamp" into an active driver of shared understanding and customer value.  
-> ➡️ **Learn more:** [The eMBT Approach](eMBT-approach.md)
+> 🎯 **Core Purpose**  
+> TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
 
 ---
 
-<p align="center">
-  <img src="TestCompass.jpg" alt="TestCompass Overview" width="550">
-</p>
+## 🚀 Getting Started
+
+If you are new to TestCompass or early Model-Based Testing, start here:
+
+- **[Overview](overview.md)** — Learn what TestCompass is, why early MBT matters, and how it fits into modern delivery workflows.
+- **[The eMBT Approach](eMBT-approach.md)** — Understand the 4-phase eMBT workflow: Exploratory, Review, Coverage, and Checking.
+- **[Quick Start Guide](qsg.md)** — Learn how the in-app guided tour connects to this documentation.
 
 ---
 
-## 💡 How This Documentation Relates to the Product
+## 🎨 Core Workflow & Modelling
 
-This documentation explains the **concepts & methodology** behind TestCompass:
+Learn how to build, validate, and reason about explicit behavioural models:
 
-- 🎯 **Why explicit models matter:** Making system intent visible before coding begins
-- 🔀 **Decision-driven testing:** How paths and logic directly generate systematic tests
-- 🤖 **Human-in-the-loop AI:** How AI assists reasoning (AAMC & AAMR) without taking over
-- 🔄 **Continuous Quality:** How impact analysis manages changing requirements
-- 🛠️ **Open ecosystem:** How open formats (Mermaid, BDD, CSV) enable seamless integration
-
-> 🚀 **Looking for practical step-by-step UI guides?**  
-> The **Quick Start Guide** is available directly inside TestCompass via the **Help menu** and **Book icon** (📖). Together, the guide and this documentation provide a complete understanding—from the underlying philosophy to the daily workflow.
+- **[Behavioural Modelling](modelling.md)** — Foundations of flowchart-based modelling, node types, and requirements discovery.
+- **[Mermaid Import & Export](mermaid-import-export.md)** — Bi-directional sync between text-based Mermaid diagrams and testable eMBT models.
 
 ---
 
-## 📚 Documentation Index
+## 🤖 AI-Assisted Testing
 
-👇 **Select a topic to explore the documentation:**
+Explore how AI acts as an accelerator and a thinking partner in TestCompass:
 
-| Category | Topics & Links |
-| :--- | :--- |
-| **🎯 Core Concepts** | • [TestCompass Overview](overview.md)<br>• [Behavioural Modelling](modelling.md)<br>• [The eMBT Approach](eMBT-approach.md) |
-| **🤖 AI Capabilities** | • [AI-Assisted Model Creation (AAMC)](aamc.md)<br>• [AI-Assisted Model Reflection (AAMR)](aamr.md) |
-| **📊 Testing & Impact** | • [Test Generation and Coverage](test-generation.md)<br>• [Impact Analysis](impact-analysis.md) |
-| **🔌 Tooling & Formats** | • [Mermaid Import and Export](mermaid-import-export.md)<br>• [Integrations](integrations.md)<br>• [Export Formats](export-formats.md) |
+- **[AAMC – AI-Assisted Model Creation](aamc.md)** — Draft initial, semantically correct models from user stories and requirements in seconds.
+- **[AAMR – AI-Assisted Model Reflection](aamr.md)** — Uncover hidden assumptions, missing paths, and risks through AI-powered questioning.
 
 ---
 
-💬 *If you want to explore a specific topic, start with the links above. Each page is designed to stand on its own while fitting naturally into the broader eMBT workflow.*
+## 🧪 Test Generation & Impact Analysis
+
+Turn models into systematic test suites and maintain them effortlessly over time:
+
+- **[Test Generation and Coverage](test-generation.md)** — Derived test scenarios based on Node, Edge, Path Pair, Path Triple, and Full Path Coverage.
+- **[Impact Analysis](impact-analysis.md)** — Automatically detect Added, Removed, Updated, and Unchanged scenarios when models evolve.
+
+---
+
+## 🔌 Integrations & Export Formats
+
+Connect TestCompass into your daily tools and pipelines:
+
+- **[Export Formats](export-formats.md)** — Overview of Excel (Test Design & Decision Tables), Gherkin (`.feature`), CSV, PNG, and native `.tcmodel` formats.
+- **[Integrations](integrations.md)** — How TestCompass works alongside Azure DevOps, Jira, Zephyr, Xray, and other test management tools.
+
+---
+
+> 🚀 **Key Takeaway**  
+> Explore the topics above to master intent-driven early Model-Based Testing, from your first model draft to continuous, automated test execution.
