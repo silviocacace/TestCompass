@@ -12,7 +12,7 @@ AAMR is designed to support reflective thinking while keeping all modelling deci
 
 ## Purpose
 
->  **The Power of Reflection**  
+> 💡 **The Power of Reflection**  
 > AAMR acts as a collaborative modelling partner that encourages critical thinking and discussion. 
 
 AAMR helps users:
