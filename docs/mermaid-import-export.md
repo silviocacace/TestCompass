@@ -2,10 +2,13 @@
 
 # Mermaid Import & Export
 
-Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.  
-Because Mermaid is a text-based notation, it supports transparent collaboration, version control and readable diffs in Git.
+Mermaid import and export in TestCompass help teams exchange models across documentation, development, and testing workflows.  
+Because Mermaid is a text-based notation, it supports transparent collaboration, version control, and readable diffs in Git.
 
-This page explains the purpose of Mermaid import and export, how they relate to modelling and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
+> 🎯 **Core Purpose**  
+> Mermaid serves as a powerful text-based interchange format, enabling teams to embed models in documentation and track version changes in Git while maintaining rigorous eMBT semantics.
+
+This page explains the purpose of Mermaid import and export, how they relate to modelling, and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
 
 ---
 
@@ -18,7 +21,7 @@ Mermaid import and export enable teams to:
 - reconstruct TestCompass models from existing Mermaid diagrams  
 - keep behaviour descriptions consistent across teams and artefacts  
 
-By supporting Mermaid as an interchange format, TestCompass improves traceability and reduces friction between modelling, documentation and development.
+By supporting Mermaid as an interchange format, TestCompass improves traceability and reduces friction between modelling, documentation, and development.
 
 ---
 
@@ -42,7 +45,7 @@ When exporting a model, TestCompass generates a Mermaid diagram that reflects th
 The exported Mermaid:
 
 - is deterministic and suitable for version control  
-- can be embedded in README files, wikis and design documents  
+- can be embedded in README files, wikis, and design documents  
 - provides a documentation-friendly view of the model  
 - does not alter or simplify the underlying TestCompass model  
 
@@ -68,7 +71,7 @@ This combination supports clear communication and consistent understanding acros
 
 While TestCompass supports Mermaid import, not every valid Mermaid diagram can be converted directly into a TestCompass model. This is because TestCompass applies additional modelling rules and constraints to ensure model consistency and support for test generation.
 
-To help with this, James Bach created a Claude Code skill that analyses Mermaid diagrams, identifies conflicts with TestCompass modelling rules and assists in producing a TestCompass-compatible Mermaid model.
+To help with this, James Bach created a Claude Code skill that analyses Mermaid diagrams, identifies conflicts with TestCompass modelling rules, and assists in producing a TestCompass-compatible Mermaid model.
 
 This community-contributed resource may be useful when working with Mermaid diagrams that require adaptations before they can be imported successfully into TestCompass.
 
@@ -77,3 +80,8 @@ This community-contributed resource may be useful when working with Mermaid diag
 *Special thanks to James Bach for creating and sharing this skill with the TestCompass community.*
 
 *(Note: This skill is an independent contribution from James Bach and is not part of the core TestCompass product.)*
+
+---
+
+> 🚀 **Key Takeaway**  
+> Text-based Mermaid diagrams bridge the gap between human-readable documentation and formal behavioural models, ensuring seamless collaboration across your entire project lifecycle.
