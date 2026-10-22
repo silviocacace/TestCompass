@@ -10,7 +10,6 @@ This page provides an overview of the available export formats and their intende
 
 ## Test Design and Test Management Exports
 
-![Export to](Export.png)
 <img src="Export.png" alt="Export to" width="400">
 
 
