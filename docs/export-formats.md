@@ -10,7 +10,7 @@ This page provides an overview of the available export formats and their intende
 
 ## Test Design and Test Management Exports
 
-<img src="Export.png." alt="Export to" width="500">
+<img src="Export.png." alt="Export" width="500">
 
 ### Excel — Test Design
 Export generated test scenarios to Excel Test Design for review, refinement and execution.
