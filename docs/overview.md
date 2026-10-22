@@ -5,7 +5,7 @@
 TestCompass is an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins.  
 It brings together explicit behavioural modelling, AI-assisted model creation and reflection, and open, text-based modelling through Mermaid.
 
-> 🎯 **Core Purpose**  
+>  **Core Purpose**  
 > TestCompass empowers teams to replace hidden assumptions with explicit behavioural models, enabling early risk discovery, shared understanding, and systematic test generation before code is written.
 
 This overview explains the purpose of TestCompass, the principles behind early MBT, and how the platform supports a structured, collaborative testing workflow.
@@ -77,5 +77,5 @@ This documentation provides conceptual guidance, examples, and background inform
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > By bridging the gap between requirements, explicit models, and automated test generation, TestCompass helps teams build the right thing and build it right from day one.
