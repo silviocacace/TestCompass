@@ -11,17 +11,17 @@ This page provides an overview of the available export formats and their intende
 ## Test Design and Test Management Exports
 
 ### Excel — Test Design
-Export generated test scenarios to Excel for review, refinement and execution.
+Export generated test scenarios to Excel Test Design for review, refinement and execution.
 
-Excel provides a familiar, structured format for teams that want to inspect generated scenarios, collaborate on test design and document test cases.
+Excel provides a familiar, structured format for teams that want to inspect generated scenarios, collaborate on test design and document test scenarios.
 
 **Typical use cases:**
 - Reviewing generated test scenarios
-- Refining test cases before execution
+- Refining test scenarios before execution
 - Sharing test designs with business analysts, testers and stakeholders
 
 ### Excel — Decision Tables
-Export decision tables to Excel to structure conditions, combinations and expected outcomes.
+Export generated test scenarios to Excel Decision Table to structure conditions, combinations and expected outcomes.
 
 Decision tables help teams analyse complex business rules and review combinations of inputs and expected results systematically.
 
@@ -31,22 +31,22 @@ Decision tables help teams analyse complex business rules and review combination
 - Supporting systematic test design
 
 ### Gherkin — `.feature`
-Export test scenarios as Gherkin feature files using the Given/When/Then structure.
+Export generated test scenarios as Gherkin feature files using the Given/When/Then structure.
 
 Gherkin is commonly used in Behaviour-Driven Development (BDD) to express expected behaviour in a structured, readable format.
 
 **Typical use cases:**
 - BDD workflows
 - Collaboration between business stakeholders, testers and developers
-- Preparing scenarios for compatible BDD automation tools
+- Preparing scenarios for compatible BDD automation frameworks, like for e.g. Cucumber and Reqnroll.
 
 ### CSV — `.csv`
-Export test scenarios as CSV files for data exchange with supported test management systems and other tools.
+Export generated test scenarios as CSV files for data exchange with supported test management systems and other tools.
 
 CSV is a widely supported tabular format. Depending on the target system, the exported data may need to be mapped to the required fields or adapted to the import template.
 
 **Typical use cases:**
-- Preparing test cases for import into test management systems
+- Preparing test cases for import into test management systems, like for eg. Jira, Azure Devops and Zephyr.
 - Transferring structured test data between tools
 - Further processing in spreadsheets or scripts
 
@@ -66,7 +66,7 @@ Mermaid represents diagrams as text, making models easier to review, version and
 - Including diagrams in Markdown documentation
 - Reviewing model changes in version control
 
-For details, see [Mermaid Import and Export](mermaid-import-export.md).
+For more details, see [Mermaid Import and Export](mermaid-import-export.md).
 
 ### PNG — Model Image
 Export a behavioural model as a PNG image for visualisation and sharing.
@@ -110,7 +110,7 @@ For details about compatibility and which model properties are preserved, refer 
 
 ## Exporting and Traceability
 
-TestCompass derives test scenarios from explicit behavioural models. This provides a structured relationship between modelled behaviour and the tests generated from it.
+TestCompass derives test scenarios from explicit behavioural models. This provides a structured relationship between modelled behaviour and the test scenarios generated from it.
 
 When choosing an export format, consider the intended audience, the next step in your testing workflow and the requirements of the target tool.
 
