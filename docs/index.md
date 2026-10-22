@@ -52,3 +52,20 @@ The **Quick Start Guide** (available directly inside TestCompass via the Help me
 ---
 
 If you want to explore a specific topic, start with the links above. Each page is designed to stand on its own while fitting into the broader eMBT workflow.
+
+
+
+---
+
+## 📚 Documentation Index
+
+👇 **Select a topic to explore the documentation:**
+
+| Category | Topics & Links |
+| :--- | :--- |
+| **🎯 Core Concepts** | • [TestCompass Overview](overview.md)<br>• [Behavioural Modelling](modelling.md)<br>• [The eMBT Approach](eMBT-approach.md) |
+| **🤖 AI Capabilities** | • [AI-Assisted Model Creation (AAMC)](aamc.md)<br>• [AI-Assisted Model Reflection (AAMR)](aamr.md) |
+| **📊 Testing & Impact** | • [Test Generation and Coverage](test-generation.md)<br>• [Impact Analysis](impact-analysis.md) |
+| **🔌 Tooling & Formats** | • [Mermaid Import and Export](mermaid-import-export.md)<br>• [Integrations](integrations.md)<br>• [Export Formats](export-formats.md) |
+
+---
