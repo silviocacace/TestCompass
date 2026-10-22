@@ -59,7 +59,7 @@ CSV is a widely supported tabular format. Depending on the target system, the ex
 
 ## Model Import and Export
 
-<img src="Mermaid_export.png" alt="Mermaid_export" width="400">
+<img src="Mermaid_export.png" alt="Mermaid_export" width="600">
 
 
 ### Mermaid
