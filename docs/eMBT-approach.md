@@ -1,14 +1,14 @@
 [← Back to Documentation Index](index.md)
 
-# Early Model-Based Testing (eMBT)
+# 'early Model-Based Testing' (eMBT)
 
-'Early Model-Based Testing' (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle. It does much more than simply optimize or accelerate test design: eMBT actively stimulates critical thinking and communication between business and technical stakeholders. The earlier misunderstandings, ambiguities, or missing details are discovered, the more effectively teams can prevent costly defects later.
+'early Model-Based Testing' (eMBT) is a collaborative, model-driven testing approach that helps teams achieve a shared understanding of requirements early in the software development lifecycle. It does much more than simply optimize or accelerate test design: eMBT actively stimulates critical thinking and communication between business and technical stakeholders. The earlier misunderstandings, ambiguities or missing details are discovered, the more effectively teams can prevent costly defects later.
 
 ---
 
 ## Why eMBT Matters
 
-This is precisely why Early Model-Based Testing (eMBT) supported by TestCompass is so powerful. By visually modelling the intended system behaviour during the initial design phase, you don't just capture specifications—you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, and test ideas at an early stage. It forces a true shared understanding between business and IT before a single line of code is written.
+This is precisely why 'early Model-Based Testing' (eMBT) supported by TestCompass is so powerful. By visually modelling the intended system behaviour during the initial design phase, you don't just capture specifications. You actively explore them. In doing so, you uncover risks, open ends, wrong assumptions and test ideas in an early stage. It forces a true shared understanding between business and IT before a single line of code is written.
 
 That’s how you shift from a late 'QA' stamp of approval to driving real customer value right from the start.
 
@@ -31,10 +31,13 @@ The goal is to identify:
 - ambiguities  
 - inconsistencies  
 - open ends  
-- hidden assumptions  
+- hidden assumptions
+- risks
+- test ideas
+- ... 
 
 A graphical test model is created to make behaviour explicit.  
-The model acts as a shared thinking tool that immediately triggers discussion and reveals misunderstandings.
+The model acts as a shared thinking tool that immediately triggers discussion and reveals misunderstandings. The model in TestCompass is readable for all stakeholders.
 
 ---
 
@@ -42,10 +45,11 @@ The model acts as a shared thinking tool that immediately triggers discussion an
 All questions and uncertainties raised during the exploratory phase are reviewed with the full team.  
 Business and IT validate:
 
-- the meaning of the requirements  
+- the meaning of the requirements (intent) 
 - business rules and decisions  
 - boundary conditions  
-- exceptions  
+- exceptions
+- risks  
 
 This phase is iterative.  
 Every change in the requirements leads to an updated model and a new review cycle.
@@ -53,9 +57,9 @@ Every change in the requirements leads to an updated model and a new review cycl
 ---
 
 ## 3. Coverage Phase
-Once the model is complete and validated, test cases are automatically generated based on the selected coverage level.
+Once the model is complete and validated, test scenarios are automatically generated based on the selected coverage level.
 
-The following coverage forms are commonly used:
+The following coverage forms are available:
 
 - **Node coverage (NC)**  
 - **Edge coverage (EC)**  
@@ -63,32 +67,32 @@ The following coverage forms are commonly used:
 - **Path Triple coverage (PTC)**  
 - **Full Path coverage (FPC)**  
 
-The chosen coverage level depends on risk, priority, and desired thoroughness.
+The chosen coverage level depends on risk, priority and desired thoroughness.
 
 ---
 
 ## 4. Checking Phase
-The generated test cases are executed against the system under test.  
+The generated test scenarios are executed against the system under test.  
 Depending on the nature of the test, execution may be:
 
 - manual  
 - automated  
 - or a combination of both  
 
-The goal is to verify that the system behaves exactly as described in the model.
+The goal is to check whether the system-behavior is conform the intent and to gain insight in the quality of the product. With this insight stakeholders can make informed discussions.
 
 ---
 
 ## Impact Analysis
 Because requirements change continuously, eMBT includes a structured way to manage change.  
-When the model is updated, an impact analysis shows which test cases are:
+When the model is updated, an impact analysis can be performed and shows which test scenarios are:
 
 - added  
 - removed  
 - updated  
 - unchanged  
 
-This prevents unnecessary test work and reduces false positives and false negatives.
+This prevents unnecessary test analysis work and reduces false positives and false negatives.
 
 ---
 
@@ -96,12 +100,12 @@ This prevents unnecessary test work and reduces false positives and false negati
 
 eMBT helps teams:
 
-- clarify requirements early  
-- reduce misunderstandings  
-- identify risks sooner  
-- manage change effectively  
-- design tests systematically  
-- ensure business value is protected  
+- **Clarify requirements early** and remove ambiguities before development begins
+- **Foster shared understanding** and improve collaboration between business and IT
+- **Identify risks and missing behaviour sooner**, avoiding hidden assumptions
+- **Design tests automatically and systematically** directly from behavioural models
+- **Manage change effectively** through automated impact analysis
+- **Reduce rework and defects** in production, protecting true business value 
 
 ---
 
