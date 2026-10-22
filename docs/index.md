@@ -2,7 +2,7 @@
 
 Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins.
 
-> 🎯 **Core Purpose**  
+> 💡 **Core Purpose**  
 > TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
 
 <p align="center">
@@ -11,7 +11,7 @@ Welcome to the official documentation for **TestCompass**, an early Model-Based 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 If you are new to TestCompass or early Model-Based Testing, start here:
 
@@ -21,7 +21,7 @@ If you are new to TestCompass or early Model-Based Testing, start here:
 
 ---
 
-## 🎨 Core Workflow & Modelling
+##  Core Workflow & Modelling
 
 Learn how to build, validate, and reason about explicit behavioural models:
 
@@ -30,7 +30,7 @@ Learn how to build, validate, and reason about explicit behavioural models:
 
 ---
 
-## 🤖 AI-Assisted Testing
+##  AI-Assisted Testing
 
 Explore how AI acts as an accelerator and a thinking partner in TestCompass:
 
@@ -39,7 +39,7 @@ Explore how AI acts as an accelerator and a thinking partner in TestCompass:
 
 ---
 
-## 🧪 Test Generation & Impact Analysis
+##  Test Generation & Impact Analysis
 
 Turn models into systematic test suites and maintain them effortlessly over time:
 
@@ -48,7 +48,7 @@ Turn models into systematic test suites and maintain them effortlessly over time
 
 ---
 
-## 🔌 Integrations & Export Formats
+##  Integrations & Export Formats
 
 Connect TestCompass into your daily tools and pipelines:
 
@@ -57,5 +57,5 @@ Connect TestCompass into your daily tools and pipelines:
 
 ---
 
-> 🚀 **Key Takeaway**  
+>  **Key Takeaway**  
 > Explore the topics above to master intent-driven early Model-Based Testing, from your first model draft to continuous, automated test execution.
