@@ -2,29 +2,30 @@
 
 # Export Formats
 
-TestCompass transforms explicit behavioural models into structured test scenarios that can be reviewed, shared and used in different testing workflows.
+TestCompass transforms explicit behavioural models into structured test scenarios that can be reviewed, shared, and used in different testing workflows.
 
-This page provides an overview of the available export formats and their intended use.
+This page provides a comprehensive overview of the available export formats and their intended use.
 
 ---
 
 ## Test Design and Test Management Exports
 
-<img src="Export.png" alt="Export to" width="400">
-
+<p align="center">
+  <img src="Export.png" alt="TestCompass Export Options" width="450">
+</p>
 
 ### Excel — Test Design
-Export generated test scenarios to Excel Test Design for review, refinement and execution.
+Export generated test scenarios to Excel Test Design for review, refinement, and execution.
 
-Excel provides a familiar, structured format for teams that want to inspect generated scenarios, collaborate on test design and document test scenarios.
+Excel provides a familiar, structured format for teams that want to inspect generated scenarios, collaborate on test design, and document test scenarios.
 
 **Typical use cases:**
 - Reviewing generated test scenarios
 - Refining test scenarios before execution
-- Sharing test designs with business analysts, testers and stakeholders
+- Sharing test designs with business analysts, testers, and stakeholders
 
 ### Excel — Decision Tables
-Export generated test scenarios to Excel Decision Table to structure conditions, combinations and expected outcomes.
+Export generated test scenarios to Excel Decision Table to structure conditions, combinations, and expected outcomes.
 
 Decision tables help teams analyse complex business rules and review combinations of inputs and expected results systematically.
 
@@ -40,8 +41,8 @@ Gherkin is commonly used in Behaviour-Driven Development (BDD) to express expect
 
 **Typical use cases:**
 - BDD workflows
-- Collaboration between business stakeholders, testers and developers
-- Preparing scenarios for compatible BDD automation frameworks, like for e.g. Cucumber and Reqnroll.
+- Collaboration between business stakeholders, testers, and developers
+- Preparing scenarios for compatible BDD automation frameworks (such as Cucumber and Reqnroll)
 
 ### CSV — `.csv`
 Export generated test scenarios as CSV files for data exchange with supported test management systems and other tools.
@@ -49,7 +50,7 @@ Export generated test scenarios as CSV files for data exchange with supported te
 CSV is a widely supported tabular format. Depending on the target system, the exported data may need to be mapped to the required fields or adapted to the import template.
 
 **Typical use cases:**
-- Preparing test cases for import into test management systems, like for eg. Jira, Azure Devops and Zephyr.
+- Preparing test cases for import into test management systems (such as Jira, Azure DevOps, and Zephyr)
 - Transferring structured test data between tools
 - Further processing in spreadsheets or scripts
 
@@ -59,13 +60,14 @@ CSV is a widely supported tabular format. Depending on the target system, the ex
 
 ## Model Import and Export
 
-<img src="Mermaid_export.png" alt="Mermaid_export" width="600">
-
+<p align="center">
+  <img src="Mermaid_export.png" alt="Mermaid Model Export" width="600">
+</p>
 
 ### Mermaid
-TestCompass supports Mermaid import and export for visualising, sharing and documenting behavioural models.
+TestCompass supports Mermaid import and export for visualising, sharing, and documenting behavioural models.
 
-Mermaid represents diagrams as text, making models easier to review, version and share alongside other project documentation.
+Mermaid represents diagrams as text, making models easier to review, version, and share alongside other project documentation.
 
 **Typical use cases:**
 - Sharing behavioural models with team members
@@ -77,7 +79,7 @@ For more details, see [Mermaid Import and Export](mermaid-import-export.md).
 ### PNG — Model Image
 Export a behavioural model as a PNG image for visualisation and sharing.
 
-PNG provides a convenient way to include model diagrams in documentation, presentations, reports and other communication materials.
+PNG provides a convenient way to include model diagrams in documentation, presentations, reports, and other communication materials.
 
 **Typical use cases:**
 - Sharing model diagrams with stakeholders
@@ -103,14 +105,14 @@ For details about compatibility and which model properties are preserved, refer 
 ## Choosing the Right Format
 
 | Format | Primary Purpose |
-|---|---|
-| Excel — Test Design | Reviewing and refining test scenarios |
-| Excel — Decision Tables | Analysing business rules and condition combinations |
-| Gherkin (`.feature`) | Describing scenarios in BDD format |
-| CSV (`.csv`) | Exchanging structured test data with other tools |
-| PNG (`.png`) | Sharing a static visual representation of a model |
-| TCModel (`.tcmodel`) | Saving and transferring models in TestCompass's native format |
-| Mermaid | Sharing and documenting behavioural models as text-based diagrams |
+| :--- | :--- |
+| **Excel — Test Design** | Reviewing and refining test scenarios |
+| **Excel — Decision Tables** | Analysing business rules and condition combinations |
+| **Gherkin (`.feature`)** | Describing scenarios in BDD format (Cucumber, Reqnroll) |
+| **CSV (`.csv`)** | Exchanging structured test data with TMS (Jira, Azure DevOps) |
+| **PNG (`.png`)** | Sharing a static visual representation of a model |
+| **TCModel (`.tcmodel`)** | Saving and transferring models in TestCompass's native format |
+| **Mermaid** | Sharing and documenting behavioural models as text-based diagrams |
 
 ---
 
@@ -118,7 +120,7 @@ For details about compatibility and which model properties are preserved, refer 
 
 TestCompass derives test scenarios from explicit behavioural models. This provides a structured relationship between modelled behaviour and the test scenarios generated from it.
 
-When choosing an export format, consider the intended audience, the next step in your testing workflow and the requirements of the target tool.
+When choosing an export format, consider the intended audience, the next step in your testing workflow, and the requirements of the target tool.
 
 For more information, see:
 - [Test Generation and Coverage](test-generation.md)
