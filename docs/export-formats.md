@@ -10,7 +10,7 @@ This page provides an overview of the available export formats and their intende
 
 ## Test Design and Test Management Exports
 
-![TestCompass Node Types and Canvas](Export.png)
+![Export to](Export.png)
 
 
 ### Excel — Test Design
