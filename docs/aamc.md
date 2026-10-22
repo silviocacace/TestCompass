@@ -6,7 +6,7 @@ AAMC (AI-Assisted Model Creation) is an AI-supported feature within TestCompass 
 
 It allows users to start modelling directly from requirements, user stories, workshop notes, business process descriptions, and other sources—rather than creating a model manually from scratch.
 
-> ⚡ **Purpose of AAMC**  
+>  **Purpose of AAMC**  
 > AAMC is designed to accelerate the creation of initial TestCompass models. By providing a structured starting point, it helps teams begin modelling earlier and spend more time reviewing, refining, and exploring behaviour rather than building models manually.
 
 The generated draft can immediately be reviewed, refined, and used within TestCompass for extending, impact analysis, and generating test scenarios.
@@ -17,13 +17,13 @@ The generated draft can immediately be reviewed, refined, and used within TestCo
 
 AAMC can process both natural-language and structured inputs, including:
 
-### 📄 Natural Language
+###  Natural Language
 - Requirements & Acceptance Criteria
 - User Stories & Scenarios
 - Domain Descriptions
 - Workshop & Discussion Notes
 
-### 🧩 Structured Inputs
+###  Structured Inputs
 - BPMN 2.0 XML
 - JSON Workflow Definitions
 - XML Behaviour Descriptions
@@ -81,12 +81,12 @@ AAMC generates an initial model draft directly inside TestCompass:
 
 ### 3. Explanation & Workflow
 
-- 🔀 **Explicit Decisions:** AAMC automatically identifies key branching logic (*"All mandatory fields filled in?"*, *"Email verified?"*).
-- 🚫 **No Assumptions:** AAMC does not guess or invent logic for missing requirements (e.g. what happens if mandatory fields are missing).
-- ❓ **Exposing Incomplete Behaviour:** Paths that lack explicit specification are left open and marked with a visual indicator (such as an exclamation mark / question mark).
-- 🔍 **Integrated Validation:** Once you accept the AAMC draft into your TestCompass workspace, these markers become part of the active model. TestCompass highlights them to show unverified or incomplete paths, enabling teams to clarify missing specifications early.
+-  **Explicit Decisions:** AAMC automatically identifies key branching logic (*"All mandatory fields filled in?"*, *"Email verified?"*).
+-  **No Assumptions:** AAMC does not guess or invent logic for missing requirements (e.g. what happens if mandatory fields are missing).
+-  **Exposing Incomplete Behaviour:** Paths that lack explicit specification are left open and marked with a visual indicator (such as an exclamation mark / question mark).
+-  **Integrated Validation:** Once you accept the AAMC draft into your TestCompass workspace, these markers become part of the active model. TestCompass highlights them to show unverified or incomplete paths, enabling teams to clarify missing specifications early.
 
 ---
 
-> 💡 **Key Takeaway**  
+>  **Key Takeaway**  
 > This example illustrates how AAMC exposes ambiguity and missing paths instead of hiding them, allowing teams to address open ends before development or coding begins.
