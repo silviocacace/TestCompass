@@ -60,7 +60,7 @@ The scenario remains valid and requires no modification.
 
 This classification provides immediate insight into the scope and impact of the change.
 
-<img src="Impactanalysis.png" alt="Impactanalysis" width="250">
+<img src="Impactanalysis.png" alt="Impactanalysis" width="300">
 
 ---
 
