@@ -55,7 +55,7 @@ The scenario remains valid and requires no modification.
 This classification provides immediate insight into the scope and impact of the change.
 
 <p align="center">
-  <img src="Impactanalysis.png" alt="TestCompass Impact Analysis View" width="550">
+  <img src="Impactanalysis.png" alt="TestCompass Impact Analysis View" width="400">
 </p>
 
 ---
