@@ -28,10 +28,31 @@ By externalising behaviour, teams can reason more clearly, validate understandin
 
 ---
 
+## Universal Readability & Low Learning Curve
+
+One of the greatest advantages of TestCompass is its **extreme accessibility and intuitive design**:
+
+- **Readable by Everyone:** The visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders—including Product Owners, Business Analysts, Developers, and Testers.
+- **Near-Zero Learning Curve:** Unlike traditional, complex MBT tools that require extensive training, TestCompass uses simple, standardized flowchart logic that anyone can understand and create within minutes.
+- **Frictionless Usability:** Building and modifying models is fast, lightweight, and user-friendly, making it ideal for live refinement sessions, "Three Amigos" discussions, and active team collaboration.
+
+---
+
+## AI-Assisted Kickstart (AAMC)
+
+To lower the onboarding barrier even further, TestCompass includes **AI-Assisted Model Creation (AAMC)**:
+
+- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, or decision tables into a fully structured model draft within seconds.
+- **Human-in-the-Loop:** AAMC provides a solid 80% baseline model, allowing the team to focus immediately on refining logic, exploring edge cases, and validating business rules together.
+
+➡️ **Learn more:** [AAMC – AI-Assisted Model Creation](aamc.md)
+
+---
+
 ## Modelling Principles
 
 TestCompass uses a lightweight, expressive modelling style based on flowchart principles.  
-The goal is not to create a perfect diagram, but to create a **shared understanding** of behaviour.
+The goal is not to create a complex diagram, but to create a **shared understanding** of behaviour.
 
 Key principles:
 
@@ -95,7 +116,7 @@ Preconditions and data do not change the structure of the model, but they make t
 
 Modelling typically follows an iterative workflow aligned with the eMBT phases:
 
-1. **Exploratory:** Initial model creation based on available requirements. Questions, ambiguities, and assumptions are captured using comment nodes.  
+1. **Exploratory:** Initial model creation based on available requirements or AI-assisted drafts (AAMC). Questions, ambiguities, and assumptions are captured using comment nodes.  
 2. **Review:** The team discusses the model, resolves uncertainties, and updates the behaviour accordingly.  
 3. **Coverage:** Once validated, the model becomes the basis for systematic test generation.  
 4. **Checking:** The model and generated tests are used to verify the system under test.  
@@ -137,7 +158,7 @@ Gherkin modelling is flexible: the model expresses the behaviour, while the Gher
 
 TestCompass supports open, text-based modelling through Mermaid:
 
-- Import Mermaid diagrams and convert them into testable models  
+- Import Mermaid diagrams (or converted Visio/BPMN models) and turn them into testable models  
 - Export models back to Mermaid for documentation or version control  
 
 This enables teams to collaborate using plain text, pull requests, and version-controlled workflows.
@@ -176,8 +197,8 @@ This keeps test suites maintainable and aligned with evolving requirements.
 
 ---
 
->  **Key Takeaway**  
-> Modelling is not about drawing diagrams — it is about creating clarity. TestCompass provides the structure, the notation, and the workflow to make that clarity possible.
+> 🚀 **Key Takeaway**  
+> Modelling in TestCompass is designed for everyone—combining an intuitive visual canvas, zero learning curve, and AI assistance to build true shared understanding across your entire team.
 
 ---
 
