@@ -156,6 +156,8 @@ This keeps test suites aligned with evolving behaviour.
 
 ---
 
+➡️ **Looking for BDD & Gherkin Generation?** Read the [BDD Discovery & Gherkin Integration Guide](bdd-discovery.md).
+
 >  **Key Takeaway**  
 > Test generation in TestCompass ensures that testing is systematic, transparent, and grounded in explicit behavioural understanding rather than hidden assumptions.
 
