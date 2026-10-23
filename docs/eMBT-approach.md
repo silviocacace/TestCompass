@@ -133,4 +133,7 @@ In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
