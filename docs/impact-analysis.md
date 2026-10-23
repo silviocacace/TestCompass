@@ -104,4 +104,7 @@ This ensures that generated test scenarios always reflect the latest version of 
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
