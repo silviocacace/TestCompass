@@ -2,11 +2,11 @@
 
 # BDD Requirements Discovery & Gherkin Integration
 
-Effective testing starts long before code is written, it begins with a shared understanding of requirements. TestCompass bridges the gap between high-level requirements and executable specifications by supporting collaborative Behaviour-Driven Development (BDD) discovery practices, such as **Feature Mapping** and **Example Mapping**.
+Effective testing starts long before code is written—it begins with a shared understanding of requirements. TestCompass bridges the gap between high-level requirements and executable specifications by supporting collaborative Behaviour-Driven Development (BDD) discovery practices, such as **Feature Mapping** and **Example Mapping**.
 
-These practices align closely with industry-proven principles from BDD authorities like **John Ferguson Smart** (author of *BDD in Action*), emphasizing that discovering rules and concrete examples together prevents costly ambiguities and aligns business, development and testing from day one.
+These practices align closely with industry-proven principles from BDD authorities like **John Ferguson Smart** (author of *BDD in Action*), emphasizing that discovering rules and concrete examples together prevents costly ambiguities and aligns business, development, and testing from day one.
 
-> **Core Purpose**  
+> 💡 **Core Purpose**  
 > TestCompass integrates collaborative requirements discovery directly into your workflow, allowing teams to seamlessly transform discovery maps into explicit behavioural models and automatically derive executable Gherkin specifications.
 
 ---
@@ -51,7 +51,3 @@ Feature: Orders cancelled late
       | TimeBeforePickup | ExpectedFee |
       | 15               | $0.00       |
       | 3                | $1.00       |
-
----
-
-[← Back to Documentation Index](index.md)
