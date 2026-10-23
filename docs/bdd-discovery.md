@@ -2,11 +2,11 @@
 
 # BDD Requirements Discovery & Gherkin Integration
 
-Effective testing starts long before code is written—it begins with a shared understanding of requirements. TestCompass bridges the gap between high-level requirements and executable specifications by supporting collaborative Behaviour-Driven Development (BDD) discovery practices, such as **Feature Mapping** and **Example Mapping**.
+Effective testing starts long before code is written. It begins with a shared understanding of requirements. TestCompass bridges the gap between high-level requirements and executable specifications by supporting collaborative Behaviour-Driven Development (BDD) discovery practices, such as **Feature Mapping** and **Example Mapping**.
 
-These practices align closely with industry-proven principles from BDD authorities like **John Ferguson Smart** (author of *BDD in Action*), emphasizing that discovering rules and concrete examples together prevents costly ambiguities and aligns business, development, and testing from day one.
+These practices align closely with industry-proven principles from BDD authorities like **John Ferguson Smart** (author of *BDD in Action*), emphasizing that discovering rules and concrete examples together prevents costly ambiguities and aligns business, development and testing from day one.
 
-> 💡 **Core Purpose**  
+> **Core Purpose**  
 > TestCompass integrates collaborative requirements discovery directly into your workflow, allowing teams to seamlessly transform discovery maps into explicit behavioural models and automatically derive executable Gherkin specifications.
 
 ---
@@ -61,13 +61,13 @@ Requirements frequently evolve during a sprint. In a traditional BDD workflow, u
 
 With TestCompass:
 - **Model-Centric Updates:** You update the business logic in the model, not the text files.
-- **Automated Impact Analysis:** TestCompass detects exactly which generated scenarios and Gherkin features are added, removed, or updated.
+- **Automated Impact Analysis:** TestCompass detects exactly which generated scenarios and Gherkin features are added, removed or updated.
 - **Synchronized Artifacts:** Your documentation, models, and acceptance criteria remain 100% aligned at all times.
 
 ---
 
-> 🚀 **Key Takeaway**  
-> By uniting BDD discovery, visual modelling, and automated Gherkin generation into a single continuous loop, TestCompass ensures that your acceptance criteria and test suites remain alive, accurate, and completely synchronized.
+> **Key Takeaway**  
+> By uniting BDD discovery, visual modelling and automated Gherkin generation into a single continuous loop, TestCompass ensures that your acceptance criteria and test suites remain alive, accurate and completely synchronized.
 
 ---
 
