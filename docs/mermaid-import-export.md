@@ -16,13 +16,13 @@ This page explains the purpose of Mermaid import and export, how they relate to 
 
 Mermaid import and export enable teams to:
 
-- **Protect & reuse existing assets:** Easily convert legacy diagrams from Visio, BPMN/BPM tools, Lucidchart, or Draw.io into Mermaid syntax and import them directly into TestCompass.
+- **Protect & reuse existing assets:** Easily convert legacy diagrams from for e.g. Visio, BPMN/BPM tools, Lucidchart and Draw.io into Mermaid syntax and import them directly into TestCompass.
 - **Include models directly in documentation:** Seamlessly render behavioral models within Markdown files, Wiki pages, and GitHub/GitLab documentation.
 - **Maintain version control in Git:** Store models as text-based files with clear, readable line-by-line diffs during code reviews.
 - **Reconstruct & evolve models:** Convert text-based Mermaid code back into fully interactive, testable TestCompass models at any time.
 - **Maintain single-source-of-truth consistency:** Keep system behavior descriptions synchronized across development teams, testers, and product owners.
 
-By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process models, improves traceability, and reduces friction between system design, documentation, and automated test derivation.
+By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process models, improves traceability and reduces friction between system design, documentation and automated test derivation.
 
 ---
 
