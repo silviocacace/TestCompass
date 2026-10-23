@@ -35,6 +35,23 @@ TestCompass supports this approach by providing a modelling environment that is 
 
 ---
 
+## How eMBT Differs from Traditional Model-Based Testing (MBT)
+
+When teams hear "Model-Based Testing," they often picture heavy, complex enterprise tools from the past. TestCompass and early Model-Based Testing (eMBT) represent a fundamental shift in philosophy:
+
+| Aspect | Traditional MBT | Early Model-Based Testing (eMBT) with TestCompass |
+| :--- | :--- | :--- |
+| **Primary Goal** | Automated test script generation from finished specs | **Shared understanding**, early risk discovery, and requirement validation |
+| **Target Audience** | Highly specialized MBT engineers or test automation experts | **Collaborative team tool** for Business Analysts, Developers, and Testers |
+| **Timing in Lifecycle** | Late phase (after requirements are formalized/coded) | **Early phase** (during refinement, before code is written) |
+| **Handling Requirement Gaps** | Generates tests based on incomplete/flawed models | **Exposes gaps visually** (red exclamation marks & AAMR reflection) |
+| **Complexity & Overhead** | Heavy formal languages and complex state machines | **Lightweight, visual flowcharts** readable by all stakeholders |
+
+> **Key Takeaway**  
+> Traditional MBT focuses on **automating test design at scale**. TestCompass and eMBT focus on **making thinking visible early**, ensuring teams build the *right system* before automating execution.
+
+---
+
 ## What TestCompass Provides
 
 TestCompass offers a complete end-to-end workflow for early Model-Based Testing:
