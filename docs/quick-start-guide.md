@@ -20,3 +20,7 @@ Together, they provide everything you need to master TestCompass, from your very
 
 >  **Key Takeaway**  
 > Start with the in-app Quick Start Guide for hands-on UI familiarity, and use this documentation library to dive deeper into the core concepts, workflows, and advanced capabilities of TestCompass.
+
+---
+
+[← Back to Documentation Index](index.md)
