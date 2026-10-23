@@ -2,6 +2,27 @@
 
 Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
 
+Built upon more than 30 years of practical domain expertise in software testing and quality engineering, eMBT is a proven methodology widely adopted in practice and taught as a core component of software engineering curricula across various universities.
+
+Testing tools are everywhere, focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements and understanding how a system really behaves before test cases are created or test execution starts. **That is exactly what TestCompass does.**
+
+<p align="center">
+  <img src="TestCompass.jpg" alt="TestCompass Platform" width="550">
+</p>
+
+---
+
+> **Core Purpose & Philosophy**  
+> Requirements often describe only the intended "happy path." While AI now can generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements are incomplete, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance—shifting the focus from producing volume for volume’s sake to building shared understanding, exposing ambiguity early and turning implicit assumptions into explicit, executable model coverage.
+
+
+
+
+
+# TestCompass Documentation
+
+Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
+
 Testing tools are everywhere, focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements and understanding how a system really behaves before test cases are created or test execution starts. **That is exactly what TestCompass does.**
 
 <p align="center">
