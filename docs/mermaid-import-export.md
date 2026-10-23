@@ -85,3 +85,7 @@ This community-contributed resource may be useful when working with Mermaid diag
 
 >  **Key Takeaway**  
 > Text-based Mermaid diagrams bridge the gap between human-readable documentation and formal behavioural models, ensuring seamless collaboration across your entire project lifecycle.
+
+---
+
+[← Back to Documentation Index](index.md)
