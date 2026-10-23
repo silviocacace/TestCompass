@@ -98,7 +98,8 @@ This documentation provides conceptual guidance, architecture rules, and workflo
 - [Impact Analysis](impact-analysis.md)  
 - [Mermaid Import and Export](mermaid-import-export.md)
 - [Export Formats](export-formats.md)
-- [Integrations](integrations.md)  
+- [Integrations](integrations.md)
+- [BDD Discovery & Formulation](bdd-discovery.md) 
 
 *(Note: This documentation focuses on methodologies, architecture, and concepts. It is designed to complement the in-product Quick Start Guide and guided UI tours.)*
 
