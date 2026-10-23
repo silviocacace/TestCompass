@@ -1,8 +1,8 @@
 # TestCompass
 
-**Intent-driven early Model-Based Testing with explicit models, AI assistance, and tool integration**
+**Intent-driven early Model-Based Testing with explicit models, AI assistance and tool integration**
 
-TestCompass is a practical early Model-Based Testing (eMBT) platform that helps teams make intent explicit, clarify expected behaviour, uncover risks early, and build shared understanding before development begins.
+TestCompass is a practical early Model-Based Testing (eMBT) platform that helps teams make intent explicit, clarify expected behaviour, uncover risks early and build shared understanding before development begins.
 
 It brings explicit behavioural modelling and AI-assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
 
@@ -10,17 +10,17 @@ It brings explicit behavioural modelling and AI-assisted model creation into the
   <img src="docs/TestCompass.jpg" alt="TestCompass Platform" width="550">
 </p>
 
-> 🎯 **Core Purpose**  
+> **Core Purpose**  
 > TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
 
 ---
 
 ## Documentation
 
-📚 **Full Documentation Site:**  
+**Full Documentation Site:**  
 [https://silviocacace.github.io/TestCompass/](https://silviocacace.github.io/TestCompass/)
 
-🚀 **Quick Start Guide:**  
+**Quick Start Guide:**  
 Available directly inside TestCompass via the Help menu and the Book icon.
 
 ---
@@ -189,7 +189,7 @@ For more information about TestCompass or AI-assisted modelling:
 
 ---
 
-> 🚀 **Key Takeaway**  
+> **Key Takeaway**  
 > TestCompass turns early behavioural models into actionable test intelligence—keeping your models, tests, and team fully aligned as software evolves.
 
 **Happy Testing!** 🧪
