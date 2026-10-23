@@ -87,7 +87,7 @@ This ensures that generated scenarios are meaningful, non-redundant, and aligned
 
 ## Risk-Driven Coverage Selection & PRA
 
-In enterprise environments (such as banking and finance), test scoping is governed by formal **Product Risk Analysis (PRA)** and **Risk-Based Testing (RBT)** frameworks. 
+Often test scoping is governed by formal **Product Risk Analysis (PRA)** and **Risk-Based Testing (RBT)** frameworks. 
 
 TestCompass and early Model-Based Testing (eMBT) do not replace PRA; they make risk-driven testing actionable, visual and measurable.
 
