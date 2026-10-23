@@ -89,4 +89,7 @@ This community-contributed resource may be useful when working with Mermaid diag
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
