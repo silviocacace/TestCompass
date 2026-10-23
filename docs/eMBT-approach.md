@@ -50,7 +50,7 @@ The goal is to make behaviour explicit and identify:
 
 A graphical test model is created directly in TestCompass as a shared thinking tool. Because the model is easy to read for all stakeholders, it immediately triggers valuable discussions and reveals misunderstandings before implementation begins.
 
-* **1. Exploratory Phase:** Discovery of requirements and business rules. Supports collaborative practices like Feature and Example Mapping.  
+For discovery of requirements and business rules, TestCompass supports collaborative practices like Feature and Example Mapping.  
   *(See: [BDD Requirements Discovery](bdd-discovery.md))*
 
 ---
