@@ -192,4 +192,4 @@ For more information about TestCompass or AI-assisted modelling:
 > **Key Takeaway**  
 > TestCompass turns early behavioural models into actionable test intelligence—keeping your models, tests, and team fully aligned as software evolves.
 
-**Happy Testing!** 🧪
+**Happy Testing!** 
