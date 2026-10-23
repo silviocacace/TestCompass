@@ -105,3 +105,7 @@ Each export format is designed to map cleanly to one or more external tools.
 
 >  **Key Takeaway**  
 > Integrations ensure that TestCompass fits naturally into existing workflows, enabling teams to benefit from early Model-Based Testing without having to replace their current toolchain.
+
+---
+
+[← Back to Documentation Index](index.md)
