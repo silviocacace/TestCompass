@@ -2,21 +2,7 @@
 
 Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
 
-Built upon more than 30 years of practical domain expertise in software testing and quality engineering, eMBT is a proven methodology widely adopted in practice, embedded in professional software testing curricula, and taught as a core component within software engineering programs across various universities.
-
-Testing tools are everywhere, focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements and understanding how a system really behaves before test cases are created or test execution starts. **That is exactly what TestCompass does.**
-
-<p align="center">
-  <img src="TestCompass.jpg" alt="TestCompass Platform" width="550">
-</p>
-
-
-
-# TestCompass Documentation
-
-Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
-
-Built upon more than 30 years of practical domain expertise in software testing and quality engineering, eMBT is a proven methodology widely adopted in practice and taught as a core component of software engineering curricula across various universities.
+Built upon more than 30 years of practical domain expertise in software testing and quality engineering, eMBT is a proven methodology widely adopted in practice, embedded in professional software testing curricula and taught as a core component within software engineering programs across various Universities.
 
 Testing tools are everywhere, focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements and understanding how a system really behaves before test cases are created or test execution starts. **That is exactly what TestCompass does.**
 
