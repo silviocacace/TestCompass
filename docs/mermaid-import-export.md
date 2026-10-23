@@ -2,13 +2,13 @@
 
 # Mermaid Import & Export
 
-Mermaid import and export in TestCompass help teams exchange models across documentation, development, and testing workflows.  
-Because Mermaid is a text-based notation, it supports transparent collaboration, version control, and readable diffs in Git.
+Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.  
+Because Mermaid is a text-based notation, it supports transparent collaboration, version control and readable diffs in Git.
 
 > 💡 **Core Purpose**  
 > Mermaid serves as a powerful text-based interchange format, enabling teams to embed models in documentation and track version changes in Git while maintaining rigorous eMBT semantics.
 
-This page explains the purpose of Mermaid import and export, how they relate to modelling, and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
+This page explains the purpose of Mermaid import and export, how they relate to modelling and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
 
 ---
 
@@ -16,13 +16,13 @@ This page explains the purpose of Mermaid import and export, how they relate to 
 
 Mermaid import and export enable teams to:
 
-- include models directly in Markdown documentation  
-- maintain models in Git with clear, text-based diffs  
-- reconstruct TestCompass models from existing Mermaid diagrams  
-- keep behaviour descriptions consistent across teams and artefacts  
+- **Protect & reuse existing assets:** Easily convert legacy diagrams from Visio, BPMN/BPM tools, Lucidchart, or Draw.io into Mermaid syntax and import them directly into TestCompass.
+- **Include models directly in documentation:** Seamlessly render behavioral models within Markdown files, Wiki pages, and GitHub/GitLab documentation.
+- **Maintain version control in Git:** Store models as text-based files with clear, readable line-by-line diffs during code reviews.
+- **Reconstruct & evolve models:** Convert text-based Mermaid code back into fully interactive, testable TestCompass models at any time.
+- **Maintain single-source-of-truth consistency:** Keep system behavior descriptions synchronized across development teams, testers, and product owners.
 
-By supporting Mermaid as an interchange format, TestCompass improves traceability and reduces friction between modelling, documentation, and development.
-
+By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process models, improves traceability, and reduces friction between system design, documentation, and automated test derivation.
 ---
 
 ## Import
