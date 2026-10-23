@@ -33,7 +33,7 @@ Learn how to build, validate, and reason about explicit behavioural models:
 
 - **[Behavioural Modelling](modelling.md)** — Foundations of flowchart-based modelling, node types, and requirements discovery.
 - **[Mermaid Import & Export](mermaid-import-export.md)** — Bi-directional sync between text-based Mermaid diagrams and testable eMBT models.
-- **[BDD-discovery & Formulation](bdd-discovery.md)** — BDD phase discovery and formulation in TestCompass.
+- **[BDD-discovery & Formulation](bdd-discovery.md)** — BDD phases discovery and formulation supported by TestCompass.
    
 ---
 
