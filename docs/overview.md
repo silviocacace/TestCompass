@@ -35,18 +35,18 @@ TestCompass supports this approach by providing a modelling environment that is 
 
 ---
 
-## The Philosophy of Early Model-Based Testing
+## The Philosophy of early Model-Based Testing (eMBT)
 
 When people hear "Model-Based Testing," they often think of technical test generation at the end of a sprint. eMBT takes a fundamentally different, collaborative perspective. 
 
 Rather than treating models as technical input for automated scripts alone, eMBT positions explicit models as **shared thinking tools** for the entire team. 
 
-- **Collaboration First:** The model acts as a bridge during refinement and "Three Amigos" sessions, helping business analysts, developers, and testers speak the exact same language.
+- **Collaboration First:** The model acts as a bridge during refinement and "Three Amigos" sessions, helping business analysts, developers and testers speak the exact same language.
 - **Clarity Before Code:** By visualizing workflows before development starts, teams uncover misunderstandings when they are still cheap and easy to fix.
 - **Understanding Over Output:** Test generation is a natural consequence of a validated model, but the true value lies in the conversations and shared insights that happen *while building the model*.
 
 > **Key Takeaway**  
-> eMBT is not just a test design technique; it is a collaborative mindset that makes thinking visible early—ensuring teams build the right thing from day one.
+> eMBT is not just a test design technique; it is a collaborative mindset that makes thinking visible early, ensuring teams build the right thing from day one.
 
 ---
 
