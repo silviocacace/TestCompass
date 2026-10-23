@@ -4,46 +4,55 @@
 
 AAMC (AI-Assisted Model Creation) is an AI-supported feature within TestCompass that transforms behavioural descriptions into an initial TestCompass model draft.
 
-It allows users to start modelling directly from requirements, user stories, workshop notes, business process descriptions, and other sources—rather than creating a model manually from scratch.
+It allows teams to start modelling directly from requirements, user stories, workshop notes, or system specifications—rather than creating a model manually from scratch.
 
-> 💡 **Purpose of AAMC**  
-> AAMC is designed to accelerate the creation of initial TestCompass models. By providing a structured starting point, it helps teams begin modelling earlier and spend more time reviewing, refining, and exploring behaviour rather than building models manually.
+> 💡 **Purpose & Role of AAMC**  
+> AAMC is designed to accelerate the creation of initial TestCompass models. It acts as a modelling assistant—not a replacement for human expertise. It provides a structured starting point so teams can spend less time building models manually and more time analyzing behaviour, uncovering hidden assumptions, and identifying risks.
 
-The generated draft can immediately be reviewed, refined, and used within TestCompass for extending, impact analysis, and generating test scenarios.
+---
+
+## Behavioural Characteristics & Best Practices
+
+AAMC interprets input text, identifies actions, decisions, outcomes, and branching logic, and converts them into a visual TestCompass model draft.
+
+### Generative Nature & Iteration
+Because generative AI is non-deterministic, the same input text may produce slightly different model interpretations. 
+* **Model Regeneration:** If an initial draft contains structural inconsistencies or suboptimal flows, regenerating the model produces a fresh interpretation of the input.
+* **User Control:** Users retain full control over whether to accept a generated draft, run another generation, or adjust the model manually in the workspace.
+
+### Single Process Input Focus
+For optimal results, input descriptions should focus on **one clear process from start to finish**.
+* Providing requirements that contain multiple distinct processes, multiple primary actors, or unrelated parallel flows may result in disconnected model structures ("islands").
+* Multi-process documentation should be provided to AAMC incrementally, one process at a time, to build focused and maintainable models.
+* AAMC fully handles complex logic, decision trees, error paths, and system validations as long as they belong to the same core process.
 
 ---
 
 ## Supported Inputs
 
-AAMC can process both natural-language and structured inputs, including:
+AAMC processes both unstructured natural language and structured, machine-readable formats:
 
-###  Natural Language
+### Natural Language
 - Requirements & Acceptance Criteria
 - User Stories & Scenarios
-- Domain Descriptions
-- Workshop & Discussion Notes
+- Domain Descriptions & Business Process Rules
+- Workshop Notes & Discussion Summaries
 
-###  Structured Inputs
-- BPMN 2.0 XML
-- JSON Workflow Definitions
-- XML Behaviour Descriptions
-- Mermaid Diagrams
-- Gherkin Scenarios
-- Other machine-readable behavioural formats
+### Structured Formats
+- **BPMN 2.0 XML**
+- **JSON Workflow Definitions**
+- **XML Behaviour Descriptions**
+- **Mermaid Diagrams** & **Gherkin Scenarios**
+- **OCR / External AI Outputs:** Text extracted from image files, whiteboard sketches, or external AI tools.
 
 ---
 
-## Generated Output
+## Model Validation & Handling Issues
 
-AAMC generates an initial TestCompass model draft containing:
+After generation, TestCompass automatically validates the model structure directly on the canvas:
 
-- **Model structure & flow**
-- **Actions & States**
-- **Decisions & Branching logic**
-- **Transitions & Test paths**
-- **Expected Results**
-
-After generation, TestCompass automatically validates the model structure and highlights any detected modelling or semantic issues directly within the canvas.
+* **Visual Indicators:** Structural anomalies—such as isolated nodes, action nodes with multiple outgoing links, or decision nodes without clear binary outcomes—are highlighted with visual markers.
+* **Resolution Strategy:** When a generated draft contains multiple structural issues, regenerating is generally more efficient than manual correction. For minor issues (such as a single missing transition), accepting the draft and making quick adjustments directly in the editor or reviewing the Test tab is recommended.
 
 <p align="center">
   <img src="AAMC_explanation.png" alt="TestCompass AAMC Explanation Canvas" width="600">
@@ -53,8 +62,7 @@ After generation, TestCompass automatically validates the model structure and hi
 
 ## Example: Generating an eMBT Model from Requirements
 
-AAMC converts natural language requirements directly into a structured, semantically consistent TestCompass model.  
-The example below demonstrates how AAMC interprets a short requirement, identifies decisions, and exposes incomplete behaviour without making assumptions.
+The example below demonstrates how AAMC converts a short natural language requirement into a structured, semantically consistent TestCompass model while exposing incomplete logic.
 
 ---
 
@@ -69,7 +77,7 @@ The example below demonstrates how AAMC interprets a short requirement, identifi
 
 ---
 
-### 2. Generated Model
+### 2. Generated Model Draft
 
 AAMC generates an initial model draft directly inside TestCompass:
 
@@ -79,14 +87,13 @@ AAMC generates an initial model draft directly inside TestCompass:
 
 ---
 
-### 3. Explanation & Workflow
+### 3. Key Takeaways from the Generated Model
 
--  **Explicit Decisions:** AAMC automatically identifies key branching logic (*"All mandatory fields filled in?"*, *"Email verified?"*).
--  **No Assumptions:** AAMC does not guess or invent logic for missing requirements (e.g. what happens if mandatory fields are missing).
--  **Exposing Incomplete Behaviour:** Paths that lack explicit specification are left open and marked with a visual indicator (such as an exclamation mark / question mark).
--  **Integrated Validation:** Once you accept the AAMC draft into your TestCompass workspace, these markers become part of the active model. TestCompass highlights them to show unverified or incomplete paths, enabling teams to clarify missing specifications early.
+- **Explicit Decisions:** Automatically identifies key branching logic (*"All mandatory fields filled in?"*, *"Email verified?"*).
+- **No Unsafe Assumptions:** AAMC does not guess or invent logic for unspecified paths (e.g., what happens if mandatory fields are missing).
+- **Exposing Incomplete Behaviour:** Unspecified outcomes are left open and marked with visual indicators so teams can clarify gaps early.
 
 ---
 
->  **Key Takeaway**  
-> This example illustrates how AAMC exposes ambiguity and missing paths instead of hiding them, allowing teams to address open ends before development or coding begins.
+> **Key Takeaway**  
+> AAMC bridges the gap between text requirements and visual modelling in seconds. It exposes ambiguity early, providing a clean baseline to refine, execute impact analysis on, and derive test scenarios from.
