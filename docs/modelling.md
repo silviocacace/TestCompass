@@ -135,7 +135,7 @@ TestCompass supports collaborative requirements discovery practices such as **Fe
 
 ## Modelling with Gherkin
 
-TestCompass supports modelling using Gherkin concepts such as:
+To seamlessly translate discovery maps into executable BDD specifications, TestCompass natively supports Gherkin concepts directly within the visual canvas, including:
 
 - Feature  
 - Background  
