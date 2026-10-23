@@ -35,20 +35,18 @@ TestCompass supports this approach by providing a modelling environment that is 
 
 ---
 
-## How eMBT Differs from Traditional Model-Based Testing (MBT)
+## The Philosophy of Early Model-Based Testing
 
-When teams hear "Model-Based Testing," they often picture heavy, complex enterprise tools from the past. TestCompass and early Model-Based Testing (eMBT) represent a fundamental shift in philosophy:
+When people hear "Model-Based Testing," they often think of technical test generation at the end of a sprint. eMBT takes a fundamentally different, collaborative perspective. 
 
-| Aspect | Traditional MBT | Early Model-Based Testing (eMBT) with TestCompass |
-| :--- | :--- | :--- |
-| **Primary Goal** | Automated test script generation from finished specs | **Shared understanding**, early risk discovery, and requirement validation |
-| **Target Audience** | Highly specialized MBT engineers or test automation experts | **Collaborative team tool** for Business Analysts, Developers, and Testers |
-| **Timing in Lifecycle** | Late phase (after requirements are formalized/coded) | **Early phase** (during refinement, before code is written) |
-| **Handling Requirement Gaps** | Generates tests based on incomplete/flawed models | **Exposes gaps visually** (red exclamation marks & AAMR reflection) |
-| **Complexity & Overhead** | Heavy formal languages and complex state machines | **Lightweight, visual flowcharts** readable by all stakeholders |
+Rather than treating models as technical input for automated scripts alone, eMBT positions explicit models as **shared thinking tools** for the entire team. 
+
+- **Collaboration First:** The model acts as a bridge during refinement and "Three Amigos" sessions, helping business analysts, developers, and testers speak the exact same language.
+- **Clarity Before Code:** By visualizing workflows before development starts, teams uncover misunderstandings when they are still cheap and easy to fix.
+- **Understanding Over Output:** Test generation is a natural consequence of a validated model, but the true value lies in the conversations and shared insights that happen *while building the model*.
 
 > **Key Takeaway**  
-> Traditional MBT focuses on **automating test design at scale**. TestCompass and eMBT focus on **making thinking visible early**, ensuring teams build the *right system* before automating execution.
+> eMBT is not just a test design technique; it is a collaborative mindset that makes thinking visible early—ensuring teams build the right thing from day one.
 
 ---
 
