@@ -161,4 +161,7 @@ This keeps test suites aligned with evolving behaviour.
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
