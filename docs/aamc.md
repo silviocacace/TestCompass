@@ -110,4 +110,7 @@ AAMC generates an initial model draft directly inside TestCompass:
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
