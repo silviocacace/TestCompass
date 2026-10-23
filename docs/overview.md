@@ -11,6 +11,8 @@ It brings together explicit behavioural modelling, AI-assisted model creation an
 
 This overview explains the fundamental value of TestCompass, the principles behind early Model-Based Testing (eMBT), and how the platform supports a structured, collaborative testing workflow.
 
+---
+
 ### About the Creator & The Origin of 'early Model-Based Testing' (eMBT)
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" align="left" style="margin-right: 25px; margin-bottom: 15px; border-radius: 8px;">
