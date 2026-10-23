@@ -85,6 +85,32 @@ This ensures that generated scenarios are meaningful, non-redundant, and aligned
 
 ---
 
+## Risk-Driven Coverage Selection & PRA
+
+In enterprise environments (such as banking and finance), test scoping is governed by formal **Product Risk Analysis (PRA)** and **Risk-Based Testing (RBT)** frameworks. 
+
+TestCompass and early Model-Based Testing (eMBT) do not replace PRA; they make risk-driven testing actionable, visual and measurable.
+
+### Aligning PRA Outcomes with Test Compass Coverage
+
+Rather than applying the same coverage strategy across an entire system, teams use the model to align formal coverage metrics directly with identified risk levels:
+
+* **High Risk (PRA High):** Apply deep coverage strategies such as **Path Pair Coverage (PPC)** or **Full Path Coverage (FPC)**. This ensures that complex state transitions, edge cases, and business-critical decision chains are fully validated.
+* **Medium Risk (PRA Medium):** Apply **Edge Coverage (EC)** to guarantee that every decision outcome and branch transition is exercised at least once.
+* **Low Risk (PRA Low):** Apply lightweight **Node Coverage (NC)** to confirm basic functional execution without over-engineering test suites.
+
+### Dynamic Scoping & Capacity Constraints
+
+When time or release capacity is constrained, eMBT enables instant risk-driven adjustments:
+
+- **Targeted Branch Deactivation:** Temporarily disable low-risk paths or optional features directly on the visual model.
+- **Instant Suite Recalculation:** TestCompass immediately recalculates the test suite, generating only the scenarios required for high-risk paths while preserving full traceability.
+
+> 💡 **Key Takeaway**  
+> PRA determines *where* to focus and *how deep* to test. eMBT provides the explicit model to translate those risk choices directly into executable, traceable test suites.
+
+---
+
 ## Exporting Test Scenarios
 
 Generated test scenarios can be exported to:
@@ -92,7 +118,7 @@ Generated test scenarios can be exported to:
 - Excel test design  
 - Excel decision tables  
 - Gherkin feature files  
-- CSV  
+- CSV, for import into different Test Management Systems, like Jira and Azure Devops Testplan  
 
 Exports include:
 
