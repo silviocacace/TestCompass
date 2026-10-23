@@ -23,6 +23,7 @@ Mermaid import and export enable teams to:
 - **Maintain single-source-of-truth consistency:** Keep system behavior descriptions synchronized across development teams, testers, and product owners.
 
 By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process models, improves traceability, and reduces friction between system design, documentation, and automated test derivation.
+
 ---
 
 ## Import
