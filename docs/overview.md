@@ -17,6 +17,20 @@ This overview explains the fundamental value of TestCompass, the principles behi
 
 ---
 
+<p align="center">
+  <img src="Silvio.jpg" alt="Silvio Cacace - Creator of TestCompass" width="180" style="border-radius: 50%;">
+</p>
+
+### About the Creator & The Origin of eMBT
+
+**TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
+
+Throughout three decades of leading test transformations across enterprise environments, Silvio recognized a persistent pattern: most software defects stem from incomplete specifications and implicit assumptions long before code is written. Traditional MBT tools were often too complex or technical for daily agile refinement, while modern generative AI tools often simply generate test cases from incomplete text without validating the underlying logic.
+
+To bridge this gap, Silvio established the **early Model-Based Testing (eMBT)** methodology—a collaborative, risk-driven approach designed to build shared understanding first. Today, eMBT is widely applied in mission-critical corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple universities.
+
+---
+
 ## Why early Model-Based Testing (eMBT)?
 
 Many defects in software projects originate from unclear, implicit, or incomplete requirements. Traditional test case generation, even when driven by fast generative AI prompts, often simply scales these requirement gaps by producing plausible-looking test cases derived from incomplete logic.
