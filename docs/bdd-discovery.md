@@ -51,3 +51,26 @@ Feature: Orders cancelled late
       | TimeBeforePickup | ExpectedFee |
       | 15               | $0.00       |
       | 3                | $1.00       |
+```
+
+---
+
+## Continuous Alignment & Impact Analysis
+
+Requirements frequently evolve during a sprint. In a traditional BDD workflow, updating feature files and test scripts manually is tedious and error-prone. 
+
+With TestCompass:
+- **Model-Centric Updates:** You update the business logic in the model, not the text files.
+- **Automated Impact Analysis:** TestCompass detects exactly which generated scenarios and Gherkin features are added, removed, or updated.
+- **Synchronized Artifacts:** Your documentation, models, and acceptance criteria remain 100% aligned at all times.
+
+---
+
+> 🚀 **Key Takeaway**  
+> By uniting BDD discovery, visual modelling, and automated Gherkin generation into a single continuous loop, TestCompass ensures that your acceptance criteria and test suites remain alive, accurate, and completely synchronized.
+
+---
+
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
