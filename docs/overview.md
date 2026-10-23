@@ -13,7 +13,7 @@ This overview explains the fundamental value of TestCompass, the principles behi
 
 ---
 
-### About the Creator & The Origin of 'early Model-Based Testing' (eMBT)
+## About the Creator & The Origin of 'early Model-Based Testing' (eMBT)
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" align="left" style="margin-right: 25px; margin-bottom: 15px; border-radius: 8px;">
 
