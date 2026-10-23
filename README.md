@@ -6,6 +6,10 @@ TestCompass is a practical early Model-Based Testing (eMBT) platform that helps 
 
 It brings explicit behavioural modelling and AI-assisted model creation into the earliest stages of development, enabling deep, traceable testing from the start.
 
+<p align="center">
+  <img src="docs/TestCompass.jpg" alt="TestCompass Platform" width="550">
+</p>
+
 > 🎯 **Core Purpose**  
 > TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
 
@@ -23,10 +27,11 @@ Available directly inside TestCompass via the Help menu and the Book icon.
 
 ## Overview
 
-TestCompass provides a complete workflow for early Model-Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early, and generate reproducible tests from well-structured models.  
-It supports open, text-based modelling formats—including Mermaid, JSON, XML, UML, and other industry-standard formats—and integrates naturally with version-controlled development workflows.
+TestCompass provides a complete workflow for early Model-Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early, and generate reproducible tests from well-structured models.
 
-TestCompass connects seamlessly with platforms such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
+Built upon **more than 30 years of practical domain expertise** in software testing and quality engineering, eMBT is a proven methodology widely applied in enterprise practice, embedded in professional testing frameworks, and taught across software engineering curricula at various universities.
+
+It supports open, text-based modelling formats—including Mermaid, JSON, XML, UML, and other industry-standard formats—and integrates naturally with version-controlled development workflows and platforms such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
 
 ---
 
@@ -160,6 +165,18 @@ It does not contain the TestCompass source code.
 - [AAMC – AI-Assisted Model Creation](docs/aamc.md)  
 - [AAMR – AI-Assisted Model Reflection](docs/aamr.md)  
 - [Mermaid Import and Export](docs/mermaid-import-export.md)  
+
+---
+
+## About the Creator & The Origin of eMBT
+
+<img src="docs/Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="180" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+
+**TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
+
+Throughout three decades of leading test transformations across enterprise environments, Silvio recognized that most software defects stem from incomplete specifications and implicit assumptions long before code is written. To bridge the gap between complex requirements and clear test coverage, he established the **early Model-Based Testing (eMBT)** methodology and created **TestCompass** to bring this collaborative approach into daily agile delivery.
+
+<br clear="all">
 
 ---
 
