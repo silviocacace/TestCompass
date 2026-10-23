@@ -13,7 +13,7 @@ Testing tools are everywhere, focusing on automation, execution, or management. 
 ---
 
 > **Core Purpose & Philosophy**  
-> Requirements often describe only the intended "happy path." While AI now can generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements are incomplete, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance—shifting the focus from producing volume for volume’s sake to building shared understanding, exposing ambiguity early and turning implicit assumptions into explicit, executable model coverage.
+> Requirements often describe only the intended "happy path." While AI now can generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements are incomplete, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance, shifting the focus from producing volume for volume’s sake to building shared understanding, exposing ambiguity early and turning implicit assumptions into explicit, executable model coverage.
 
 ---
 
