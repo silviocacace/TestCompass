@@ -30,8 +30,6 @@ For optimal results, input descriptions should focus on **one clear process from
 
 ## Supported Inputs
 
-## Supported Inputs
-
 AAMC processes unstructured natural language, tabular specifications, legacy diagram exports, and structured, machine-readable formats:
 
 ### Natural Language
