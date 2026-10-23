@@ -6,14 +6,14 @@ AAMC (AI-Assisted Model Creation) is an AI-supported feature within TestCompass 
 
 It allows teams to start modelling directly from requirements, user stories, workshop notes or system specifications—rather than creating a model manually from scratch.
 
-> 💡 **Purpose & Role of AAMC**  
+>  **Purpose & Role of AAMC**  
 > AAMC is designed to accelerate the creation of initial TestCompass models. It acts as a modelling assistant, not a replacement for human expertise. It provides a structured starting point so teams can spend less time building models manually and more time analyzing behaviour, detecting gaps, contradictions and open ends in the requirements and  identifying risks early.
 
 ---
 
 ## Behavioural Characteristics & Best Practices
 
-AAMC interprets input text, identifies actions, decisions, outcomes and branching logic and converts them into a visual TestCompass model draft.
+AAMC interprets input text, identifies actions, decisions, outcomes, and branching logic, and converts them into a visual TestCompass model draft in accordance with TestCompass modelling rules.
 
 ### Generative Nature & Iteration
 Because generative AI is non-deterministic, the same input text may produce slightly different model interpretations. 
@@ -24,36 +24,48 @@ Because generative AI is non-deterministic, the same input text may produce slig
 For optimal results, input descriptions should focus on **one clear process from start to finish**.
 * Providing requirements that contain multiple distinct processes, multiple primary actors, or unrelated parallel flows may result in disconnected model structures ("islands").
 * Multi-process documentation should be provided to AAMC incrementally, one process at a time, to build focused and maintainable models.
-* AAMC fully handles complex logic, decision trees, error paths, and system validations as long as they belong to the same core process.
+* AAMC fully handles complex logic, decision trees, error paths and system validations as long as they belong to the same core process.
 
 ---
 
 ## Supported Inputs
 
-AAMC processes both unstructured natural language and structured, machine-readable formats:
+## Supported Inputs
+
+AAMC processes unstructured natural language, tabular specifications, legacy diagram exports, and structured, machine-readable formats:
 
 ### Natural Language
 - Requirements & Acceptance Criteria
 - User Stories & Scenarios
 - Domain Descriptions & Business Process Rules
 - Workshop Notes & Discussion Summaries
+- Other natural language text descriptions
 
-### Structured Formats
+### Tabular & Spreadsheet Specifications
+- **Excel Decision Tables & Spreadsheets:** Tabular combinations of conditions, rules, and outcomes directly converted into branching decision logic.
+- **CSV & Matrix Formats:** Tabular business logic, rule matrices, and decision grids.
+- **Other tabular data formats** (e.g., Markdown tables, Word/Confluence tables, etc.)
+
+### Structured & Machine-Readable Formats
 - **BPMN 2.0 XML**
 - **JSON Workflow Definitions**
 - **XML Behaviour Descriptions**
 - **Mermaid Diagrams** & **Gherkin Scenarios**
-- **OCR / External AI Outputs:** Text extracted from image files, whiteboard sketches, or external AI tools.
+- **Diagram Conversions & OCR:** Text, JSON, or Mermaid exported from legacy diagramming tools (e.g., MS Visio, Lucidchart, Draw.io) or extracted from whiteboard photos.
+- **Other structured, machine-readable text formats**
+
+> 💡 **Legacy Model Migration & Input Versatility**  
+> Teams transitioning to TestCompass can easily convert existing process models (such as MS Visio or Lucidchart flows) into structured formats like JSON, XML, or Mermaid and pass them to AAMC for instant migration into executable TestCompass model drafts. As long as logic, processes, or decision rules can be represented as text—whether in plain prose, spreadsheets, or machine-readable code, AAMC can analyze it and generate a compliant model draft.
 
 ---
 
 ## Model Validation & Handling Issues
 
-After generation, TestCompass automatically validates the model structure directly on the canvas:
+After generation, TestCompass automatically validates the generated draft against the official TestCompass model rules:
 
-* **Visual Indicators:** Structural anomalies—such as isolated nodes, action nodes with multiple outgoing links, or decision nodes without clear binary outcomes—are highlighted with visual markers.
-* **Resolution Strategy:** When a generated draft contains multiple structural issues, regenerating is generally more efficient than manual correction. For minor issues (such as a single missing transition), accepting the draft and making quick adjustments directly in the editor or reviewing the Test tab is recommended.
-
+* **Visual Validation Indicators (Red Exclamation Marks):** If a model violates any modelling rules—such as a Decision node with only 1 outgoing path instead of 2, an Action node without an outgoing transition, or isolated nodes—TestCompass highlights these issues directly on the canvas with red exclamation marks.
+* **Resolution Strategy:** When a generated draft contains multiple structural rule violations, clicking **Regenerate** is generally faster than manual correction. For minor issues (such as a single missing link), accepting the draft and fixing it directly in the editor or reviewing the **Test tab** is recommended.
+* 
 <p align="center">
   <img src="AAMC_explanation.png" alt="TestCompass AAMC Explanation Canvas" width="600">
 </p>
