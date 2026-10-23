@@ -125,15 +125,11 @@ This workflow ensures that modelling is not a one-time activity but a continuous
 
 ---
 
-## Requirements Discovery Practices
+## Collaborative Discovery & BDD
 
-TestCompass supports collaborative requirements discovery practices such as:
+TestCompass supports collaborative requirements discovery practices such as **Feature Mapping** and **Example Mapping** (aligned with BDD principles by John Ferguson Smart). These discovery maps transform directly into explicit behavioural models, enabling automatic Gherkin feature file generation (BDD phase Formulation).
 
-- Feature Mapping  
-- Example Mapping  
-
-These practices help teams explore behaviour, identify business rules, and clarify examples before modelling.  
-Because the maps are created directly in the modelling environment, they can be transformed into a complete model with minimal effort, ensuring continuity from discovery to modelling to test generation.
+➡️ **Read the full guide:** [BDD Requirements Discovery & Gherkin Integration](bdd-discovery.md)
 
 ---
 
