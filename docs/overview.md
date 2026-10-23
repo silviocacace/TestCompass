@@ -109,4 +109,7 @@ This documentation provides conceptual guidance, architecture rules, and workflo
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
