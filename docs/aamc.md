@@ -97,13 +97,13 @@ AAMC generates an initial model draft directly inside TestCompass:
 
 ---
 
-### 3. Key Takeaways from the Generated Model
+### 3. Model Analysis & Observations
 
 - **Explicit Decisions:** Automatically identifies key branching logic (*"All mandatory fields filled in?"*, *"Email verified?"*).
 - **No Unsafe Assumptions:** AAMC does not guess or invent logic for unspecified paths (e.g., what happens if mandatory fields are missing).
-- **Exposing Incomplete Behaviour (Red Exclamation Marks):** Unspecified outcomes are deliberately left open. Because an open path violates the TestCompass model rules (e.g., a decision missing an outgoing path), TestCompass automatically flags it with a red exclamation mark on the canvas so teams can identify and resolve requirement gaps early.
+- **Exposing Incomplete Behaviour (Red Exclamation Marks):** Unspecified outcomes are deliberately left open. Because an open path violates the TestCompass model rules (such as a decision node missing a second outgoing branch), TestCompass automatically flags it with a red exclamation mark on the canvas so teams can identify and resolve requirement gaps early.
 
 ---
 
-> **Key Takeaway**  
-> AAMC bridges the gap between text requirements and visual modelling in seconds. It exposes ambiguity early, providing a clean baseline to refine, execute impact analysis on, and derive test scenarios from.
+> **Summary**  
+> AAMC bridges the gap between text requirements and visual modelling in seconds. It exposes ambiguity and missing logic early through automated rule checks, providing a clean baseline to refine, execute impact analysis on, and derive test scenarios from.
