@@ -78,7 +78,7 @@ These insights, surfaced before development begins, turn assumptions into shared
 
 ---
 
-## About the Creator & The Origin of eMBT
+## About the Creator & The Origin of 'early Model Based Testing' (eMBT)
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="200" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
