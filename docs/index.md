@@ -63,18 +63,36 @@ Connect TestCompass into your daily tools and pipelines:
 
 ---
 
+---
+
 ## Example: Beyond the "Happy Path"
 
 Consider a typical workflow: *a user submits an order, payment is authorized, the order is confirmed, and eventually canceled.* 
 
 Written requirements rarely cover all edge cases. Visualizing this workflow in TestCompass immediately surfaces critical questions:
-* *Can cancellation occur before payment authorization?*
-* *What happens if payment authorization is delayed or times out?*
-* *Can the same state be entered twice unintentionally?*
+- *Can cancellation occur before payment authorization?*
+- *What happens if payment authorization is delayed or times out?*
+- *Can the same state be entered twice unintentionally?*
 
 These insights, surfaced before development begins, turn assumptions into shared knowledge and produce test scenarios grounded in complete confidence.
 
 ---
 
+## About the Creator & The Origin of eMBT
+
+<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="200" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+
+**TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
+
+Throughout three decades of leading test transformations across enterprise environments, Silvio recognized that most defects stem from incomplete specifications and implicit assumptions long before code is written. To bridge the gap between complex requirements and clear test coverage, he established the **early Model-Based Testing (eMBT)** methodology. 
+
+Today, eMBT is widely applied in mission-critical corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple universities.
+
+<br clear="all">
+
+---
+
 > **Summary**  
 > Explore the topics above to master intent-driven early Model-Based Testing—from your first model draft to continuous, automated test execution.
+
+---
