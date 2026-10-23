@@ -3,13 +3,13 @@
 # Modelling
 
 Modelling is the foundation of early Model-Based Testing (eMBT).  
-In TestCompass, a model represents the intended behaviour of a system in a clear, structured, and explicit way.  
-It serves as a shared thinking tool for business and technical stakeholders, enabling early discovery of ambiguities, risks, and misunderstandings.
+In TestCompass, a model represents the intended behaviour of a system in a clear, structured and explicit way.  
+It serves as a shared thinking tool for business and technical stakeholders, enabling early discovery of ambiguities, risks and misunderstandings.
 
-> 💡 **Core Purpose**  
-> Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that drives early risk discovery, systematic test generation, and seamless collaboration.
+> **Core Purpose**  
+> Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that drives early risk discovery, systematic test generation and seamless collaboration.
 
-This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis, and collaborative understanding.
+This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis and collaborative understanding.
 
 ---
 
@@ -24,7 +24,7 @@ Instead of relying on assumptions, implicit knowledge, or scattered requirements
 - boundary conditions  
 - exceptional behaviour  
 
-By externalising behaviour, teams can reason more clearly, validate understanding earlier, and avoid costly rework later in the development process.
+By externalising behaviour, teams can reason more clearly, validate understanding earlier and avoid costly rework later in the development process.
 
 ---
 
@@ -32,9 +32,9 @@ By externalising behaviour, teams can reason more clearly, validate understandin
 
 One of the greatest advantages of TestCompass is its **extreme accessibility and intuitive design**:
 
-- **Readable by Everyone:** The visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders—including Product Owners, Business Analysts, Developers, and Testers.
+- **Readable by Everyone:** The visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders, including Product Owners, Business Analysts, Developers and Testers.
 - **Near-Zero Learning Curve:** Unlike traditional, complex MBT tools that require extensive training, TestCompass uses simple, standardized flowchart logic that anyone can understand and create within minutes.
-- **Frictionless Usability:** Building and modifying models is fast, lightweight, and user-friendly, making it ideal for live refinement sessions, "Three Amigos" discussions, and active team collaboration.
+- **Frictionless Usability:** Building and modifying models is fast, lightweight and user-friendly, making it ideal for live refinement sessions, "Three Amigos" discussions, and active team collaboration.
 
 ---
 
@@ -42,8 +42,8 @@ One of the greatest advantages of TestCompass is its **extreme accessibility and
 
 To lower the onboarding barrier even further, TestCompass includes **AI-Assisted Model Creation (AAMC)**:
 
-- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, or decision tables into a fully structured model draft within seconds.
-- **Human-in-the-Loop:** AAMC provides a solid 80% baseline model, allowing the team to focus immediately on refining logic, exploring edge cases, and validating business rules together.
+- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria or decision tables into a fully structured model draft within seconds.
+- **Human-in-the-Loop:** AAMC provides a solid concept model, allowing the team to focus immediately on refining logic, exploring edge cases and validating business rules together.
 
 ➡️ **Learn more:** [AAMC – AI-Assisted Model Creation](aamc.md)
 
