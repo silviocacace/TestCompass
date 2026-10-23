@@ -130,3 +130,7 @@ In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
 
 -  **AAMR (AI-Assisted Model Reflection):** Acts as a critical partner to uncover hidden risks and open ends.  
   ➡️ **Learn more:** [AAMR Documentation](aamr.md)
+
+---
+
+[← Back to Documentation Index](index.md)
