@@ -21,8 +21,6 @@ Throughout three decades of leading test transformations across enterprise envir
 
 To bridge this gap, Silvio established the **early Model-Based Testing (eMBT)** methodology and created **TestCompass**, a collaborative, risk-driven platform designed to build shared understanding first. Today, eMBT and TestCompass are widely applied in mission-critical corporate environments, embedded in professional testing frameworks and taught within software engineering programs across multiple universities.
 
-<br clear="all">
-
 ---
 
 ## Why early Model-Based Testing (eMBT)?
