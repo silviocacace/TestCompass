@@ -4,12 +4,12 @@
 
 TestCompass is an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins. 
 
-It brings together explicit behavioural modelling, AI-assisted model creation and reflection, and open, text-based modelling through formats like Mermaid and JSON.
+It brings together explicit behavioural modelling, AI-assisted model creation and reflection, and open, text-based modelling.
 
 > **Purpose & Role of TestCompass**  
-> TestCompass empowers teams to replace hidden assumptions with explicit behavioural models—enabling early risk discovery, true shared understanding between business and IT, and systematic test generation before code is written.
+> TestCompass empowers teams to replace hidden assumptions with explicit behavioural models, enabling early risk discovery, true shared understanding between business and IT, and systematic test generation before code is written.
 
-This overview explains the fundamental value of TestCompass, the principles behind early MBT, and how the platform supports a structured, collaborative testing workflow.
+This overview explains the fundamental value of TestCompass, the principles behind early Model-Based Testing (eMBT), and how the platform supports a structured, collaborative testing workflow.
 
 <p align="center">
   <img src="Silvio.jpg" alt="TestCompass Platform" width="220">
@@ -17,9 +17,9 @@ This overview explains the fundamental value of TestCompass, the principles behi
 
 ---
 
-## Why Early Model-Based Testing?
+## Why early Model-Based Testing (eMBT)?
 
-Many defects in software projects originate from unclear, implicit, or incomplete requirements. Traditional test case generation—even when driven by fast generative AI prompts—often simply scales these requirement gaps by producing plausible-looking test cases derived from incomplete logic.
+Many defects in software projects originate from unclear, implicit, or incomplete requirements. Traditional test case generation, even when driven by fast generative AI prompts, often simply scales these requirement gaps by producing plausible-looking test cases derived from incomplete logic.
 
 eMBT addresses this by making system behaviour explicit early in the lifecycle, enabling teams to:
 
@@ -42,8 +42,8 @@ TestCompass offers a complete end-to-end workflow for early Model-Based Testing:
 - **Explicit Behavioural Modelling:** Create clear, structured models that represent system logic, decisions, and state transitions using formal TestCompass model rules.
 - **AI-Assisted Capabilities:** 
   - **AAMC (AI-Assisted Model Creation):** Jumpstart models directly from raw text, user stories, Excel decision tables, or legacy diagrams (Visio, Lucidchart).
-  - **AAMR (AI-Assisted Model Reflection):** Engage in a structured 3-question reflection loop to uncover blind spots and project accepted ideas directly onto the canvas as balloon nodes.
-- **Automated Test Generation:** Derive test scenarios automatically based on formal coverage strategies—from basic node coverage up to full path coverage.
+  - **AAMR (AI-Assisted Model Reflection):** Engage in a structured 3-question reflection loop to uncover blind spots and project accepted ideas directly onto the canvas as grey balloon nodes.
+- **Automated Test Generation:** Derive test scenarios automatically based on formal coverage strategies, from basic node coverage up to full path coverage.
 - **Impact Analysis:** Automatically detect added, removed, updated, and unchanged test scenarios whenever requirements or models evolve.
 - **Open Standards & Interoperability:** Import and export Mermaid diagrams, JSON, and Gherkin scenarios for version control, documentation, and seamless pipeline integration.
 - **Tooling Integration:** Connect directly with Azure DevOps, Jira, Zephyr, Xray, and other test management environments.
@@ -59,7 +59,7 @@ TestCompass is designed to integrate naturally into modern, iterative agile work
 - Supports a genuine "Shift-Left" quality culture by validating specifications before coding begins
 - Produces maintainable, reviewable artefacts that maintain full traceability to requirements
 
-The result is a unified understanding of system behaviour—reducing costly rework, eliminating false confidence, and protecting business value.
+The result is a unified understanding of system behaviour, reducing costly rework, eliminating false confidence and protecting business value.
 
 ---
 
