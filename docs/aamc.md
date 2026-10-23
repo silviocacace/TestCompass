@@ -63,7 +63,7 @@ After generation, TestCompass automatically validates the generated draft agains
 
 * **Visual Validation Indicators (Red Exclamation Marks):** If a model violates any modelling rules—such as a Decision node with only 1 outgoing path instead of 2, an Action node without an outgoing transition, or isolated nodes—TestCompass highlights these issues directly on the canvas with red exclamation marks.
 * **Resolution Strategy:** When a generated draft contains multiple structural rule violations, clicking **Regenerate** is generally faster than manual correction. For minor issues (such as a single missing link), accepting the draft and fixing it directly in the editor or reviewing the **Test tab** is recommended.
-* 
+ 
 <p align="center">
   <img src="AAMC_explanation.png" alt="TestCompass AAMC Explanation Canvas" width="600">
 </p>
