@@ -107,3 +107,7 @@ AAMC generates an initial model draft directly inside TestCompass:
 
 > **Summary**  
 > AAMC bridges the gap between text requirements and visual modelling in seconds. It exposes ambiguity and missing logic early through automated rule checks, providing a clean baseline to refine, execute impact analysis on, and derive test scenarios from.
+
+---
+
+[← Back to Documentation Index](index.md)
