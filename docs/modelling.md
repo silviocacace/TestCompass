@@ -197,9 +197,12 @@ This keeps test suites maintainable and aligned with evolving requirements.
 
 ---
 
-> 🚀 **Key Takeaway**  
+> **Key Takeaway**  
 > Modelling in TestCompass is designed for everyone—combining an intuitive visual canvas, zero learning curve, and AI assistance to build true shared understanding across your entire team.
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
