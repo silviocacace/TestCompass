@@ -108,4 +108,7 @@ Each export format is designed to map cleanly to one or more external tools.
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
