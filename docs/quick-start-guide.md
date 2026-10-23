@@ -23,4 +23,6 @@ Together, they provide everything you need to master TestCompass, from your very
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
