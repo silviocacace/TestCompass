@@ -104,4 +104,7 @@ AAMC and AAMR support complementary stages within the early Model-Based Testing 
 
 ---
 
-[← Back to Documentation Index](index.md)
+## Navigation
+
+⬅️ **[Back to Documentation Index](index.md)**
+
