@@ -2,7 +2,7 @@
 
 # AAMR – AI-Assisted Model Reflection
 
-AAMR (AI-Assisted Model Reflection) is an AI-supported capability within TestCompass designed to help teams critically review, challenge, and strengthen existing test models.
+AAMR (AI-Assisted Model Reflection) is an AI-supported feature within TestCompass designed to help teams critically review, challenge, and strengthen existing test models.
 
 Rather than generating models automatically, AAMR analyzes the model's context and structure to guide users through a structured brainstorming process—engaging them with targeted questions and alternative perspectives to uncover blind spots and hidden assumptions.
 
@@ -27,7 +27,7 @@ AAMR guides the team through a reflective evaluation loop:
 ### 3. Visual Canvas Integration via Balloon Nodes
 When a user accepts one or more generated suggestions or implications at the end of the AAMR reflection process:
 * The accepted items are **automatically added directly to the TestCompass model workspace**.
-* They are visually represented as **balloon nodes** linked to the relevant parts of the flow.
+* They are visually represented as **grey balloon nodes** linked to the relevant parts of the flow.
 * Modelers can then optionally adjust, integrate, or expand the model based on these visual reflection nodes.
 
 ---
@@ -67,7 +67,7 @@ These targeted prompts encourage deeper examination during peer reviews, refinem
 1. **Analyze:** Run AAMR on an existing TestCompass model draft.
 2. **Engage:** Review the 3 targeted contextual reflection questions and observations.
 3. **Evaluate & Refine:** Discuss implications with the team and adjust suggestions as needed.
-4. **Integrate:** Accept relevant suggestions to automatically project them onto the canvas as **balloon nodes**.
+4. **Integrate:** Accept relevant suggestions to automatically project them onto the canvas as **grey balloon nodes**.
 5. **Update Model:** Refine the core model structure based on the newly accepted nodes before test path generation.
 
 ---
@@ -87,17 +87,17 @@ To maintain clarity around its design philosophy, AAMR is explicitly **not**:
 
 ## Complementary Relationship: AAMC vs. AAMR
 
-AAMC and AAMR support complementary stages within the Model-Based Testing (MBT) lifecycle:
+AAMC and AAMR support complementary stages within the early Model-Based Testing (eMBT) lifecycle:
 
 ### AAMC (AI-Assisted Model Creation)
-- **Phase:** Model Creation / Bootstrapping
+- **Phase:** Model Creation
 - **Primary Goal:** Transforms raw text, user stories, spreadsheets, or legacy diagrams into an initial, compliant TestCompass model draft.
 
 ### AAMR (AI-Assisted Model Reflection)
-- **Phase:** Model Review / Quality Assurance
+- **Phase:** Model Review
 - **Primary Goal:** Challenges, refines, and validates an existing model draft by exposing gaps, risks, and assumptions through interactive reflection.
 
 ---
 
 > **Summary**  
-> Together, AAMC and AAMR accelerate the transition from vague requirements to robust, thoroughly reviewed TestCompass models—ensuring high test coverage and early risk identification before test execution begins.
+> Together, AAMC and AAMR accelerate the transition from vague requirements to robust, thoroughly reviewed TestCompass models, ensuring high test coverage and early risk identification before test execution begins.
