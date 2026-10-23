@@ -12,7 +12,7 @@ It brings together explicit behavioural modelling, AI-assisted model creation an
 This overview explains the fundamental value of TestCompass, the principles behind early Model-Based Testing (eMBT), and how the platform supports a structured, collaborative testing workflow.
 
 <p align="center">
-  <img src="Silvio.jpg" alt="TestCompass Platform" width="220">
+  <img src="Silvio1.png" alt="TestCompass Platform" width="220">
 </p>
 
 ---
