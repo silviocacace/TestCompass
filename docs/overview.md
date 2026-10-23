@@ -88,7 +88,7 @@ The result is a unified understanding of system behaviour, reducing costly rewor
 
 ## What This Documentation Covers
 
-This documentation provides conceptual guidance, architecture rules, and workflow explanations for:
+This documentation provides conceptual guidance, architecture rules and workflow explanations for:
 
 - [The eMBT Approach](eMBT-approach.md)
 - [Behavioural Modelling](modelling.md)  
