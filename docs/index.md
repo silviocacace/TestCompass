@@ -1,17 +1,21 @@
-# Documentation
+# TestCompass Documentation
 
-Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before development begins.
+Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
 
-> 💡 **Core Purpose**  
-> TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
+Testing tools are everywhere—focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements, and understanding how a system really behaves before test cases are created. **That is exactly what TestCompass does.**
 
 <p align="center">
-  <img src="TestCompass.jpg" alt="TestCompass" width="550">
+  <img src="TestCompass.jpg" alt="TestCompass Platform" width="550">
 </p>
 
 ---
 
-##  Getting Started
+> **Core Purpose & Philosophy**  
+> Requirements often describe only the intended "happy path." While AI can generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements are incomplete, AI simply scales those gaps. TestCompass shifts the focus from producing volume for volume’s sake to building shared understanding—exposing ambiguity early and turning implicit assumptions into explicit, executable model coverage.
+
+---
+
+## Getting Started
 
 If you are new to TestCompass or early Model-Based Testing, start here:
 
@@ -21,7 +25,7 @@ If you are new to TestCompass or early Model-Based Testing, start here:
 
 ---
 
-##  Core Workflow & Modelling
+## Core Workflow & Modelling
 
 Learn how to build, validate, and reason about explicit behavioural models:
 
@@ -30,25 +34,25 @@ Learn how to build, validate, and reason about explicit behavioural models:
 
 ---
 
-##  AI-Assisted Testing
+## AI-Assisted Testing
 
 Explore how AI acts as an accelerator and a thinking partner in TestCompass:
 
-- **[AAMC – AI-Assisted Model Creation](aamc.md)** — Draft initial, semantically correct models from user stories and requirements in seconds.
-- **[AAMR – AI-Assisted Model Reflection](aamr.md)** — Uncover hidden assumptions, missing paths, and risks through AI-powered questioning.
+- **[AAMC – AI-Assisted Model Creation](aamc.md)** — Draft initial, semantically correct models from user stories, spreadsheets, or legacy diagrams in seconds.
+- **[AAMR – AI-Assisted Model Reflection](aamr.md)** — Uncover hidden assumptions, missing paths, and risks through interactive, 3-question AI reflection loops.
 
 ---
 
-##  Test Generation & Impact Analysis
+## Test Generation & Impact Analysis
 
 Turn models into systematic test suites and maintain them effortlessly over time:
 
-- **[Test Generation and Coverage](test-generation.md)** — Derived test scenarios based on Node, Edge, Path Pair, Path Triple, and Full Path Coverage.
-- **[Impact Analysis](impact-analysis.md)** — Automatically detect Added, Removed, Updated, and Unchanged scenarios when models evolve.
+- **[Test Generation and Coverage](test-generation.md)** — Derive test scenarios automatically based on Node, Edge, Path Pair, Path Triple, and Full Path Coverage.
+- **[Impact Analysis](impact-analysis.md)** — Automatically detect Added, Removed, Updated, and Unchanged scenarios as requirements evolve.
 
 ---
 
-##  Integrations & Export Formats
+## Integrations & Export Formats
 
 Connect TestCompass into your daily tools and pipelines:
 
@@ -57,5 +61,18 @@ Connect TestCompass into your daily tools and pipelines:
 
 ---
 
->  **Key Takeaway**  
-> Explore the topics above to master intent-driven early Model-Based Testing, from your first model draft to continuous, automated test execution.
+## Example: Beyond the "Happy Path"
+
+Consider a typical workflow: *a user submits an order, payment is authorized, the order is confirmed, and eventually canceled.* 
+
+Written requirements rarely cover all edge cases. Visualizing this workflow in TestCompass immediately surfaces critical questions:
+* *Can cancellation occur before payment authorization?*
+* *What happens if payment authorization is delayed or times out?*
+* *Can the same state be entered twice unintentionally?*
+
+These insights, surfaced before development begins, turn assumptions into shared knowledge and produce test scenarios grounded in complete confidence.
+
+---
+
+> **Summary**  
+> Explore the topics above to master intent-driven early Model-Based Testing—from your first model draft to continuous, automated test execution.
