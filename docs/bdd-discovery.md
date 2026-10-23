@@ -51,3 +51,7 @@ Feature: Orders cancelled late
       | TimeBeforePickup | ExpectedFee |
       | 15               | $0.00       |
       | 3                | $1.00       |
+
+---
+
+[← Back to Documentation Index](index.md)
