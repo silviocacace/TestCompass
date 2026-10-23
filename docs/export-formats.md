@@ -134,3 +134,7 @@ For more information, see:
 
 >  **Key Takeaway**  
 > Open and flexible export formats ensure that TestCompass models connect effortlessly to your team's existing tools and daily testing routines.
+
+---
+
+[← Back to Documentation Index](index.md)
