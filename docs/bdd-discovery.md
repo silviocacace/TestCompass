@@ -19,7 +19,9 @@ TestCompass treats discovery as the **first phase of eMBT (Exploratory)**:
 1. **In-Tool Collaborative Discovery:** Instead of relying on external whiteboards, teams can run Example Mapping and Feature Mapping sessions directly within TestCompass using dedicated **Sticky Note nodes**.
 2. **From Board to Model:** Discovery artifacts (rules, examples, questions) captured on the canvas are seamlessly translated into explicit decision models—either manually or by leveraging AI (AAMC) to convert the map into a model.
 3. **Coverage-Based Feature File Generation:** Rather than manually drafting Gherkin files scenario by scenario, TestCompass automatically generates fully structured **Gherkin `.feature` files** based on your selected coverage strategy.
-4. **Living Specifications & Effortless Maintenance:** When requirements evolve, you simply update the visual model. Regenerate the complete `.feature` file with a single click, eliminating manual scenario maintenance and drift.
+4. **Data-Driven Scenario Outlines:** By defining test data variations within the node details, TestCompass automatically generates **`Scenario Outline`** specifications complete with populated **`Examples:`** tables.
+5. **Living Specifications & Effortless Maintenance:** When requirements evolve, you simply update the visual model. Regenerate the complete `.feature` file with a single click, eliminating manual scenario maintenance and drift.
+   
 ---
 
 ## Conceptual Example: "Orders Cancelled Late"
