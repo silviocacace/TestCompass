@@ -71,6 +71,45 @@ With TestCompass:
 
 ---
 
+## Practical Walkthrough: From Example Map to TestCompass Model
+
+This walkthrough demonstrates how to convert a BDD Example Mapping session into a fully functional test model in TestCompass using AI-assisted translation.
+
+### Step 1: The Example Map (Input)
+During a Discovery session, the team captures the story rules and examples:
+
+* **User Story:** Applying a discount code at checkout.
+* **Rule 1:** Valid discount code grants a percentage off.
+  * **Example 1a (Happy path):** Code "SUMMER20" gives 20% off on eligible items.
+  * **Example 1b (Expired code):** Expired code "WINTER10" shows error message.
+* **Rule 2:** Minimum order value must be met.
+  * **Example 2a (Below limit):** Order total < €50 rejects discount code.
+
+### Step 2: AI Prompt to Generate Mermaid or Gherkin
+You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude) using the prompt below:
+
+> **AI Prompt Example:**  
+> "Act as a QA Automation Specialist. Convert the following BDD Example Map into a valid Mermaid flowchart or Gherkin syntax that represents the decision logic:  
+>   
+> [Paste your Example Map here]  
+>   
+> Ensure all decision nodes (rules) and outcomes (examples) are clearly structured."
+
+### Step 3: Generated Mermaid Flowchart Code
+The AI outputs the following Mermaid diagram structure:
+
+```mermaid
+graph TD
+    A[Enter Checkout] --> B{Is Discount Code Provided?}
+    B -- No --> C[Process Regular Price]
+    B -- Yes --> D{Is Code Valid & Active?}
+    D -- No --> E[Show Error: Expired/Invalid Code]
+    D -- Yes --> F{Is Order Total >= €50?}
+    F -- No --> G[Show Error: Minimum Amount Not Met]
+    F -- Yes --> H[Apply Discount & Update Total]
+
+---
+
 ## Navigation
 
 ⬅️ **[Back to Documentation Index](index.md)**
