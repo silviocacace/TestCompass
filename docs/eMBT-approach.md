@@ -78,14 +78,18 @@ The following coverage levels are available:
 - **Path Triple coverage (PTC)** — Covers combinations of three consecutive decision branches  
 - **Full Path coverage (FPC)** — Covers all possible end-to-end paths  
 
-By defining test data, preconditions, and expected predictions within node details, TestCompass automatically derives both **Data-Driven Gherkin Scenario Outlines** (when modelling for BDD) and concrete, **Physical Test Scenarios** complete with test data matrices for Excel Test Design and Decision Tables.
+By defining test data and preconditions within the node details, TestCompass automatically derives both **Data-Driven Gherkin Scenario Outlines** (when modelling for BDD) and concrete, **Physical Test Scenarios** complete with test data matrices for Excel Test Design.
 
 ---
 
 ### 4. Checking Phase
-The generated coverage-based test scenarios are passed to execution frameworks and test management environments (executed manually, via automated scripts, or a combination of both). 
+The generated coverage-based test scenarios serve as the exact design blueprint for test execution (executed manually, via automated scripts or a combination of both). 
 
-While TestCompass focuses on **modelling and systematic test design**, it seamlessly aligns with execution by exporting artifacts into tools like Azure DevOps, Jira, Zephyr, Xray, or Gherkin `.feature` files. The goal is to verify that actual system implementation strictly reflects stakeholder intent and to give real-time insight into release readiness.
+While TestCompass focuses entirely on **modelling, coverage and systematic test design**, it seamlessly feeds your execution workflow by exporting ready-to-use artifacts:
+- **Test Management:** Export detailed test cases and decision matrices directly into Excel, CSV, Azure DevOps, Jira, Zephyr or Xray.
+- **Test Automation:** Export coverage-derived Gherkin `.feature` files directly into your automation frameworks (such as Cucumber, Reqnroll, SpecFlow, Playwright or Cypress).
+
+The goal is to verify that actual system implementation strictly reflects stakeholder intent and to gain real-time insight into release readiness.
 
 ---
 
