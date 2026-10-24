@@ -85,42 +85,24 @@ During a Discovery session, the team captures the story rules and examples:
 * **Rule 2:** Minimum order value must be met.
   * **Example 2a (Below limit):** Order total < €50 rejects discount code.
 
-### Step 2: AI Prompt to Generate Mermaid or Gherkin
+### Step 2: AI Prompt to Generate Gherkin or Decision Logic
 You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude) using the prompt below:
 
 > **AI Prompt Example:**  
-> "Act as a QA Automation Specialist. Convert the following BDD Example Map into a valid Mermaid flowchart or Gherkin syntax that represents the decision logic:  
+> "Act as a QA Automation Specialist. Convert the following BDD Example Map into structured Gherkin feature files or decision logic:  
 >   
 > [Paste your Example Map here]  
 >   
 > Ensure all decision nodes (rules) and outcomes (examples) are clearly structured."
 
-### Step 3: Generated Mermaid Flowchart Code
-The AI outputs the following Mermaid diagram structure:
-
-```mermaid
-flowchart TD
-    US["User Story: Applying a discount code at checkout"]
-
-    US --> R1["Rule 1: Valid discount code grants a percentage off"]
-    US --> R2["Rule 2: Minimum order value must be met"]
-
-    R1 --> E1a["Example 1a: Happy path<br/>Code SUMMER20 gives 20% off<br/>on eligible items"]
-    R1 --> E1b["Example 1b: Expired code<br/>Code WINTER10 shows an error message"]
-
-    R2 --> E2a["Example 2a: Below limit<br/>Order total < €50<br/>Discount code is rejected"]
-
-    classDef story fill:#1f4e79,color:#ffffff,stroke:#163650
-    classDef rule fill:#d9eaf7,color:#1a1a1a,stroke:#5b9bd5
-    classDef example fill:#e2f0d9,color:#1a1a1a,stroke:#70ad47
-
-    class US story
-    class R1,R2 rule
-    class E1a,E1b,E2a example
-```
-
+### Step 3: Import into TestCompass (AAMC)
+1. Open **TestCompass** and select **AI Assisted Model Creation (AAMC)**.
+2. Paste the generated **Gherkin syntax** or decision logic directly into the input field.
+3. Click **Generate Model**. TestCompass converts the syntax directly into a visual decision model.
+4. Run **Test Generation** to automatically extract your test scenarios and coverage metrics!
 
 ---
+
 
 ## Navigation
 
