@@ -98,7 +98,6 @@ You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude
 ### Step 3: Generated Mermaid Flowchart Code
 The AI outputs the following Mermaid diagram structure:
 
-```mermaid
 graph TD
     A[Enter Checkout] --> B{Is Discount Code Provided?}
     B -- No --> C[Process Regular Price]
