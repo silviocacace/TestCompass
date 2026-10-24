@@ -6,9 +6,9 @@
 
 ---
 
-> 💡 **Why eMBT Matters**  
-> This is precisely why early Model-Based Testing (eMBT) supported by TestCompass is so powerful. By visually modelling the intended system behaviour during the initial design phase, you don't just capture specifications—you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, and test ideas at an early stage. It forces a true shared understanding between business and IT before a single line of code is written.  
->  
+> 💡 **Why Intent-Driven eMBT Matters**  
+> Traditional testing often validates *what is written* in specifications, regardless of whether those requirements miss the mark. **Intent-Driven eMBT** supported by TestCompass ensures teams uncover and validate *what was actually intended* by business stakeholders. By visually modelling system behaviour during early design, you don't just capture specifications—you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, and test ideas at an early stage, forcing a true shared understanding before a single line of code is written.  
+>   
 > *That’s how you shift from a late 'QA' stamp of approval to driving real customer value right from the start.*
 
 ---
@@ -21,10 +21,10 @@ Rather than treating models as technical input for automated scripts alone, eMBT
 
 - **Collaboration First:** The model acts as a bridge during refinement and "Three Amigos" sessions, helping business analysts, developers and testers speak the exact same language.
 - **Clarity Before Code:** By visualizing workflows before development starts, teams uncover misunderstandings when they are still cheap and easy to fix.
-- **Understanding Over Output:** Test generation is a natural consequence of a validated model, but the true value lies in the conversations and shared insights that happen *while building the model*.
+- **Intent Over Output:** Test generation is a natural consequence of a validated model, but the true value lies in revealing true stakeholder intent and capturing shared insights *while building the model*.
 
 > **Key Takeaway**  
-> eMBT is not just a test design technique; it is a collaborative mindset that makes thinking visible early, ensuring teams build the right thing from day one.
+> eMBT is not just a test design technique; it is an Intent-Driven collaborative mindset that makes thinking visible early, ensuring teams build the right thing from day one.
 
 ---
 
@@ -39,7 +39,7 @@ eMBT structures the testing workflow into four iterative phases:
 ---
 
 ### 1. Exploratory Phase
-In this phase, the team explores and visualizes the requirements.  
+In this phase, the team explores and visualizes the requirements and underlying intent.  
 The goal is to make behaviour explicit and identify:
 
 - ambiguities and missing specifications  
@@ -48,10 +48,9 @@ The goal is to make behaviour explicit and identify:
 - hidden assumptions between business and IT  
 - potential risks and test ideas  
 
-A graphical test model is created directly in TestCompass as a shared thinking tool. Because the model is easy to read for all stakeholders, it immediately triggers valuable discussions and reveals misunderstandings before implementation begins.
+A graphical test model is created directly in TestCompass as a shared thinking tool. Teams can conduct collaborative discovery directly on the canvas using interactive **Sticky Note nodes** for Feature and Example Mapping, or leverage **AI-Assisted Model Creation (AAMC)** to draft decision flows in seconds.
 
-For discovery of requirements and business rules, TestCompass supports collaborative practices like Feature and Example Mapping.  
-  *(See: [BDD Requirements Discovery](bdd-discovery.md))*
+*(See: [BDD Requirements Discovery](bdd-discovery.md))*
 
 ---
 
@@ -59,19 +58,19 @@ For discovery of requirements and business rules, TestCompass supports collabora
 All questions, open ends, and uncertainties raised during the exploratory phase are reviewed with the full team.  
 Business and IT validate:
 
-- the true meaning and intent of requirements  
+- the true meaning and **intent** of requirements  
 - business rules and decision logic  
 - boundary conditions and edge cases  
 - exception paths and risk scenarios  
 
-This phase is continuous and iterative: every requirement change or newly discovered risk leads to an updated model and a brief review cycle.
+TestCompass enhances this phase with **AAMR (AI-Assisted Model Reflection)**, acting as an interactive thinking partner to challenge assumptions and surface hidden gaps. Every requirement change or newly discovered risk leads to an updated model and a brief review cycle.
 
 ---
 
 ### 3. Coverage Phase
-Once the model is complete and validated, test scenarios are automatically generated based on the selected coverage strategy.
+Once the model is validated, test scenarios and specifications are automatically derived based on the selected mathematical coverage strategy.
 
-The following coverage forms are available:
+The following coverage levels are available:
 
 - **Node coverage (NC)** — Covers all actions, decisions, and results at least once  
 - **Edge coverage (EC)** — Covers all transitions (Yes/No branches)  
@@ -79,20 +78,20 @@ The following coverage forms are available:
 - **Path Triple coverage (PTC)** — Covers combinations of three consecutive decision branches  
 - **Full Path coverage (FPC)** — Covers all possible end-to-end paths  
 
-The chosen coverage level depends on product risk, priority, and desired thoroughness.
+By defining test data variations within node details, TestCompass also automatically derives **Data-Driven Scenario Outlines** with populated `Examples:` tables for Gherkin specifications and Excel Decision Tables.
 
 ---
 
 ### 4. Checking Phase
-The generated test scenarios are executed against the system under test (manually, automated, or a combination of both).  
+The generated coverage-based test scenarios are passed to execution frameworks and test management environments (executed manually, via automated scripts, or a combination of both). 
 
-The goal is to verify that system behaviour is strictly in line with intent and to gain real-time insight into product quality. With this insight, stakeholders can make confident, informed decisions about release readiness.
+While TestCompass focuses on **modelling and systematic test design**, it seamlessly aligns with execution by exporting artifacts into tools like Azure DevOps, Jira, Zephyr, Xray, or Gherkin `.feature` files. The goal is to verify that actual system implementation strictly reflects stakeholder intent and to give real-time insight into release readiness.
 
 ---
 
 ## Impact Analysis
 
-Because requirements change continuously, eMBT includes a structured way to manage change.  
+Because requirements change continuously, eMBT includes a structured way to manage change without manual scenario upkeep.  
 When the model is updated, an automated impact analysis shows which test scenarios are:
 
 - **Added** (new behaviour introduced)  
@@ -100,7 +99,7 @@ When the model is updated, an automated impact analysis shows which test scenari
 - **Updated** (existing path modified)  
 - **Unchanged** (remains fully valid)  
 
-This prevents unnecessary manual analysis, keeps test suites maintainable, and reduces false positives and false negatives.
+This eliminates tedious manual scenario maintenance, prevents drift between specifications and test suites, and keeps quality artifacts 100% synchronized.
 
 ---
 
@@ -108,11 +107,11 @@ This prevents unnecessary manual analysis, keeps test suites maintainable, and r
 
 eMBT helps teams:
 
-- **Clarify requirements early** and remove ambiguities before development begins
+- **Capture true business intent early** and remove ambiguities before development begins
 - **Foster shared understanding** and improve collaboration between business and IT
 - **Identify risks and missing behaviour sooner**, avoiding hidden assumptions
-- **Design tests automatically and systematically** directly from behavioural models
-- **Manage change effectively** through automated impact analysis
+- **Design coverage-based tests automatically** directly from visual behavioural models
+- **Manage change effortlessly** through single-click model updates and automated impact analysis
 - **Reduce rework and defects** in production, protecting true business value
 
 ---
@@ -121,17 +120,17 @@ eMBT helps teams:
 
 TestCompass supports the complete eMBT lifecycle:
 
-- **Modelling & Risk Exploration** *(Exploratory Phase)*  
-- **Collaborative Reviewing & Iteration** *(Review Phase)*  
-- **Automated Test Scenario Generation** *(Coverage Phase)*  
-- **Impact Analysis & Execution Support** *(Checking Phase)*  
+- **In-Tool Discovery & Modelling** *(Exploratory Phase)*  
+- **Collaborative Reviewing & AI Reflection** *(Review Phase)*  
+- **Automated Test Scenario & Gherkin Generation** *(Coverage Phase)*  
+- **Impact Analysis & Test Management Export** *(Checking Phase)*  
 
 In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
 
--  **AAMC (AI-Assisted Model Creation):** Jumpstart modelling from natural language requirements.  
+- **AAMC (AI-Assisted Model Creation):** Jumpstart modelling from natural language requirements or Mermaid diagrams.  
   ➡️ **Learn more:** [AAMC Documentation](aamc.md)
 
--  **AAMR (AI-Assisted Model Reflection):** Acts as a critical partner to uncover hidden risks and open ends.  
+- **AAMR (AI-Assisted Model Reflection):** Acts as a critical partner to uncover hidden risks, missing logic, and open ends.  
   ➡️ **Learn more:** [AAMR Documentation](aamr.md)
 
 ---
@@ -139,4 +138,3 @@ In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
 ## Navigation
 
 ⬅️ **[Back to Documentation Index](index.md)**
-
