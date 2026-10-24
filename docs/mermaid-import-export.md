@@ -2,13 +2,13 @@
 
 # Mermaid Import & Export
 
-Mermaid import and export in TestCompass help teams exchange models across documentation, development and testing workflows.  
-Because Mermaid is a text-based notation, it supports transparent collaboration, version control and readable diffs in Git.
+Mermaid import and export in TestCompass help teams exchange models across documentation, development, and quality engineering workflows. 
+Because Mermaid is an open, text-based notation, it supports transparent collaboration, version control, and clear code reviews in Git.
 
 > 💡 **Core Purpose**  
-> Mermaid serves as a powerful text-based interchange format, enabling teams to embed models in documentation and track version changes in Git while maintaining rigorous eMBT semantics.
+> Mermaid serves as a powerful text-based interchange format—enabling teams to embed visual models in documentation and track version changes in Git while maintaining rigorous, coverage-ready eMBT semantics.
 
-This page explains the purpose of Mermaid import and export, how they relate to modelling and how TestCompass supports a structured approach to maintaining consistency between diagrams and eMBT models.
+This page explains the purpose of Mermaid import and export, how they relate to behavioural modelling, and how TestCompass ensures consistency between text-based diagrams and executable eMBT test models.
 
 ---
 
@@ -16,65 +16,65 @@ This page explains the purpose of Mermaid import and export, how they relate to 
 
 Mermaid import and export enable teams to:
 
-- **Protect & reuse existing assets:** Easily convert legacy diagrams from for e.g. Visio, BPMN/BPM tools, Lucidchart and Draw.io into Mermaid syntax and import them directly into TestCompass.
-- **Include models directly in documentation:** Seamlessly render behavioral models within Markdown files, Wiki pages, and GitHub/GitLab documentation.
-- **Maintain version control in Git:** Store models as text-based files with clear, readable line-by-line diffs during code reviews.
-- **Reconstruct & evolve models:** Convert text-based Mermaid code back into fully interactive, testable TestCompass models at any time.
-- **Maintain single-source-of-truth consistency:** Keep system behavior descriptions synchronized across development teams, testers, and product owners.
+- **Protect & reuse existing assets:** Easily convert legacy process models from Visio, BPMN/BPM tools, Lucidchart, and Draw.io into Mermaid syntax and import them directly into TestCompass.
+- **Include models directly in documentation:** Seamlessly render behavioural models within Markdown files, Wikis, and GitHub/GitLab repository documentation.
+- **Maintain version control in Git:** Store models as plain-text files with clean, readable line-by-line diffs during pull requests and code reviews.
+- **Reconstruct & evolve models:** Convert text-based Mermaid code back into fully interactive, testable TestCompass visual models at any time.
+- **Maintain single-source-of-truth consistency:** Keep system behaviour synchronized across Product Owners, Developers, and QA Engineers.
 
-By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process models, improves traceability and reduces friction between system design, documentation and automated test derivation.
+By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process flows, improves traceability, and bridges the gap between system design, documentation, and automated test derivation.
 
 ---
 
-## Import
+## Import: From Text Diagram to Testable Model
 
-When importing a Mermaid diagram, TestCompass converts the diagram into a structured eMBT model.  
+When importing a Mermaid diagram, TestCompass automatically converts the diagram into a structured eMBT model. 
 During import, TestCompass:
 
-- interprets nodes and transitions according to eMBT semantics  
-- validates the structure and highlights inconsistencies  
-- preserves incomplete or ambiguous behaviour  
-- prevents hidden logic or implicit branches from being introduced  
+- interprets nodes and transitions according to explicit eMBT semantics  
+- validates the model structure and highlights logical inconsistencies  
+- preserves incomplete or ambiguous paths for review  
+- prevents hidden logic or implicit decision branches from being introduced  
 
-Unsupported Mermaid constructs are reported clearly so the user can adjust the source diagram.
+If a source Mermaid diagram uses unsupported syntax or breaks eMBT structural rules, clear guidance is provided so the diagram can be adjusted for test generation.
 
----
-
-## Export
-
-When exporting a model, TestCompass generates a Mermaid diagram that reflects the exact semantics of the underlying eMBT model.  
-The exported Mermaid:
-
-- is deterministic and suitable for version control  
-- can be embedded in README files, wikis, and design documents  
-- provides a documentation-friendly view of the model  
-- does not alter or simplify the underlying TestCompass model  
-
-Exported diagrams support communication and traceability, while the TestCompass model remains the authoritative source for test generation and impact analysis.
+*(Tip: You can also use **AAMC – AI-Assisted Model Creation** to automatically generate or fix Mermaid diagrams from raw user stories before importing).*
 
 ---
 
-## Relationship to Modelling
+## Export: From Model to Living Documentation
 
-Mermaid import and export complement the TestCompass modelling workflow.  
-They make behaviour visible in documentation and version control, while TestCompass ensures that the model itself remains:
+When exporting a model, TestCompass generates Mermaid syntax that reflects the exact structure and semantics of the underlying visual eMBT model. 
+The exported Mermaid code:
 
-- explicit  
-- semantically correct  
-- traceable  
-- aligned with eMBT principles  
+- is deterministic and optimized for version control in Git  
+- can be embedded directly in `README.md` files, wikis, and architecture design documents  
+- provides a human-readable, visual view of system intent for non-modelling stakeholders  
+- maintains full structural alignment with the underlying TestCompass model  
 
-This combination supports clear communication and consistent understanding across the entire team.
+Exported diagrams support ongoing communication and traceability, while the TestCompass model remains the authoritative source for **coverage calculation, Gherkin generation, Excel Test Design, and impact analysis**.
 
 ---
 
-## AI-Assisted Mermaid Conversion
+## Relationship to Modelling & eMBT Workflow
 
-While TestCompass supports Mermaid import, not every valid Mermaid diagram can be converted directly into a TestCompass model. This is because TestCompass applies additional modelling rules and constraints to ensure model consistency and support for test generation.
+Mermaid import and export complement the core TestCompass modelling workflow. 
+They make system behaviour visible across documentation repositories, while TestCompass ensures that the model itself remains:
 
-To help with this, James Bach created a Claude Code skill that analyses Mermaid diagrams, identifies conflicts with TestCompass modelling rules, and assists in producing a TestCompass-compatible Mermaid model.
+- **Explicit:** Every decision branch (`Yes`/`No`) and outcome is clearly defined.  
+- **Semantically Correct:** Ready for mathematical coverage strategies (Node, Edge, Path Pair, Path Triple, Full Path Coverage).  
+- **Traceable:** Linked to stakeholder intent, preconditions, and test data variations.  
+- **Maintainable:** Supported by automated impact analysis when requirements change.
 
-This community-contributed resource may be useful when working with Mermaid diagrams that require adaptations before they can be imported successfully into TestCompass.
+---
+
+## AI-Assisted Mermaid Conversion (James Bach Skill)
+
+While TestCompass supports standard Mermaid imports, not every valid diagram can be converted directly into a testable eMBT model. TestCompass enforces specific modelling rules to guarantee that mathematical graph coverage algorithms can generate valid test paths.
+
+To support this conversion process, James Bach created a Claude Code skill that analyses Mermaid diagrams, identifies conflicts with TestCompass modelling rules, and assists in producing a fully compatible eMBT model syntax.
+
+This community-contributed resource is particularly useful when adapting complex legacy diagrams or external Mermaid definitions for import into TestCompass.
 
 🔗 **[Download James Bach Claude Code Skill](https://github.com/silviocacace/TestCompass/blob/master/tools/testcompass-claude-code-skill.zip)**
 
@@ -84,12 +84,11 @@ This community-contributed resource may be useful when working with Mermaid diag
 
 ---
 
->  **Key Takeaway**  
-> Text-based Mermaid diagrams bridge the gap between human-readable documentation and formal behavioural models, ensuring seamless collaboration across your entire project lifecycle.
+> **Key Takeaway**  
+> Text-based Mermaid diagrams bridge the gap between human-readable repository documentation and formal eMBT models, ensuring seamless collaboration and version-controlled test design across your entire application lifecycle.
 
 ---
 
 ## Navigation
 
 ⬅️ **[Back to Documentation Index](index.md)**
-
