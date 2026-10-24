@@ -7,7 +7,7 @@ In TestCompass, a model represents the intended behaviour of a system in a clear
 It serves as an **Intent-Driven shared thinking tool** for business and technical stakeholders, enabling early discovery of ambiguities, risks, and implicit assumptions.
 
 > **Core Purpose**  
-> Modelling makes intended system behaviour explicit—replacing hidden assumptions with a shared visual reference that captures true stakeholder intent, drives early risk discovery, and enables automated, coverage-based test design.
+> Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that captures true stakeholder intent, drives early risk discovery, and enables automated, coverage-based test design.
 
 This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis, and collaborative understanding.
 
@@ -21,7 +21,8 @@ Instead of relying on unwritten assumptions, vague specs, or scattered user stor
 - business rules and decision logic  
 - user flows and process outcomes  
 - boundary conditions and data variations  
-- exceptional behaviour and error handling  
+- exceptional behaviour and error handling
+- ... 
 
 By externalising behaviour, teams can reason more clearly, validate stakeholder intent earlier, and avoid costly rework long before code is written.
 
@@ -41,7 +42,7 @@ One of the greatest advantages of TestCompass is its **extreme accessibility and
 
 To lower the onboarding barrier even further, TestCompass includes **AI-Assisted Model Creation (AAMC)**:
 
-- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, or decision tables into a fully structured visual model draft within seconds.
+- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, decision tables, etc into a fully structured visual test model draft within seconds.
 - **Human-in-the-Loop:** AAMC provides a solid concept model, allowing the team to focus immediately on refining logic, exploring edge cases, and validating business intent together.
 
 ➡️ **Learn more:** [AAMC – AI-Assisted Model Creation](aamc.md)
@@ -92,7 +93,7 @@ To transform visual flows into executable test specifications, nodes can be enri
 ### Physical Test Scenarios vs. BDD Outlines
 The depth of details defined in your nodes determines the generated test artifacts:
 
-1. **Physical Test Scenarios:** When concrete test data, preconditions, and predictions are added to nodes, TestCompass generates detailed physical test matrices, including complete **Excel Test Design** sheets and **Decision Tables**.  
+1. **Physical Test Scenarios:** When concrete test data, preconditions, and predictions are added to nodes, TestCompass generates detailed physical test matrices, including complete **Excel Test Design** sheets. 
 2. **Data-Driven BDD Outlines:** When modelling for BDD, data variations in nodes automatically generate structured Gherkin **`Scenario Outline`** specifications complete with populated **`Examples:`** tables.
 
 ---
@@ -120,7 +121,7 @@ Modelling follows a continuous, iterative workflow aligned with the eMBT framewo
 1. **Exploratory (Discovery):** Run Example Mapping using Sticky Note nodes on the canvas, draft visual models manually, or generate initial flows using AAMC from user stories.  
 2. **Review (Reflection):** Review the visual model with the team and challenge assumptions using **AAMR (AI Reflection)** to uncover missing edge cases and risks.  
 3. **Coverage (Design):** Derive mathematical coverage-based test suites (Node, Edge, Path Pair, Path Triple, or Full Path Coverage) as Excel Test Design, Decision Tables, or Gherkin `.feature` files.  
-4. **Checking (Execution Alignment):** Feed generated test artifacts into your test management tools (Azure DevOps, Jira, Zephyr, Xray) or test automation frameworks (Cucumber, SpecFlow, Playwright, Cypress).  
+4. **Checking (Execution Alignment):** Feed generated test artifacts into your test management tools (Azure DevOps, Jira, Zephyr, Xray) or test automation frameworks like Cucumber, SpecFlow, Playwright or Cypress.  
 
 ---
 
@@ -143,7 +144,7 @@ To seamlessly translate discovery maps into executable BDD specifications, TestC
 - `And` / `But`  
 - `Examples`  
 
-This allows teams to generate clean Gherkin feature files directly from the visual model, ensuring executable specifications stay 100% aligned with the underlying business logic.
+This allows teams to generate clean coverage-based Gherkin feature files directly from the visual model, ensuring executable specifications stay 100% aligned with the underlying business logic.
 
 ---
 
@@ -167,7 +168,7 @@ TestCompass supports open, text-based modelling through Mermaid:
 ---
 
 > **Key Takeaway**  
-> Modelling in TestCompass is designed for everyone—combining an intuitive visual canvas, zero learning curve, in-tool discovery, and AI assistance to turn business intent into complete, coverage-based test specifications.
+> Modelling in TestCompass is designed for everyone, combining an intuitive visual canvas, zero learning curve, in-tool discovery, and AI assistance to turn business intent into complete, coverage-based test specifications.
 
 ---
 
