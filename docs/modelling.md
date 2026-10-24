@@ -1,40 +1,39 @@
 [← Back to Documentation Index](index.md)
 
-# Modelling
+# Behavioural Modelling
 
 Modelling is the foundation of early Model-Based Testing (eMBT).  
-In TestCompass, a model represents the intended behaviour of a system in a clear, structured and explicit way.  
-It serves as a shared thinking tool for business and technical stakeholders, enabling early discovery of ambiguities, risks and misunderstandings.
+In TestCompass, a model represents the intended behaviour of a system in a clear, structured, and explicit way.  
+It serves as an **Intent-Driven shared thinking tool** for business and technical stakeholders, enabling early discovery of ambiguities, risks, and implicit assumptions.
 
 > **Core Purpose**  
-> Modelling makes intended system behaviour explicit, replacing hidden assumptions with a shared visual reference that drives early risk discovery, systematic test generation and seamless collaboration.
+> Modelling makes intended system behaviour explicit—replacing hidden assumptions with a shared visual reference that captures true stakeholder intent, drives early risk discovery, and enables automated, coverage-based test design.
 
-This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis and collaborative understanding.
+This page explains the conceptual principles behind modelling in TestCompass and how models support systematic test generation, impact analysis, and collaborative understanding.
 
 ---
 
 ## Purpose of Modelling
 
 A model makes behaviour explicit.  
-Instead of relying on assumptions, implicit knowledge, or scattered requirements, the model provides a single, visual representation of:
+Instead of relying on unwritten assumptions, vague specs, or scattered user stories, the visual model provides a single *source of truth* for:
 
-- decisions  
-- business rules  
-- flows and outcomes  
-- boundary conditions  
-- exceptional behaviour  
+- business rules and decision logic  
+- user flows and process outcomes  
+- boundary conditions and data variations  
+- exceptional behaviour and error handling  
 
-By externalising behaviour, teams can reason more clearly, validate understanding earlier and avoid costly rework later in the development process.
+By externalising behaviour, teams can reason more clearly, validate stakeholder intent earlier, and avoid costly rework long before code is written.
 
 ---
 
-## Universal Readability & Low Learning Curve
+## Universal Readability & Near-Zero Learning Curve
 
 One of the greatest advantages of TestCompass is its **extreme accessibility and intuitive design**:
 
-- **Readable by Everyone:** The visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders, including Product Owners, Business Analysts, Developers and Testers.
-- **Near-Zero Learning Curve:** Unlike traditional, complex MBT tools that require extensive training, TestCompass uses simple, standardized flowchart logic that anyone can understand and create within minutes.
-- **Frictionless Usability:** Building and modifying models is fast, lightweight and user-friendly, making it ideal for live refinement sessions, "Three Amigos" discussions, and active team collaboration.
+- **Readable by Everyone:** Visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders, including Product Owners, Business Analysts, Developers, and Testers.
+- **Near-Zero Learning Curve:** Unlike traditional, highly technical MBT tools, TestCompass uses simple, standardized flowchart principles that anyone can understand and create within minutes.
+- **Frictionless Usability:** Building and modifying models is fast, lightweight, and user-friendly—ideal for live refinement sessions, "Three Amigos" discussions, and active team collaboration.
 
 ---
 
@@ -42,8 +41,8 @@ One of the greatest advantages of TestCompass is its **extreme accessibility and
 
 To lower the onboarding barrier even further, TestCompass includes **AI-Assisted Model Creation (AAMC)**:
 
-- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria or decision tables into a fully structured model draft within seconds.
-- **Human-in-the-Loop:** AAMC provides a solid concept model, allowing the team to focus immediately on refining logic, exploring edge cases and validating business rules together.
+- **Instant Model Generation:** Instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, or decision tables into a fully structured visual model draft within seconds.
+- **Human-in-the-Loop:** AAMC provides a solid concept model, allowing the team to focus immediately on refining logic, exploring edge cases, and validating business intent together.
 
 ➡️ **Learn more:** [AAMC – AI-Assisted Model Creation](aamc.md)
 
@@ -51,31 +50,30 @@ To lower the onboarding barrier even further, TestCompass includes **AI-Assisted
 
 ## Modelling Principles
 
-TestCompass uses a lightweight, expressive modelling style based on flowchart principles.  
-The goal is not to create a complex diagram, but to create a **shared understanding** of behaviour.
+TestCompass uses a lightweight, expressive modelling style based on flowchart logic.  
+The goal is not to create a complex architectural diagram, but to build a **shared understanding of business intent**.
 
 Key principles:
 
-- **High-level abstraction** — Models should be understandable by both business and IT.  
-- **Explicit decisions** — Every decision is represented visually, making happy and unhappy paths visible.  
-- **Clear outcomes** — Each path leads to a result that reflects the expected system behaviour.  
-- **No hidden assumptions** — If something is unclear, it becomes visible in the model.  
-- **Iterative refinement** — Models evolve as requirements become clearer.  
+- **High-level abstraction:** Models must remain understandable for both business and IT.  
+- **Explicit decisions:** Every decision is represented visually, making happy paths and alternative/unhappy paths fully visible.  
+- **Clear outcomes:** Each path leads to a result that reflects observable system behaviour.  
+- **No hidden assumptions:** Unclear logic or missing requirements are immediately exposed on the canvas.  
+- **Iterative refinement:** Models evolve as requirements become clearer.  
 
 ---
 
 ## Node Types
 
-TestCompass models use a small set of node types to keep diagrams simple and readable:
+TestCompass offers a focused set of node types to keep models simple, expressive, and testable:
 
-- **Start** — The entry point of the behaviour. A model always begins with exactly one Start node.  
-- **Action / State** — Represents an action or a state in the flow. Has exactly one outgoing link.  
-- **Decision** — Represents a branching point with two explicit outcomes: Yes and No. These branches are classified as test paths and are important for test generation.  
-- **Result** — Represents an expected outcome or observable effect.  
-- **End** — Represents the termination of the behaviour. A model must contain at least one End node.  
-- **Comment** — Used to capture questions, ambiguities, contradictions, or open ends. Comments are not connected to the flow and serve as prompts for review.  
-
-These elements are sufficient to express complex behaviour without overwhelming the reader.
+- **Start:** The entry point of the behaviour. A model always begins with exactly one Start node.  
+- **Action / State:** Represents an action or a state in the flow. Has exactly one outgoing transition.  
+- **Decision:** Represents a branching point with two explicit outcomes: `Yes` and `No`. Decision branches are classified as test paths and form the basis for mathematical coverage generation.  
+- **Result:** Represents an expected outcome or observable effect.  
+- **End:** Represents the termination of a path. A model must contain at least one End node.  
+- **Sticky Notes (In-Tool Discovery):** Dedicated nodes used during collaborative Example Mapping or Feature Mapping sessions directly on the canvas to capture rules, examples, triggers, and open questions.  
+- **Comment / Balloon Nodes:** Used to capture questions, ambiguities, or open risks. Comments serve as review prompts (or are generated during AI Reflection loops with AAMR).  
 
 <p align="center">
   <img src="Model_1.png" alt="TestCompass Node Types and Canvas" width="650">
@@ -83,70 +81,69 @@ These elements are sufficient to express complex behaviour without overwhelming 
 
 ---
 
-## Model Validation
+## Node Details: Preconditions, Data & Predictions
 
-TestCompass automatically validates the structure of a model to ensure it is logically sound.  
-Validation checks include:
+To transform visual flows into executable test specifications, nodes can be enriched with detailed properties in their details panel:
 
-- missing or incorrect links  
-- nodes with invalid numbers of incoming or outgoing transitions  
-- unreachable behaviour  
-- missing end nodes  
-- structural inconsistencies in decision logic  
+- **Preconditions:** Initial system states required before executing a path.  
+- **Test Data Variations:** Specific data inputs, boundary values, or variables.  
+- **Predictions (Expected Results):** Verifiable system outputs and state changes.  
 
-These validations help teams detect structural issues early, before generating tests or exporting artefacts.  
-*(Note: Validation is not a replacement for review — it is a safeguard that supports clear, explicit modelling.)*
+### Physical Test Scenarios vs. BDD Outlines
+The depth of details defined in your nodes determines the generated test artifacts:
+
+1. **Physical Test Scenarios:** When concrete test data, preconditions, and predictions are added to nodes, TestCompass generates detailed physical test matrices, including complete **Excel Test Design** sheets and **Decision Tables**.  
+2. **Data-Driven BDD Outlines:** When modelling for BDD, data variations in nodes automatically generate structured Gherkin **`Scenario Outline`** specifications complete with populated **`Examples:`** tables.
 
 ---
 
-## Preconditions and Data
+## Model Validation
 
-Nodes may optionally contain preconditions or data.  
-When provided, these enrich the model and are automatically included in exported artefacts such as:
+TestCompass automatically validates the structural integrity of your model to ensure it is logically sound.  
+Automated checks include:
 
-- Excel test designs  
-- decision tables  
-- Gherkin feature files  
+- missing or broken transitions  
+- nodes with invalid numbers of incoming or outgoing connections  
+- unreachable model paths or dead ends  
+- missing Start or End nodes  
+- structural inconsistencies in decision logic  
 
-Preconditions and data do not change the structure of the model, but they make the resulting test scenarios more concrete and executable.
+These validations act as a guardrail, detecting structural defects before you generate test suites or export artifacts.  
+*(Note: Validation supports structural correctness, while team review validates true business intent.)*
 
 ---
 
 ## Modelling Workflow
 
-Modelling typically follows an iterative workflow aligned with the eMBT phases:
+Modelling follows a continuous, iterative workflow aligned with the eMBT framework:
 
-1. **Exploratory:** Initial model creation based on available requirements or AI-assisted drafts (AAMC). Questions, ambiguities, and assumptions are captured using comment nodes.  
-2. **Review:** The team discusses the model, resolves uncertainties, and updates the behaviour accordingly.  
-3. **Coverage:** Once validated, the model becomes the basis for systematic test generation.  
-4. **Checking:** The model and generated tests are used to verify the system under test.  
-
-This workflow ensures that modelling is not a one-time activity but a continuous source of clarity.
+1. **Exploratory (Discovery):** Run Example Mapping using Sticky Note nodes on the canvas, draft visual models manually, or generate initial flows using AAMC from user stories.  
+2. **Review (Reflection):** Review the visual model with the team and challenge assumptions using **AAMR (AI Reflection)** to uncover missing edge cases and risks.  
+3. **Coverage (Design):** Derive mathematical coverage-based test suites (Node, Edge, Path Pair, Path Triple, or Full Path Coverage) as Excel Test Design, Decision Tables, or Gherkin `.feature` files.  
+4. **Checking (Execution Alignment):** Feed generated test artifacts into your test management tools (Azure DevOps, Jira, Zephyr, Xray) or test automation frameworks (Cucumber, SpecFlow, Playwright, Cypress).  
 
 ---
 
 ## Collaborative Discovery & BDD
 
-TestCompass supports collaborative requirements discovery practices such as **Feature Mapping** and **Example Mapping** (aligned with BDD principles by John Ferguson Smart). These discovery maps transform directly into explicit behavioural models, enabling automatic Gherkin feature file generation (BDD phase Formulation).
+TestCompass supports collaborative requirements discovery practices such as **Feature Mapping** and **Example Mapping** (aligned with BDD principles). Discovery artifacts captured on the canvas seamlessly translate into explicit behavioural models, enabling automated, coverage-based Gherkin feature file generation.
 
-➡️ **Read the full guide:** [BDD Requirements Discovery & Gherkin Integration](bdd-discovery.md)
+➡️ **Read the full guide:** [BDD Requirements Discovery & Formulation](bdd-discovery.md)
 
 ---
 
 ## Modelling with Gherkin
 
-To seamlessly translate discovery maps into executable BDD specifications, TestCompass natively supports Gherkin concepts directly within the visual canvas, including:
+To seamlessly translate discovery maps into executable BDD specifications, TestCompass natively supports Gherkin keywords directly on the visual canvas:
 
-- Feature  
-- Background  
-- Rule  
-- Given / When / Then  
-- And / But  
-- Examples  
+- `Feature`  
+- `Background`  
+- `Rule`  
+- `Given` / `When` / `Then`  
+- `And` / `But`  
+- `Examples`  
 
-This allows teams to generate Gherkin feature files directly from the model, ensuring that executable specifications remain aligned with the behavioural structure.
-
-Gherkin modelling is flexible: the model expresses the behaviour, while the Gherkin labels provide semantic meaning for BDD workflows.
+This allows teams to generate clean Gherkin feature files directly from the visual model, ensuring executable specifications stay 100% aligned with the underlying business logic.
 
 ---
 
@@ -154,51 +151,26 @@ Gherkin modelling is flexible: the model expresses the behaviour, while the Gher
 
 TestCompass supports open, text-based modelling through Mermaid:
 
-- Import Mermaid diagrams (or converted Visio/BPMN models) and turn them into testable models  
-- Export models back to Mermaid for documentation or version control  
-
-This enables teams to collaborate using plain text, pull requests, and version-controlled workflows.
+- Import Mermaid diagrams (or converted Visio/BPMN models) and instantly transform them into testable eMBT models.  
+- Export visual models back to Mermaid for documentation, pull requests, or version control repository storage.  
 
 ---
 
-## Relationship to Test Generation
+## Relationship to Test Generation & Impact Analysis
 
-A well-structured model directly enables:
+- **Systematic Test Generation:** A well-structured model allows TestCompass to calculate optimal path coverage based on mathematical algorithms, eliminating manual test case writing.  
+  ➡️ **Learn more:** [Test Generation and Coverage](test-generation.md)
 
-- path-based test generation  
-- decision coverage  
-- boundary-oriented coverage  
-- minimal path sets  
-- custom constraints  
-
-The quality of the model determines the quality of the generated tests.
-
-➡️ **Learn more:** [Test Generation and Coverage](test-generation.md)
-
----
-
-## Relationship to Impact Analysis
-
-When requirements change, the model is updated — not the tests.  
-TestCompass automatically identifies which generated scenarios are:
-
-- added  
-- removed  
-- updated  
-- unchanged  
-
-This keeps test suites maintainable and aligned with evolving requirements.
-
-➡️ **Learn more:** [Impact Analysis](impact-analysis.md)
+- **Effortless Impact Analysis:** When requirements change, you update the visual model—not the test cases. TestCompass automatically detects added, removed, updated, and unchanged test scenarios.  
+  ➡️ **Learn more:** [Impact Analysis](impact-analysis.md)
 
 ---
 
 > **Key Takeaway**  
-> Modelling in TestCompass is designed for everyone—combining an intuitive visual canvas, zero learning curve, and AI assistance to build true shared understanding across your entire team.
+> Modelling in TestCompass is designed for everyone—combining an intuitive visual canvas, zero learning curve, in-tool discovery, and AI assistance to turn business intent into complete, coverage-based test specifications.
 
 ---
 
 ## Navigation
 
 ⬅️ **[Back to Documentation Index](index.md)**
-
