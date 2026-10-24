@@ -16,7 +16,7 @@ These practices align closely with industry-proven principles from BDD authoriti
 Traditional BDD often suffers from a disconnect: discovery sessions (like Example Mapping) take place on whiteboards or sticky-note tools, after which specifications and tests are written manually, leading to drift and maintenance overhead.
 
 TestCompass treats discovery as the **first phase of eMBT (Exploratory)**:
-1. **From Board to Model:** Discovery artifacts (rules, triggers, outcomes) are translated directly into explicit decision models.
+1. **From Board to Model:** Discovery artifacts (rules, triggers, outcomes) captured on sticky notes are easily translated into explicit decision models—either manually or using AI/AAMC to convert the Example Map into a model.
 2. **From Model to Code:** Once the model is validated and a test coverage strategy is applied, TestCompass automatically generates clean, structured **Gherkin feature files (`.feature`)**.
 3. **Living Specifications:** Because everything is anchored to the model, requirement changes instantly trigger impact analyses on your Gherkin scenarios.
 
@@ -73,17 +73,10 @@ With TestCompass:
 
 ## Practical Walkthrough: From Example Map to TestCompass Model
 
-This walkthrough demonstrates how to convert a BDD Example Mapping session into a fully functional test model in TestCompass using AI-assisted translation.
+This walkthrough demonstrates a possible manner to convert a BDD Example Mapping session into a fully functional test model in TestCompass using AI-assisted translation.
 
 ### Step 1: The Example Map (Input)
-During a Discovery session, the team captures the story rules and examples:
-
-* **User Story:** Applying a discount code at checkout.
-* **Rule 1:** Valid discount code grants a percentage off.
-  * **Example 1a (Happy path):** Code "SUMMER20" gives 20% off on eligible items.
-  * **Example 1b (Expired code):** Expired code "WINTER10" shows error message.
-* **Rule 2:** Minimum order value must be met.
-  * **Example 2a (Below limit):** Order total < €50 rejects discount code.
+During a Discovery session (example mapping, feature mapping, etc), the team captures the story rules and examples.
 
 ### Step 2: AI Prompt to Generate Gherkin or Decision Logic
 You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude) using the prompt below:
@@ -96,13 +89,12 @@ You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude
 > Ensure all decision nodes (rules) and outcomes (examples) are clearly structured."
 
 ### Step 3: Import into TestCompass (AAMC)
-1. Open **TestCompass** and select **AI Assisted Model Creation (AAMC)**.
+1. Open **TestCompass** and create a new model by using **AI Assisted Model Creation (AAMC)**.
 2. Paste the generated **Gherkin syntax** or decision logic directly into the input field.
 3. Click **Generate Model**. TestCompass converts the syntax directly into a visual decision model.
-4. Run **Test Generation** to automatically extract your test scenarios and coverage metrics!
+4. You can now adjust the model or accept it, whereafter the model will be part of the TestCompass workflow.
 
 ---
-
 
 ## Navigation
 
