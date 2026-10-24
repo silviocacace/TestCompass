@@ -7,7 +7,7 @@
 ---
 
 > 💡 **Why Intent-Driven eMBT Matters**  
-> Traditional testing often validates *what is written* in specifications, regardless of whether those requirements miss the mark. **Intent-Driven eMBT** supported by TestCompass ensures teams uncover and validate *what was actually intended* by business stakeholders. By visually modelling system behaviour during early design, you don't just capture specifications—you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, and test ideas at an early stage, forcing a true shared understanding before a single line of code is written.  
+> Traditional testing often validates *what is written* in specifications, regardless of whether those requirements miss the mark. **Intent-Driven eMBT** supported by TestCompass ensures teams uncover and validate *what was actually intended* by business stakeholders. By visually modelling system behaviour during early design, you don't just capture specifications, you actively explore them. In doing so, you uncover risks, open ends, wrong assumptions, contradictions and test ideas at an early stage, forcing a true shared understanding before a single line of code is written.  
 >   
 > *That’s how you shift from a late 'QA' stamp of approval to driving real customer value right from the start.*
 
@@ -20,7 +20,7 @@ When people hear "Model-Based Testing," they often think of technical test gener
 Rather than treating models as technical input for automated scripts alone, eMBT positions explicit models as **shared thinking tools** for the entire team. 
 
 - **Collaboration First:** The model acts as a bridge during refinement and "Three Amigos" sessions, helping business analysts, developers and testers speak the exact same language.
-- **Clarity Before Code:** By visualizing workflows before development starts, teams uncover misunderstandings when they are still cheap and easy to fix.
+- **Clarity Before Code:** By visualizing workflows and intent before development starts, teams uncover misunderstandings when they are still cheap and easy to fix.
 - **Intent Over Output:** Test generation is a natural consequence of a validated model, but the true value lies in revealing true stakeholder intent and capturing shared insights *while building the model*.
 
 > **Key Takeaway**  
@@ -48,14 +48,14 @@ The goal is to make behaviour explicit and identify:
 - hidden assumptions between business and IT  
 - potential risks and test ideas  
 
-A graphical test model is created directly in TestCompass as a shared thinking tool. Teams can conduct collaborative discovery directly on the canvas using interactive **Sticky Note nodes** for Feature and Example Mapping, or leverage **AI-Assisted Model Creation (AAMC)** to draft decision flows in seconds.
+A graphical test model is created directly in TestCompass as a shared thinking tool. Teams can also conduct collaborative discovery directly on the canvas using interactive **Sticky Note nodes** for Feature and Example Mapping, or leverage **AI-Assisted Model Creation (AAMC)** to draft test models in seconds.
 
 *(See: [BDD Requirements Discovery](bdd-discovery.md))*
 
 ---
 
 ### 2. Review Phase
-All questions, open ends, and uncertainties raised during the exploratory phase are reviewed with the full team.  
+All questions, open ends, uncertainties, etc raised during the exploratory phase are reviewed with the full team.  
 Business and IT validate:
 
 - the true meaning and **intent** of requirements  
@@ -72,13 +72,13 @@ Once the model is validated, test scenarios and specifications are automatically
 
 The following coverage levels are available:
 
-- **Node coverage (NC)** — Covers all actions, decisions, and results at least once  
+- **Node coverage (NC)** — Covers all actions, decisions and results at least once  
 - **Edge coverage (EC)** — Covers all transitions (Yes/No branches)  
 - **Path Pair coverage (PPC)** — Covers combinations of two consecutive decision branches  
 - **Path Triple coverage (PTC)** — Covers combinations of three consecutive decision branches  
 - **Full Path coverage (FPC)** — Covers all possible end-to-end paths  
 
-By defining test data variations within node details, TestCompass also automatically derives **Data-Driven Scenario Outlines** with populated `Examples:` tables for Gherkin specifications and Excel Decision Tables.
+By defining test data, preconditions, and expected predictions within node details, TestCompass automatically derives both **Data-Driven Gherkin Scenario Outlines** (when modelling for BDD) and concrete, **Physical Test Scenarios** complete with test data matrices for Excel Test Design and Decision Tables.
 
 ---
 
