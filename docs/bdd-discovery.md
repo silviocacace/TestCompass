@@ -16,10 +16,10 @@ These practices align closely with industry-proven principles from BDD authoriti
 Traditional BDD often suffers from a disconnect: discovery sessions (like Example Mapping) take place on whiteboards or sticky-note tools, after which specifications and tests are written manually, leading to drift and maintenance overhead.
 
 TestCompass treats discovery as the **first phase of eMBT (Exploratory)**:
-1. **From Board to Model:** Discovery artifacts (rules, triggers, outcomes) captured on sticky notes are easily translated into explicit decision models—either manually or using AI/AAMC to convert the Example Map into a model.
-2. **From Model to Code:** Once the model is validated and a test coverage strategy is applied, TestCompass automatically generates clean, structured **Gherkin feature files (`.feature`)**.
-3. **Living Specifications:** Because everything is anchored to the model, requirement changes instantly trigger impact analyses on your Gherkin scenarios.
-
+1. **In-Tool Collaborative Discovery:** Instead of relying on external whiteboards, teams can run Example Mapping and Feature Mapping sessions directly within TestCompass using dedicated **Sticky Note nodes**.
+2. **From Board to Model:** Discovery artifacts (rules, examples, questions) captured on the canvas are seamlessly translated into explicit decision models—either manually or by leveraging AI (AAMC) to convert the map into a model.
+3. **Coverage-Based Feature File Generation:** Rather than manually drafting Gherkin files scenario by scenario, TestCompass automatically generates fully structured **Gherkin `.feature` files** based on your selected coverage strategy.
+4. **Living Specifications & Effortless Maintenance:** When requirements evolve, you simply update the visual model. Regenerate the complete `.feature` file with a single click, eliminating manual scenario maintenance and drift.
 ---
 
 ## Conceptual Example: "Orders Cancelled Late"
