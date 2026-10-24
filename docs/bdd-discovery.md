@@ -17,44 +17,11 @@ Traditional BDD often suffers from a disconnect: discovery sessions (like Exampl
 
 TestCompass treats discovery as the **first phase of eMBT (Exploratory)**:
 1. **In-Tool Collaborative Discovery:** Instead of relying on external whiteboards, teams can run Example Mapping and Feature Mapping sessions directly within TestCompass using dedicated **Sticky Note nodes**.
-2. **From Board to Model:** Discovery artifacts (rules, examples, questions) captured on the canvas are seamlessly translated into explicit decision models—either manually or by leveraging AI (AAMC) to convert the map into a model.
+2. **From Board to Model:** Discovery artifacts (rules, examples, questions) captured on the canvas are seamlessly translated into explicit test models, either manually or by leveraging AI (AAMC) to convert the map into a TestCompass test model.
 3. **Coverage-Based Feature File Generation:** Rather than manually drafting Gherkin files scenario by scenario, TestCompass automatically generates fully structured **Gherkin `.feature` files** based on your selected coverage strategy.
 4. **Data-Driven Scenario Outlines:** By defining test data variations within the node details, TestCompass automatically generates **`Scenario Outline`** specifications complete with populated **`Examples:`** tables.
 5. **Living Specifications & Effortless Maintenance:** When requirements evolve, you simply update the visual model. Regenerate the complete `.feature` file with a single click, eliminating manual scenario maintenance and drift.
    
----
-
-## Conceptual Example: "Orders Cancelled Late"
-
-Following principles established by BDD experts like *John Ferguson Smart*, capturing behaviour starts with clear business rules and concrete examples:
-
-* **Business Rule:** *Orders cancelled less than 5 minutes before pickup time incur a $1.00 fee.*
-* **Feature Mapping:** The team maps out the rule, the trigger condition, and concrete examples during collaborative sessions.
-* **Model Translation:** The rule is captured as an explicit decision flow within TestCompass.
-* **Automatic Gherkin Generation:** TestCompass derives the corresponding Gherkin feature file complete with `Background`, `Scenario Outline`, and concrete examples.
-
-```gherkin
-Feature: Orders cancelled late
-  As a customer
-  I want to cancel my order
-  So that I am not charged incorrectly
-
-  Background:
-    Given a valid user account
-    And an active order
-
-  Scenario Outline: Cancel order near pickup time
-    Given the order is placed
-    When the cancellation is requested <TimeBeforePickup> minutes before pickup
-    Then the system should evaluate the late cancellation rule
-    And the resulting fee should be <ExpectedFee>
-
-    Examples:
-      | TimeBeforePickup | ExpectedFee |
-      | 15               | $0.00       |
-      | 3                | $1.00       |
-```
-
 ---
 
 ## Continuous Alignment & Impact Analysis
