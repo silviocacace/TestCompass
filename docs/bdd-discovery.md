@@ -98,14 +98,27 @@ You can pass the outcome of your Example Map into an LLM (e.g., ChatGPT / Claude
 ### Step 3: Generated Mermaid Flowchart Code
 The AI outputs the following Mermaid diagram structure:
 
-graph TD
-    A[Enter Checkout] --> B{Is Discount Code Provided?}
-    B -- No --> C[Process Regular Price]
-    B -- Yes --> D{Is Code Valid & Active?}
-    D -- No --> E[Show Error: Expired/Invalid Code]
-    D -- Yes --> F{Is Order Total >= €50?}
-    F -- No --> G[Show Error: Minimum Amount Not Met]
-    F -- Yes --> H[Apply Discount & Update Total]
+```mermaid
+flowchart TD
+    US["User Story: Applying a discount code at checkout"]
+
+    US --> R1["Rule 1: Valid discount code grants a percentage off"]
+    US --> R2["Rule 2: Minimum order value must be met"]
+
+    R1 --> E1a["Example 1a: Happy path<br/>Code SUMMER20 gives 20% off<br/>on eligible items"]
+    R1 --> E1b["Example 1b: Expired code<br/>Code WINTER10 shows an error message"]
+
+    R2 --> E2a["Example 2a: Below limit<br/>Order total < €50<br/>Discount code is rejected"]
+
+    classDef story fill:#1f4e79,color:#ffffff,stroke:#163650
+    classDef rule fill:#d9eaf7,color:#1a1a1a,stroke:#5b9bd5
+    classDef example fill:#e2f0d9,color:#1a1a1a,stroke:#70ad47
+
+    class US story
+    class R1,R2 rule
+    class E1a,E1b,E2a example
+```
+
 
 ---
 
