@@ -24,6 +24,10 @@ TestCompass treats discovery as the **first phase of eMBT (Exploratory)**:
    
 ---
 
+![BDD Requirements Discovery in TestCompass](examplemap.png)
+
+---
+
 ## Continuous Alignment & Impact Analysis
 
 Requirements frequently evolve during a sprint. In a traditional BDD workflow, updating feature files and test scripts manually is tedious and error-prone. 
