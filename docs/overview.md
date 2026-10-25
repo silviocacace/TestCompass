@@ -15,7 +15,7 @@ This overview explains the fundamental value of TestCompass, the principles behi
 
 ## About the Creator & The Origin of 'early Model-Based Testing' (eMBT)
 
-<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="160" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
 **TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
 
