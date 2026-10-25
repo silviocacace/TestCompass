@@ -71,6 +71,17 @@ This is the strongest form of coverage and typically produces the largest number
 
 ---
 
+## Live Coverage Calculation & Disabling Scenarios
+
+TestCompass gives you immediate visual insight into your actual test thoroughness:
+
+- **Real-Time Coverage Percentage:** As soon as a coverage strategy (e.g., Edge Coverage or Path Pair Coverage) is selected, TestCompass automatically calculates and displays your exact coverage percentage.
+- **Dynamic Recalculation (Disabled Scenarios):** In practical testing, certain generated paths may be out of scope, redundant, or deferred to a later release. When you disable specific test scenarios, TestCompass automatically updates and recalculates the live coverage percentage in real time.
+
+This ensures you always have an honest, transparent view of your active test coverage before exporting artifacts to your test management tools.
+
+---
+
 ## Maximum Number of Test Scenarios
 
 Models may contain loops or complex branching, which can theoretically produce an infinite number of paths.  
