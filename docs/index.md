@@ -75,6 +75,17 @@ Addressing these questions and more during refinement, turns assumptions into sh
 
 ---
 
+## Video Tutorials & Visual Guides
+
+Prefer learning by watching? Explore our library of step-by-step video tutorials covering everything from basic model creation to advanced AI reflection and test generation.
+
+🎥 **Watch the official video guides on our website:**  
+👉 **[TestCompass Video Tutorials & Demos](https://testcompass.nl/videos)** *(or visit our official YouTube Channel)*
+
+*(Tip: You can also use the guided Quick Start tour built directly into the TestCompass SaaS platform when starting your first project).*
+
+---
+
 ## About TestCompass & eMBT
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
