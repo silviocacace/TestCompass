@@ -73,7 +73,7 @@ Written requirements rarely cover all edge cases. Visualizing this workflow in T
 - *What happens if payment authorization is delayed or times out?*
 - *Can the same state be entered twice unintentionally?*
 
-These insights, surfaced before development begins, turn assumptions into shared knowledge and produce test scenarios grounded in complete confidence.
+These insights and more, surfaced before development begins, turn assumptions into shared knowledge and produce test scenarios grounded in complete confidence.
 
 ---
 
