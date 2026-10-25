@@ -1,7 +1,3 @@
----
-title: ""
----
-
 # TestCompass Documentation
 
 Welcome to the official documentation for **TestCompass**...
