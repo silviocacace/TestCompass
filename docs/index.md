@@ -1,3 +1,13 @@
+<style>
+  /* Schakel de link op de homepage uit */
+  .page-header a, h1.project-name a, a.site-title {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+  }
+</style>
+
+
 # TestCompass Documentation
 
 Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
