@@ -6,7 +6,7 @@ TestCompass integrates with widely used test management and development platform
 Integrations ensure that generated test scenarios, decision tables, and feature files can be used directly in existing toolchains without manual rewriting.
 
 > **Core Purpose**  
-> TestCompass focuses on modelling, reasoning, and test generation, while execution and reporting are delegated to the tools your team already uses—ensuring a seamless fit into your existing toolchain.
+> TestCompass focuses on modelling, reasoning, and test generation, while execution and reporting are delegated to the tools your team already uses, ensuring a seamless fit into your existing toolchain.
 
 This page explains the conceptual role of integrations and how TestCompass fits into modern development ecosystems.
 
