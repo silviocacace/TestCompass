@@ -64,8 +64,6 @@ Connect TestCompass into your daily tools and pipelines:
 
 ---
 
----
-
 ## Example: Beyond the "Happy Path"
 
 Consider a typical workflow: *a user submits an order, payment is authorized, the order is confirmed, and eventually canceled.* 
@@ -79,7 +77,7 @@ These insights, surfaced before development begins, turn assumptions into shared
 
 ---
 
-## About the Creator & The Origin of 'early Model Based Testing' (eMBT)
+## About the Creator
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="200" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
