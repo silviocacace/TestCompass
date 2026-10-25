@@ -2,9 +2,7 @@
 
 Welcome to the official documentation for **TestCompass**, an early Model-Based Testing (eMBT) platform designed to help teams reason clearly, uncover risks early, and build shared understanding before code is written.
 
-Built upon more than 30 years of practical domain expertise in software testing and quality engineering, eMBT is a proven methodology widely adopted in practice, embedded in professional software testing curricula and taught as a core component within software engineering programs across various Universities.
-
-Testing tools are everywhere, focusing on automation, execution, or management. Few tools, however, help teams truly think about testing itself: exploring assumptions, uncovering risks, surfacing implicit requirements and understanding how a system really behaves before test cases are created or test execution starts. **That is exactly what TestCompass does.**
+Testing tools are everywhere, but most focus purely on automation or test execution. Few tools help teams think deeply about test design itself: exploring assumptions, uncovering edge cases, and understanding how a system behaves *before* test cases are created. **That is exactly what TestCompass does.**
 
 <p align="center">
   <img src="TestCompass.jpg" alt="TestCompass Platform" width="550" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
@@ -13,7 +11,7 @@ Testing tools are everywhere, focusing on automation, execution, or management. 
 ---
 
 > **Core Purpose & Philosophy**  
-> Requirements often describe only the intended "happy path." While AI can now generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements miss the true **business intent**, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance, shifting the focus from traditional text-parsing to **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass builds shared understanding, exposes ambiguity and turns implicit assumptions into explicit, executable model coverage.
+> Requirements often describe only the happy path. While AI can generate test cases from text in seconds, speed alone cannot replace understanding. If initial requirements miss key business logic, fast test generation simply multiplies those gaps. TestCompass combines domain expertise with modern AI assistance, shifting the focus to **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass turns implicit assumptions into explicit, coverage-driven test suites.
 
 ---
 
@@ -21,7 +19,7 @@ Testing tools are everywhere, focusing on automation, execution, or management. 
 
 If you are new to TestCompass or early Model-Based Testing, start here:
 
-- **[Overview](overview.md)** — Learn what TestCompass is, why early MBT matters, and how it fits into modern delivery workflows.
+- **[Overview](overview.md)** — Learn what TestCompass is, why early MBT matters, and how it fits into delivery workflows.
 - **[The eMBT Approach](eMBT-approach.md)** — Understand the 4-phase eMBT workflow: Exploratory, Review, Coverage, and Checking.
 - **[Quick Start Guide](qsg.md)** — Learn how the in-app guided tour connects to this documentation.
 
@@ -33,8 +31,8 @@ Learn how to build, validate, and reason about explicit behavioural models:
 
 - **[Behavioural Modelling](modelling.md)** — Foundations of flowchart-based modelling, node types, and requirements discovery.
 - **[Mermaid Import & Export](mermaid-import-export.md)** — Bi-directional sync between text-based Mermaid diagrams and testable eMBT models.
-- **[BDD-discovery & Formulation](bdd-discovery.md)** — BDD phases discovery and formulation supported by TestCompass.
-   
+- **[BDD Discovery & Formulation](bdd-discovery.md)** — BDD requirements discovery and formulation supported by TestCompass.
+
 ---
 
 ## AI-Assisted Testing
@@ -71,26 +69,25 @@ Consider a typical workflow: *a user submits an order, payment is authorized, th
 Written requirements rarely cover all edge cases. Visualizing this workflow in TestCompass immediately surfaces critical questions:
 - *Can cancellation occur before payment authorization?*
 - *What happens if payment authorization is delayed or times out?*
-- *Can the same state be entered twice unintentionally?*
+- *What is the exact system state if cancellation fails?*
 
-These insights and more, surfaced before development begins, turn assumptions into shared knowledge and produce test scenarios grounded in complete confidence.
+Addressing these questions during refinement turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
 
 ---
 
-## About the Creator
+## About TestCompass & eMBT
 
-<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="200" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="160" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
-**TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
+**TestCompass was created by Silvio Cacace**, drawing on over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
 
-Throughout three decades of leading test transformations across enterprise environments, Silvio recognized that most defects stem from incomplete specifications and implicit assumptions long before code is written. To bridge the gap between complex requirements and clear test coverage, he established the early Model-Based Testing (eMBT) methodology and created TestCompass to bring this collaborative approach into daily agile delivery. 
+Throughout his career leading test transformations across enterprise environments, Silvio recognized that most defects originate from incomplete specifications and implicit assumptions long before code is written. To bridge this gap, he established the **early Model-Based Testing (eMBT)** methodology and created TestCompass to make collaborative, risk-driven testing practical for daily agile delivery. 
 
-Today, eMBT is widely applied in mission-critical corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple universities.
+Today, eMBT is applied in professional corporate environments and incorporated into software engineering programs across various universities.
 
 <br clear="all">
 
 ---
 
 > **Summary**  
-> Explore the topics above to master **Intent-Driven early Model-Based Testing**, from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites and more.
----
+> Explore the topics above to master **Intent-Driven early Model-Based Testing**—from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites.
