@@ -117,7 +117,7 @@ When time or release capacity is constrained, eMBT enables instant risk-driven a
 - **Targeted Branch Deactivation:** Temporarily disable low-risk paths or optional features directly on the visual model.
 - **Instant Suite Recalculation:** TestCompass immediately recalculates the test suite, generating only the scenarios required for high-risk paths while preserving full traceability.
 
-> 💡 **Key Takeaway**  
+> **Key Takeaway**  
 > PRA determines *where* to focus and *how deep* to test. eMBT provides the explicit model to translate those risk choices directly into executable, traceable test suites.
 
 ---
