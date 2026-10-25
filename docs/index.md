@@ -13,7 +13,7 @@ Testing tools are everywhere, focusing on automation, execution, or management. 
 ---
 
 > **Core Purpose & Philosophy**  
-> Requirements often describe only the intended "happy path." While AI can now generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements miss the true **business intent**, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance—shifting the focus from traditional text-parsing to **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass builds shared understanding, exposes ambiguity and turns implicit assumptions into explicit, executable model coverage.
+> Requirements often describe only the intended "happy path." While AI can now generate test cases directly from text in seconds, speed alone cannot replace understanding. If initial requirements miss the true **business intent**, AI simply scales those gaps. TestCompass combines decades of field-tested testing expertise with modern AI assistance, shifting the focus from traditional text-parsing to **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass builds shared understanding, exposes ambiguity and turns implicit assumptions into explicit, executable model coverage.
 
 ---
 
@@ -92,5 +92,5 @@ Today, eMBT is widely applied in mission-critical corporate environments, embedd
 ---
 
 > **Summary**  
-> Explore the topics above to master **Intent-Driven early Model-Based Testing**—from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites and more.
+> Explore the topics above to master **Intent-Driven early Model-Based Testing**, from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites and more.
 ---
