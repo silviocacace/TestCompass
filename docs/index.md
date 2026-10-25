@@ -86,7 +86,7 @@ Prefer learning by watching? Explore our library of step-by-step video tutorials
 
 ---
 
-## About TestCompass & eMBT
+## About the Creator
 
 <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
