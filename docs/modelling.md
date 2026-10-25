@@ -114,6 +114,16 @@ These validations act as a guardrail, detecting structural defects before you ge
 
 ---
 
+## Model & Project Management
+
+TestCompass provides flexible options for managing, sharing, and versioning your models and project structures:
+
+- **Project Import & Export:** Export entire project environments, including all associated models, settings, and metadata, to easily share setups between teams, create backups, or migrate configurations.
+- **Model Import & Export:** Import and export individual models in both native `.tcmodel` JSON formats and open Mermaid (`.mmd`) text syntax for seamless documentation sync.
+- **Model Versioning (Save as New Version):** Save models as distinct new versions as requirements evolve. This creates clear audit trails, allows you to compare structural changes over time, and supports reliable historical tracking.
+
+---
+
 ## Modelling Workflow
 
 Modelling follows a continuous, iterative workflow aligned with the eMBT framework:
