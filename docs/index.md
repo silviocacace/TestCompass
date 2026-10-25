@@ -79,10 +79,10 @@ Addressing these questions and more during refinement, turns assumptions into sh
 
 Prefer learning by watching? Explore our library of step-by-step video tutorials covering everything from basic model creation to advanced AI reflection and test generation.
 
-🎥 **Watch the official video guides on our website:**  
-👉 **[TestCompass Video Tutorials & Demos](https://testcompass.nl/videos)** *(or visit our official YouTube Channel)*
+- **Watch tutorials on our website:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
+- **Subscribe on YouTube:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
 
-*(Tip: You can also use the guided Quick Start tour built directly into the TestCompass SaaS platform when starting your first project).*
+*(Tip: You can also launch the interactive Quick Start tour built directly into the TestCompass SaaS platform when setting up your first project).*
 
 ---
 
