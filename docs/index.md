@@ -71,13 +71,13 @@ Written requirements rarely cover all edge cases. Visualizing this workflow in T
 - *What happens if payment authorization is delayed or times out?*
 - *What is the exact system state if cancellation fails?*
 
-Addressing these questions during refinement turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
+Addressing these questions and more during refinement, turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
 
 ---
 
 ## About TestCompass & eMBT
 
-<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="160" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
 **TestCompass was created by Silvio Cacace**, drawing on over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
 
@@ -90,4 +90,4 @@ Today, eMBT is applied in professional corporate environments and incorporated i
 ---
 
 > **Summary**  
-> Explore the topics above to master **Intent-Driven early Model-Based Testing**—from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites.
+> Explore the topics above to master **Intent-Driven early Model-Based Testing**, from capturing true stakeholder intent in your first model draft to generating complete, coverage-based test suites.
