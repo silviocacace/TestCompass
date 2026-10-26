@@ -21,7 +21,7 @@ If you are new to TestCompass or early Model-Based Testing, start here:
 
 - **[Overview](overview.md)** — Learn what TestCompass is, why early MBT matters, and how it fits into delivery workflows.
 - **[The eMBT Approach](eMBT-approach.md)** — Understand the 4-phase eMBT workflow: Exploratory, Review, Coverage, and Checking.
-- **[Quick Start Guide](qsg.md)** — Step-by-step guidance to get you up and running quickly.
+- **[Quick Start Guide](quick-start-guide.md)** — Step-by-step guidance to get you up and running quickly.
 
 ---
 
