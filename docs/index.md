@@ -39,7 +39,7 @@ Learn how to build, validate, and reason about explicit behavioural models:
 
 Explore how AI acts as an accelerator and a thinking partner in TestCompass:
 
-- **[AAMC – AI-Assisted Model Creation](aamc.md)** — Draft initial, semantically correct models from user stories, spreadsheets, or legacy diagrams in seconds.
+- **[AAMC – AI-Assisted Model Creation](aamc.md)** — Draft initial, semantically correct models from user plain text, like user stories, spreadsheets, legacy diagrams and structured formats like Mermaid diagrams, JSON, XML, decision tables, etc. in seconds.
 - **[AAMR – AI-Assisted Model Reflection](aamr.md)** — Uncover hidden assumptions, missing paths, and risks through interactive, 3-question AI reflection loops.
 
 ---
