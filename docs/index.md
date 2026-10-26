@@ -21,7 +21,7 @@ If you are new to TestCompass or early Model-Based Testing, start here:
 
 - **[Overview](overview.md)** — Learn what TestCompass is, why early MBT matters, and how it fits into delivery workflows.
 - **[The eMBT Approach](eMBT-approach.md)** — Understand the 4-phase eMBT workflow: Exploratory, Review, Coverage, and Checking.
-- **[Quick Start Guide](qsg.md)** — Learn how the in-app guided tour connects to this documentation.
+- **[Quick Start Guide](qsg.md)** — Step-by-step guidance to get you up and running quickly.
 
 ---
 
@@ -80,10 +80,10 @@ Addressing these types of questions during refinement turns implicit assumptions
 
 Prefer learning by watching? Explore our library of step-by-step video tutorials covering everything from basic model creation to advanced AI reflection and test generation.
 
--  **Watch tutorials on our website:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
--  **Watch on YouTube:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
+- **Watch tutorials on our website:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
+- **Watch on YouTube:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
 
-*(Tip: You can also launch the interactive Quick Start tour built directly into the TestCompass SaaS platform when setting up your first project).*
+*(Tip: You can easily access the Quick Start Guide, these GitHub docs, and tutorials directly inside the TestCompass platform via the **Help menu (?)** in the top navigation bar).*
 
 ---
 
