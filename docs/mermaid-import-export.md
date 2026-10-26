@@ -80,6 +80,32 @@ This community-contributed resource is particularly useful when adapting complex
 
 ---
 
+## TestCompass Model Rules for Mermaid Import
+
+To ensure that TestCompass can successfully parse a Mermaid diagram and generate mathematical coverage-driven test suites, the imported diagram must comply with explicit model structures. 
+
+If an import fails or completes with errors, it is usually because one of the following **TestCompass Model Rules** was violated:
+
+### Structural & Connectivity Rules
+- **Single Start Node:** The model must contain exactly 1 start node.
+- **End Nodes:** The model must contain at least one end node.
+- **Valid Links:** All links must connect to a valid node on either end.
+- **No Self-Links:** A node must not link to itself.
+- **No Duplicate Links:** A link must not be duplicated.
+
+### Node Flow Requirements
+- **Start Node:** Must not have any incoming links, and must have exactly 1 outgoing link.
+- **Statement & Result Nodes:** Must have at least one incoming link and exactly one outgoing link.
+- **Decision Nodes:** Must have at least one incoming link, exactly one outgoing `"yes"` link, and one outgoing `"no"` link. Incoming links directly to `"yes"` or `"no"` sides are not allowed.
+- **End Nodes:** Must have at least one incoming link and must not have any outgoing links.
+- **Comment & Note Nodes:** Must not have any incoming or outgoing links (must remain standalone).
+
+### Reachability & Path Integrity
+- **Start Reachability:** All nodes (except Comment and Note nodes) must be reachable by at least one path from the Start node.
+- **End Reachability:** All nodes (except Comment and Note nodes) must have at least one outgoing path which reaches an End node.
+
+---
+
 > **Key Takeaway**  
 > Text-based Mermaid diagrams bridge the gap between human-readable repository documentation and formal eMBT models, ensuring seamless collaboration and version-controlled test design across your application lifecycle.
 
