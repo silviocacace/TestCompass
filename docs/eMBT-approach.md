@@ -128,7 +128,7 @@ TestCompass supports the complete eMBT lifecycle:
 
 In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
 
-- **AAMC (AI-Assisted Model Creation):** jumpstart modelling from natural language requirements or Mermaid diagrams.  
+- **AAMC (AI-Assisted Model Creation):** jumpstart modelling from natural language requirements (text-based formats).  
   ➡️ **Learn more:** [AAMC Documentation](aamc.md)
 
 - **AAMR (AI-Assisted Model Reflection):** acts as a critical partner to uncover hidden risks, missing logic, and open ends.  
