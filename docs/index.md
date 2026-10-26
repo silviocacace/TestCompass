@@ -95,20 +95,7 @@ Prefer learning by watching? Explore our library of step-by-step video tutorials
 
 Throughout his career leading test transformations across enterprise environments, Silvio recognized that most defects originate from incomplete specifications and implicit assumptions long before code is written. To address this, he originally pioneered the **DTM methodology and DTM tool**, which served as the foundation for modern test design automation. 
 
-Building on years of practical application and feedback, Silvio evolved DTM into the **early Model-Based Testing (eMBT)** approach and created TestCompass as its next-generation platform—making collaborative, risk-driven testing practical for daily agile delivery. 
-
-Today, eMBT is applied in professional corporate environments and incorporated into software engineering programs across various universities.
-
-<br clear="all">
-
-
-## About the Creator
-
-<img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
-
-**TestCompass was created by Silvio Cacace**, drawing on over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
-
-Throughout his career leading test transformations across enterprise environments, Silvio recognized that most defects originate from incomplete specifications and implicit assumptions long before code is written. To bridge this gap, he established the **early Model-Based Testing (eMBT)** methodology and created TestCompass to make collaborative, risk-driven testing practical for daily agile delivery. 
+Building on years of practical application and feedback, Silvio evolved DTM into the **early Model-Based Testing (eMBT)** approach and created **TestCompass** as its next-generation platform, making collaborative, risk-driven testing practical for daily agile delivery. 
 
 Today, eMBT is applied in professional corporate environments and incorporated into software engineering programs across various universities.
 
