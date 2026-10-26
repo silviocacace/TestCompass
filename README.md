@@ -11,7 +11,7 @@ It brings explicit behavioural modelling and AI-assisted model creation into the
 </p>
 
 > **Core Purpose**  
-> TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation—helping teams build the right thing and build it right from day one.
+> TestCompass bridges the gap between requirements, explicit behavioural models, AI-assisted reasoning, and automated test generation, helping teams build the right thing and build it right from day one.
 
 ---
 
@@ -29,9 +29,9 @@ Available directly inside TestCompass via the **Help menu (`?`)** in the top nav
 
 TestCompass provides a complete workflow for early Model-Based Testing (eMBT) and BDD, enabling teams to explore behaviour collaboratively, identify risks early, and generate reproducible tests from well-structured models.
 
-Built upon **more than 30 years of practical domain expertise** in software testing and quality engineering, eMBT is a proven methodology widely applied in enterprise practice, embedded in professional testing frameworks, and taught across software engineering curricula at various universities.
+Built upon **more than 30 years of practical domain expertise** in software testing and quality engineering, eMBT is a proven methodology widely applied in enterprise practice, embedded in professional testing frameworks, and taught across software engineering curricula at various Universities.
 
-It supports open, text-based modelling formats—including Mermaid, JSON, XML, UML, and other industry-standard formats—and integrates naturally with version-controlled development workflows and platforms such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
+It supports open, text-based modelling formats—including Mermaid, JSON, XML, UML, and other industry-standard formats—and integrates naturally with version controlled development workflows and platforms such as Azure DevOps and Jira, making early modelling and traceable testing part of the everyday delivery process.
 
 ---
 
@@ -70,7 +70,7 @@ It structures the modelling and testing workflow into four iterative phases—Ex
 ## AI Features
 
 ### AI-Assisted Model Creation (AAMC)
-AAMC generates an initial, semantically consistent model draft from requirements, user stories, or scenarios.  
+AAMC generates an initial, semantically consistent model draft from plain text, like requirements, user stories, decision tables, etc.  
 It accelerates modelling while keeping the tester fully in control.
 
 ➡️ **Full documentation:** [AAMC – AI-Assisted Model Creation](docs/aamc.md)
