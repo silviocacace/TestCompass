@@ -7,7 +7,7 @@ TestCompass is an **Intent-Driven early Model-Based Testing (eMBT)** platform de
 It brings together in-tool discovery, explicit behavioural modelling, AI-assisted model creation and reflection, and automated coverage-driven test design.
 
 > **Purpose & Role of TestCompass**  
-> TestCompass replaces hidden assumptions with explicit behavioural models—capturing true stakeholder intent, enabling early risk discovery, and deriving systematic, coverage-driven test suites before code is written.
+> TestCompass replaces hidden assumptions with explicit behavioural models, capturing true stakeholder intent, enabling early risk discovery, and deriving systematic, coverage-driven test suites before code is written.
 
 This overview explains the fundamental value of TestCompass, the principles behind early Model-Based Testing (eMBT), and how the platform supports a structured, collaborative testing workflow.
 
@@ -23,7 +23,7 @@ Throughout his career leading test transformations across enterprise environment
   <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </p>
 
-To address this, he originally pioneered the **DTM methodology and DTM tool**, which served as the foundation for modern test design automation. Building on years of practical application, Silvio evolved DTM into the **early Model-Based Testing (eMBT)** approach and created **TestCompass** as its next-generation platform. Today, eMBT and TestCompass are applied in corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple universities.
+To address this, he originally pioneered the **ATS & DTM methodology and DTM tool**, which served as the foundation for modern test design automation. Building on years of practical application, Silvio evolved ATS & DTM into the **early Model-Based Testing (eMBT)** approach and created **TestCompass** as its next-generation platform. Today, eMBT and TestCompass are applied in corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple Universities.
 
 ---
 
@@ -86,9 +86,9 @@ TestCompass is designed to integrate into modern, iterative agile workflows:
 - Supports early collaboration during refinement, "Three Amigos" sessions, and BDD discovery
 - Promotes a Shift-Left quality approach by validating intent and specifications before coding begins
 - Produces maintainable artifacts (living specifications) with full traceability to requirements
-- Serves as the dedicated **test design engine**, passing structured artifacts to manual testing setups or automation frameworks (Cucumber, SpecFlow, Playwright, Cypress)
+- Serves as the dedicated **test design engine**, passing structured artifacts to manual execution or automation frameworks (Cucumber, SpecFlow, Playwright, Cypress)
 
-The result is a clear, shared understanding of system behaviour—reducing costly rework and protecting business value.
+The result is a clear, shared understanding of system behaviour, reducing costly rework and protecting business value.
 
 ---
 
