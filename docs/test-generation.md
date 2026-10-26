@@ -99,15 +99,15 @@ Rather than applying the same coverage strategy across an entire system, teams u
 - **Medium Risk (PRA Medium):** apply Edge Coverage (EC) to guarantee that every decision outcome and branch transition is exercised at least once.
 - **Low Risk (PRA Low):** apply lightweight Node Coverage (NC) to confirm basic functional execution without over-engineering test suites.
 
-### Dynamic Scoping & Capacity Constraints
-When time or release capacity is constrained, eMBT enables instant risk-driven adjustments:
+### Adjusting Scope When Time is Tight
+When a release deadline approaches and time or capacity is limited, eMBT lets you adjust your test scope on the fly:
 
-- **Targeted Branch Deactivation:** temporarily disable low-risk paths or optional features directly on the visual model.
-- **Instant Suite Recalculation:** TestCompass immediately recalculates the test suite, generating only the scenarios required for high-risk paths while preserving full traceability.
+- **Disabling Low-Risk Paths:** temporarily turn off low-risk paths or optional features directly on your visual model.
+- **Instant Recalculation:** TestCompass instantly updates your test suite, keeping only the scenarios you actually need without losing track of your changes.
 
 > **Key Takeaway**  
-> PRA determines where to focus and how deep to test. eMBT provides the explicit model to translate those risk choices directly into executable, traceable test suites.
-
+> Risk analysis tells you where to focus your testing. eMBT gives you a visual model to instantly turn those choices into a clean, actionable test suite.
+> 
 ---
 
 ## Exporting Test Scenarios
