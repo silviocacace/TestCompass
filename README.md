@@ -20,8 +20,8 @@ It brings explicit behavioural modelling and AI-assisted model creation into the
 **Full Documentation Site:**  
 [https://silviocacace.github.io/TestCompass/](https://silviocacace.github.io/TestCompass/)
 
-**Quick Start Guide:**  
-Available directly inside TestCompass via the Help menu and the Book icon.
+**Quick Start Guide & Tutorials:**  
+Available directly inside TestCompass via the **Help menu (`?`)** in the top navigation bar.
 
 ---
 
@@ -192,4 +192,4 @@ For more information about TestCompass or AI-assisted modelling:
 > **Key Takeaway**  
 > TestCompass turns early behavioural models into actionable test intelligence—keeping your models, tests, and team fully aligned as software evolves.
 
-**Happy Testing!** 
+**Happy Testing!**
