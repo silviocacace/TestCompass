@@ -66,12 +66,13 @@ Connect TestCompass into your daily tools and pipelines:
 
 Consider a typical workflow: *a user submits an order, payment is authorized, the order is confirmed, and eventually canceled.* 
 
-Written requirements rarely cover all edge cases. Visualizing this workflow in TestCompass immediately surfaces critical questions:
+Written requirements rarely cover all edge cases. Visualizing this workflow in TestCompass immediately surfaces critical edge cases and missing business logic, such as:
 - *Can cancellation occur before payment authorization?*
 - *What happens if payment authorization is delayed or times out?*
-- *What is the exact system state if cancellation fails?*
+- *What is the exact system state if cancellation fails mid-process?*
+- *Is reserved inventory released immediately upon cancellation?*
 
-Addressing these questions during refinement turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
+Addressing these types of questions during refinement turns implicit assumptions into shared knowledge and leads to complete, coverage-based test suites.
 
 ---
 
