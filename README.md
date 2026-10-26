@@ -170,7 +170,7 @@ It does not contain the TestCompass source code.
 
 ## About the Creator & The Origin of eMBT
 
-<img src="docs/Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="180" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+<img src="docs/Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="280" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
 **TestCompass was created by Silvio Cacace**, bringing over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
 
