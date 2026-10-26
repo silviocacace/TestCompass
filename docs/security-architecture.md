@@ -40,4 +40,4 @@ Your test models, project configurations, and user account information are prote
 
 ## Questions or Enterprise Security Reviews?
 
-If your organization requires a detailed security assessment, vendor risk review, or has specific compliance questions regarding TestCompass, please get in touch with us via [Compass Test Services](https://www.compass-testservices.com).
+If your organization requires a detailed security assessment, vendor risk review, or has specific compliance questions regarding TestCompass, please get in touch with us via [our website](https://www.compass-testservices.com).
