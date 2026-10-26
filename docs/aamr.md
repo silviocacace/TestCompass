@@ -27,6 +27,10 @@ Instead of changing the model automatically, AAMR presents short, specific quest
 ### 3. Canvas Projection
 Once you answer a question or accept a suggested resolution, AAMR projects the updated logic directly onto your canvas, adding the required nodes, branches, and outcomes automatically.
 
+<p align="center">
+  <img src="AAMR_explanation.png" alt="TestCompass AAMR Explanation Canvas" width="600">
+</p>
+
 ---
 
 ## Key Benefits & Use Cases
@@ -38,10 +42,6 @@ Using AAMR during refinement sessions or review loops provides several practical
 * **Maintaining Model Integrity:** Every addition made by AAMR strictly follows TestCompass modelling rules, preventing broken paths or missing decision outcomes.
 
 ---
-
-<p align="center">
-  <img src="AAMR_explanation.png" alt="TestCompass AAMR Explanation Canvas" width="600">
-</p>
 
 ## Example: Refining an Order Workflow
 
