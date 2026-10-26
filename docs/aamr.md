@@ -39,6 +39,10 @@ Using AAMR during refinement sessions or review loops provides several practical
 
 ---
 
+<p align="center">
+  <img src="AAMR_explanation.png" alt="TestCompass AAMR Explanation Canvas" width="600">
+</p>
+
 ## Example: Refining an Order Workflow
 
 Consider an initial model draft covering an order process. The basic happy path is present, but several business rules are missing.
