@@ -50,7 +50,7 @@ AAMC can process plain text, spreadsheets, legacy diagram exports, and structure
 - **Diagram Migrations:** Text, JSON, or Mermaid exported from tools like Visio, Lucidchart, or Draw.io, or extracted from whiteboard photos.
 
 > **Migrating Existing Models**  
-> If you are moving existing process diagrams (like Visio or Lucidchart flows) into TestCompass, you can export them as JSON, XML, or Mermaid and load them into AAMC. As long as a process or business rule can be written as text—whether in plain prose, spreadsheets, or code—AAMC can read it and generate a initial model draft.
+> If you are moving existing process diagrams (like Visio or Lucidchart flows) into TestCompass, you for e.g. can export them as JSON, XML, or Mermaid and load them into AAMC. As long as a process or business rule can be written as text, whether in plain prose, spreadsheets, or code, AAMC can read it and generate a initial model draft.
 
 ---
 
@@ -58,7 +58,7 @@ AAMC can process plain text, spreadsheets, legacy diagram exports, and structure
 
 After generating a draft, TestCompass automatically checks it against official modelling rules:
 
-- **Red Exclamation Marks:** If a model breaks a rule—for example, a decision node with only 1 outgoing path, or an action node with no output—TestCompass flags it directly on the canvas with a red exclamation mark.
+- **Red Exclamation Marks:** If a model breaks a rule, for example, a decision node with only 1 outgoing path, or an action node with no output, TestCompass flags it directly on the canvas with a red exclamation mark.
 - **Fixing Issues:** If a draft has multiple structural errors, clicking **Regenerate** is usually faster than fixing it manually. For small issues (like a single missing connection), simply accept the draft and edit it directly in the workspace.
 
 <p align="center">
