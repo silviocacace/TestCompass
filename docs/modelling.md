@@ -25,13 +25,13 @@ By externalising behaviour, teams can reason more clearly, validate stakeholder 
 
 ---
 
-## Universal Readability & Near-Zero Learning Curve
+## Easy to Read & Quick to Master
 
 One of the greatest advantages of TestCompass is its extreme accessibility and intuitive design:
 
-- **Readable by Everyone:** visual models act as a universal language (*lingua franca*) for both technical and non-technical stakeholders, including Product Owners, Business Analysts, Developers, and Testers.
+- **Readable by Everyone:** visual models acts as a shared language for everyone (both technical and non-technical stakeholders), including Product Owners, Business Analysts, Developers, and Testers.
 - **Near-Zero Learning Curve:** unlike traditional, highly technical MBT tools, TestCompass uses simple, standardized flowchart principles that anyone can understand and create within minutes.
-- **Frictionless Usability:** building and modifying models is fast, lightweight, and user-friendly, making it ideal for live refinement sessions, Three Amigos discussions, and active team collaboration.
+- **Fast and easy to use:** building and modifying models is fast, lightweight, and user-friendly, making it ideal for live refinement sessions, Three Amigos discussions, and active team collaboration.
 
 ---
 
