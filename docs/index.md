@@ -11,7 +11,7 @@ Testing tools are everywhere, but most focus purely on automation or test execut
 ---
 
 > **Core Purpose & Philosophy**  
-> Requirements often describe only the happy path. While AI can generate test cases from text in seconds, speed alone cannot replace understanding. If initial requirements miss key business logic, fast test generation simply multiplies those gaps. TestCompass combines domain expertise with modern AI assistance, shifting the focus to **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass turns implicit assumptions into explicit, coverage-driven test suites.
+> Requirements often describe only the happy path. While AI can generate test cases from text in seconds, speed alone cannot replace understanding. If initial requirements miss key business logic, fast test generation simply multiplies those gaps. TestCompass combines practical testing experience with modern AI assistance, focusing on **Intent-Driven early Model-Based Testing**. By capturing true stakeholder intent early, TestCompass turns implicit assumptions into explicit, coverage-driven test suites.
 
 ---
 
@@ -71,7 +71,7 @@ Written requirements rarely cover all edge cases. Visualizing this workflow in T
 - *What happens if payment authorization is delayed or times out?*
 - *What is the exact system state if cancellation fails?*
 
-Addressing these questions and more during refinement, turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
+Addressing these questions during refinement turns assumptions into shared knowledge and produces test scenarios grounded in complete confidence.
 
 ---
 
