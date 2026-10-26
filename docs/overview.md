@@ -68,7 +68,7 @@ TestCompass offers a complete workflow for early Model-Based Testing, focusing o
 - **In-Tool Collaborative Discovery:** Run Feature and Example Mapping sessions directly within TestCompass using dedicated **Sticky Note nodes**, without needing external whiteboards.
 - **Explicit Behavioural Modelling:** Create visual models that represent system logic, decisions, and state transitions using formal TestCompass model rules.
 - **AI-Assisted Capabilities:** 
-  - **AAMC (AI-Assisted Model Creation):** Generate initial models directly from raw text, user stories, Example Maps, or legacy diagrams (Visio, Lucidchart, Mermaid).
+  - **AAMC (AI-Assisted Model Creation):** Generate initial models directly from raw text like user stories, Example Maps, or legacy diagrams (Visio, Lucidchart, Mermaid) and structured formats like Mermaid diagrams, JSON, XML, decision tables, etc.
   - **AAMR (AI-Assisted Model Reflection):** Use a structured 3-question reflection loop to uncover blind spots and project accepted changes onto the canvas.
 - **Coverage-Based Test Design & Living Specifications:** Automatically derive test scenarios using graph coverage algorithms (Node, Edge, Path Pair, Path Triple, Full Path Coverage).
   - **Data-Driven BDD:** Generate structured Gherkin `.feature` files with `Scenario Outlines` and populated `Examples:` tables.
