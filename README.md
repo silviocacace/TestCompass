@@ -62,7 +62,7 @@ Prefer learning visually? Explore our video library covering model creation, AI 
 Throughout his career leading test transformations across enterprise environments, Silvio recognized that most software defects originate from incomplete specifications and implicit assumptions long before code is written. 
 
 <p align="center" style="margin-top: 20px;">
-  <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="docs\Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </p>
 
 To address this, he originally pioneered the **ATS & DTM methodology and DTM tool**, which served as the foundation for modern test design automation. Building on years of practical application, Silvio evolved ATS & DTM into the **early Model-Based Testing (eMBT)** approach and created **TestCompass** as its next-generation platform. Today, eMBT and TestCompass are applied in corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple Universities.
