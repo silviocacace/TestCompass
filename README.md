@@ -17,7 +17,7 @@ For public GitHub Pages documentation, explore the topics below:
 
 ### Modelling & AI Capabilities
 - 📄 **[Behavioural Modelling](docs/modelling.md)** — Flowchart-based modelling foundations, node types, and requirements discovery.
-- 📄 **[AAMC – AI-Assisted Model Creation](docs/aamc.md)** — Draft semantically correct models from user stories, spreadsheets, or legacy diagrams in seconds.
+- 📄 **[AAMC – AI-Assisted Model Creation](docs/aamc.md)** — Draft semantically correct models from plain text (user stories, spreadsheets, legacy diagrams, etc) in seconds.
 - 📄 **[AAMR – AI-Assisted Model Reflection](docs/aamr.md)** — Uncover hidden assumptions and edge cases through interactive 3-question AI reflection loops.
 - 📄 **[Mermaid Import & Export](docs/mermaid-import-export.md)** — Bi-directional sync between text-based Mermaid diagrams and testable eMBT models.
 - 📄 **[BDD Discovery & Formulation](docs/bdd-discovery.md)** — BDD requirements discovery and formulation supported by TestCompass.
