@@ -28,7 +28,7 @@ TestCompass treats discovery as the first phase of eMBT (Exploratory):
 
 ---
 
-## Continuous Alignment & Impact Analysis
+## Keeping Tests and Requirements in Sync
 
 Requirements frequently evolve during a sprint. In a traditional BDD workflow, updating feature files and test scripts manually is tedious and error-prone. 
 
