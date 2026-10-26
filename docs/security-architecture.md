@@ -4,6 +4,10 @@ TestCompass is built as a secure, cloud-based SaaS platform designed to meet pro
 
 Below is an overview of the core security, hosting, and data protection measures implemented within the TestCompass infrastructure.
 
+<p align="center">
+  <img src="Architecture.png" alt="TestCompass Architecture" width="550" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</p>
+
 ---
 
 ## Network Traffic & Encryption
