@@ -6,7 +6,7 @@ Early Model-Based Testing (eMBT) is a collaborative testing approach that helps 
 
 ---
 
-> 💡 **Why Intent-Driven eMBT Matters**  
+> **Why Intent-Driven eMBT Matters**  
 > Traditional testing often checks *what is written* in specifications, even if those requirements miss important details. Intent-Driven eMBT supported by TestCompass ensures teams uncover and validate *what business stakeholders actually meant*. By visually modelling system behaviour during early design, you do not just capture specifications, you actively explore them. This exposes risks, missing logic, wrong assumptions, and contradictions early, ensuring everyone shares the same understanding before a single line of code is written.  
 >   
 > *This is how you shift from a late quality stamp of approval to building correct specifications from day one.*
@@ -113,7 +113,7 @@ eMBT helps teams:
 - identify risks and missing behaviour sooner, avoiding hidden assumptions
 - design coverage-based tests automatically directly from visual behavioural models
 - manage change effortlessly through single-click model updates and automated impact analysis
-- reduce rework and defects in production, protecting true business value
+- reduce rework and avoid bugs in production
 
 ---
 
