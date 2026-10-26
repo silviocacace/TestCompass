@@ -105,7 +105,8 @@ This documentation provides conceptual guidance, architecture rules, and workflo
 - [Mermaid Import and Export](mermaid-import-export.md)
 - [Export Formats](export-formats.md)
 - [Integrations](integrations.md)
-- [BDD Discovery & Formulation](bdd-discovery.md) 
+- [BDD Discovery & Formulation](bdd-discovery.md)
+- [Security & Architecture](security-architecture.md)
 
 *(Note: This documentation focuses on methodologies, architecture, and concepts. It is designed to complement the in-product Quick Start Guide and guided UI tours.)*
 
