@@ -47,6 +47,7 @@ TestCompass maintains clear operational procedures to guarantee high platform av
 - **Proactive Monitoring:** AWS CloudWatch continuously aggregates performance metrics and system alerts to detect and resolve potential issues proactively.
 
 ### Disaster Recovery
+- **Recovery Objectives:** Built with a **Recovery Time Objective (RTO)** of under 1 hour for automated database failover, and a **Recovery Point Objective (RPO)** of maximum 24 hours based on daily automated backups.
 - **Snapshot Retention:** Daily database backups are securely retained for a rolling 7-day period.
 - **Automated Failover:** Standby instances are kept in continuous sync, allowing automatic recovery with minimal operational disruption.
 
