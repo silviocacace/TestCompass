@@ -50,7 +50,7 @@ For full technical and organizational security details, refer to the **[Security
 
 Prefer learning visually? Explore our video library covering model creation, AI reflection loops, and test generation:
 
-- **Website Tutorials:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
+- **Website Tutorials:** [TestCompass Tutorials](https://www.compass-testservices.com/tutorials/)
 - **YouTube Channel:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
 
 ---
