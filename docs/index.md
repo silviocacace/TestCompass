@@ -53,12 +53,13 @@ Turn models into systematic test suites and maintain them effortlessly over time
 
 ---
 
-## Integrations & Export Formats
+## Integrations, Export & Security
 
-Connect TestCompass into your daily tools and pipelines:
+Connect TestCompass into your daily tools, pipelines, and enterprise compliance requirements:
 
 - **[Export Formats](export-formats.md)** — Overview of Excel (Test Design & Decision Tables), Gherkin (`.feature`), CSV, PNG, and native `.tcmodel` formats.
 - **[Integrations](integrations.md)** — How TestCompass works alongside Azure DevOps, Jira, Zephyr, Xray, and other test management tools.
+- **[Security & Architecture](security-architecture.md)** — Overview of AWS EU hosting, AES-256 encryption, TLS traffic security, BCP/DRP, and GDPR data disposal procedures.
 
 ---
 
