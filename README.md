@@ -4,7 +4,7 @@ Welcome to the official documentation repository for **TestCompass**, an Intent-
 
 ---
 
-## 🚀 Quick Navigation
+## Quick Navigation
 
 Inside the TestCompass application, you can easily access the Quick Start Guide, documentation, and video tutorials at any time via the **Help menu (`?`)** in the top navigation bar.
 
@@ -33,7 +33,7 @@ For public GitHub Pages documentation, explore the topics below:
 
 ---
 
-## 🏛️ Platform Architecture & Security at a Glance
+## Platform Architecture & Security at a Glance
 
 TestCompass is engineered as a secure, cloud-native SaaS platform built on enterprise standards:
 
@@ -46,24 +46,30 @@ For full technical and organizational security details, refer to the **[Security
 
 ---
 
-## 🎥 Video Tutorials & Visual Guides
+## Video Tutorials & Visual Guides
 
 Prefer learning visually? Explore our video library covering model creation, AI reflection loops, and test generation:
 
-- 📺 **Website Tutorials:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
-- 📺 **YouTube Channel:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
+- **Website Tutorials:** [Compass Test Services Tutorials](https://www.compass-testservices.com/tutorials/)
+- **YouTube Channel:** [TestCompass YouTube Channel](https://www.youtube.com/@testcompass9513)
 
 ---
 
-## 👤 About the Creator
+## About the Creator
 
 **TestCompass was created by Silvio Cacace**, drawing on over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing.
 
-Having pioneered the original ATS & DTM methodology and DTM tool, Silvio evolved these frameworks into **early Model-Based Testing (eMBT)** and created **TestCompass** to make collaborative, risk-driven test design accessible for modern agile teams. Today, eMBT is applied across commercial enterprise environments and taught in software engineering university programs.
+Throughout his career leading test transformations across enterprise environments, Silvio recognized that most software defects originate from incomplete specifications and implicit assumptions long before code is written. 
+
+<p align="center" style="margin-top: 20px;">
+  <img src="Silvio1.PNG" alt="Silvio Cacace - Creator of TestCompass" width="300" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</p>
+
+To address this, he originally pioneered the **ATS & DTM methodology and DTM tool**, which served as the foundation for modern test design automation. Building on years of practical application, Silvio evolved ATS & DTM into the **early Model-Based Testing (eMBT)** approach and created **TestCompass** as its next-generation platform. Today, eMBT and TestCompass are applied in corporate environments, embedded in professional testing frameworks, and taught within software engineering programs across multiple Universities.
 
 ---
 
-## 📬 Support & Enterprise Inquiries
+## Support & Enterprise Inquiries
 
 For enterprise security reviews, vendor questionnaires, or platform demonstrations, please contact us:
 
