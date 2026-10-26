@@ -57,7 +57,7 @@ Covers **all combinations of three consecutive test paths**. This is useful when
 Covers **all possible paths** from Start to End. This is the strongest form of coverage and typically produces the largest number of scenarios.
 
 <p align="center">
-  <img src="Testcoverage.png" alt="Testcoverage forms" width="400">
+  <img src="Testcoverage.png" alt="Testcoverage forms" width="500">
 </p>
 
 ---
