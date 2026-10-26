@@ -108,13 +108,20 @@ To ensure your imported model is fully compliant and ready for automated test ge
 
 ---
 
-## Troubleshooting Import Warnings & Errors
+## Troubleshooting Import Dialogs & Warnings
 
-If an import completes with warnings or errors, you can use the visual indicators (exclamation marks) in TestCompass to locate the issue. Common causes include:
+When importing Mermaid code, TestCompass displays specific notification dialogs depending on the result:
 
-1. **Unknown node type:** A shape was used in Mermaid that TestCompass cannot map to its core node types (supported: `circle`, `double-circle`, `decision`, `document`, `event`). TestCompass will preserve the text structure where possible.
-2. **Unsupported model structure:** Outgoing branches do not conform to standard decision flows (e.g., custom branch labels instead of standard `yes`/`no` outcomes).
-3. **Mermaid syntax error:** A critical syntax break in the Mermaid code preventing initial parsing, which requires fixing the code structure before re-importing.
+- **Mermaid import failed:** Appears when the Mermaid syntax itself contains critical parsing errors. The dialog details the exact syntax error line so you can fix the code structure before re-importing.
+- **Import completed with errors:** Appears when TestCompass successfully parses the diagram but encounters elements that violate model rules. 
+
+Inside the **Import completed with errors** dialog, you may encounter the following specific tags:
+
+1. **`Unknown node type`:** A shape was used in Mermaid that TestCompass cannot automatically map to standard node types (supported: `circle`, `double-circle`, `decision`, `document`, `event`). TestCompass preserves the text structure and places warning indicators on the canvas.
+2. **`Unsupported model structure`:** Outgoing branches or connections do not conform to expected eMBT decision flows (e.g., custom branch labels instead of standard `yes`/`no` outcomes).
+
+By clicking the **Help (`?`)** icon in any of these import dialogs, you can always return to this reference page to check your model structure against the required rules.
+
 ---
 
 > **Key Takeaway**  
