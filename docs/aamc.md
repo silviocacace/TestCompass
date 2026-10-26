@@ -4,7 +4,7 @@
 
 AAMC (AI-Assisted Model Creation) is a feature in TestCompass that converts text descriptions into an initial model draft.
 
-It allows teams to start modelling directly from requirements, user stories, workshop notes, or system specifications—without having to build the model manually node by node.
+It allows teams to start modelling directly from requirements, user stories, workshop notes, or system specifications, without having to build the model manually node by node.
 
 > **Purpose & Role of AAMC**  
 > AAMC speeds up the creation of initial TestCompass models. It acts as an assistant, not a replacement for human testing experience. It provides a solid starting point so teams can spend less time drawing models and more time reviewing business logic, finding missing requirements, and identifying risks early.
