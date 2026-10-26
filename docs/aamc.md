@@ -49,7 +49,7 @@ AAMC can process plain text, spreadsheets, legacy diagram exports, and structure
 - **Mermaid Diagrams & Gherkin Scenarios**
 - **Diagram Migrations:** Text, JSON, or Mermaid exported from tools like Visio, Lucidchart, or Draw.io, or extracted from whiteboard photos.
 
-> 💡 **Migrating Existing Models**  
+> **Migrating Existing Models**  
 > If you are moving existing process diagrams (like Visio or Lucidchart flows) into TestCompass, you can export them as JSON, XML, or Mermaid and load them into AAMC. As long as a process or business rule can be written as text—whether in plain prose, spreadsheets, or code—AAMC can read it and generate a initial model draft.
 
 ---
