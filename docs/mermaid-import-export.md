@@ -5,7 +5,7 @@
 Mermaid import and export in TestCompass help teams exchange models across documentation, development, and quality engineering workflows. Because Mermaid is an open, text-based notation, it supports transparent collaboration, version control, and clear code reviews in Git.
 
 > **Core Purpose**  
-> Mermaid serves as a text-based interchange format, enabling teams to embed visual models in documentation and track version changes in Git while maintaining rigorous, coverage-ready eMBT semantics.
+> Mermaid serves as a text-based interchange format, enabling teams to embed visual models in documentation and track version changes in Git while maintaining clear modelling rules needed for coverage.
 
 This page explains the purpose of Mermaid import and export, how they relate to behavioural modelling, and how TestCompass ensures consistency between text-based diagrams and executable eMBT test models.
 
@@ -19,7 +19,7 @@ Mermaid import and export enable teams to:
 - **Include models directly in documentation:** seamlessly render behavioural models within Markdown files, wikis, and GitHub or GitLab repository documentation.
 - **Maintain version control in Git:** store models as plain-text files with clean, readable line-by-line diffs during pull requests and code reviews.
 - **Reconstruct and evolve models:** convert text-based Mermaid code back into fully interactive, testable TestCompass visual models at any time.
-- **Maintain single-source consistency:** keep system behavior synchronized across Product Owners, Developers, and QA Engineers.
+- **Keep everyone aligned on the same model:** keep system behavior synchronized across Product Owners, Developers, and QA Engineers.
 
 By supporting Mermaid as an interchange format, TestCompass eliminates manual re-keying of existing process flows, improves traceability, and bridges the gap between system design, documentation, and automated test derivation.
 
