@@ -123,7 +123,7 @@ TestCompass supports the complete eMBT lifecycle:
 
 - In-Tool Discovery & Modelling (Exploratory Phase)
 - Collaborative Reviewing & AI Reflection (Review Phase)
-- Automated Test Scenario & Gherkin Generation (Coverage Phase)
+- Automated coverage-based Test Scenario & Gherkin Generation (Coverage Phase)
 - Impact Analysis & Test Management Export (Checking Phase)
 
 In addition, TestCompass provides built-in AI capabilities to enhance reasoning:
