@@ -80,11 +80,13 @@ This community-contributed resource is particularly useful when adapting complex
 
 ---
 
-## TestCompass Model Rules for Mermaid Import
+## Import Resilience & Validation Rules
 
-To ensure that TestCompass can successfully parse a Mermaid diagram and generate mathematical coverage-driven test suites, the imported diagram must comply with explicit model structures. 
+When importing a Mermaid diagram, TestCompass adopts a **best-effort approach**. It will always attempt to import as much of your diagram structure as possible, even if the input contains syntax errors, unsupported elements, or violates internal model rules. 
 
-If an import fails or completes with errors, it is usually because one of the following **TestCompass Model Rules** was violated:
+Instead of rejecting the import entirely, TestCompass will flag problematic areas using visual warnings (such as exclamation marks on nodes or links) and provide a clear summary of what needs attention. 
+
+To ensure your imported model is fully compliant and ready for automated test generation, TestCompass evaluates the structure against the following core **Model Rules**:
 
 ### Structural & Connectivity Rules
 - **Single Start Node:** The model must contain exactly 1 start node.
@@ -104,6 +106,15 @@ If an import fails or completes with errors, it is usually because one of the fo
 - **Start Reachability:** All nodes (except Comment and Note nodes) must be reachable by at least one path from the Start node.
 - **End Reachability:** All nodes (except Comment and Note nodes) must have at least one outgoing path which reaches an End node.
 
+---
+
+## Troubleshooting Import Warnings & Errors
+
+If an import completes with warnings or errors, you can use the visual indicators (exclamation marks) in TestCompass to locate the issue. Common causes include:
+
+1. **Unknown node type:** A shape was used in Mermaid that TestCompass cannot map to its core node types (supported: `circle`, `double-circle`, `decision`, `document`, `event`). TestCompass will preserve the text structure where possible.
+2. **Unsupported model structure:** Outgoing branches do not conform to standard decision flows (e.g., custom branch labels instead of standard `yes`/`no` outcomes).
+3. **Mermaid syntax error:** A critical syntax break in the Mermaid code preventing initial parsing, which requires fixing the code structure before re-importing.
 ---
 
 > **Key Takeaway**  
