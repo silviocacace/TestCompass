@@ -39,7 +39,7 @@ One of the greatest advantages of TestCompass is its extreme accessibility and i
 
 To lower the onboarding barrier even further, TestCompass includes **AI-Assisted Model Creation (AAMC)**:
 
-- **Instant Model Generation:** instead of starting from a blank canvas, teams can transform raw text, user stories, acceptance criteria, and decision tables into a fully structured visual test model draft within seconds.
+- **Instant Model Generation:** instead of starting from a blank canvas, teams can transform raw text like user stories, acceptance criteria, decision tables and structured formats like Mermaid diagrams, JSON, XML, decision tables, etc. into a fully structured visual test model draft within seconds.
 - **Human-in-the-Loop:** AAMC provides a solid concept model, allowing the team to focus immediately on refining logic, exploring edge cases, and validating business intent together.
 
 ➡️ **Learn more:** [AAMC – AI-Assisted Model Creation](aamc.md)
