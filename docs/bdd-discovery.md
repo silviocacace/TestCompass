@@ -67,6 +67,12 @@ You can pass the outcome of your Example Map into an LLM using the prompt below:
 3. Click **Generate Model**. TestCompass converts the syntax directly into a visual decision model.
 4. Adjust the model if needed or accept it to add it to your project workflow.
 
+### Step 4: Generate Gherkin Feature Files Based on Coverage
+Once your model is finalized and validated in TestCompass, you can derive executable specifications automatically:
+1. Select your desired coverage strategy (such as Node, Edge, or Full Path Coverage).
+2. TestCompass calculates the test scenarios and automatically generates structured Gherkin `.feature` files, complete with populated `Examples:` tables for data variations.
+3. Use the `.feature` file in your test automation framework (like Cucumber or SpecFlow) to start testing.
+
 ---
 
 ## Navigation
