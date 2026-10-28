@@ -143,13 +143,7 @@ flowchart TD
 
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
 
-**Fix:** Close the shape correctly and import again:
-
-```mermaid
-flowchart TD
-    A([Start]) --> B([Event])
-    B --> C([Missing bracket])
-```
+**Fix:** Close the shape with `])` instead of `]` and import again: `C([Missing bracket])`
 
 ---
 
