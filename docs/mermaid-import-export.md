@@ -133,14 +133,6 @@ Each issue in a dialog has a coloured label:
 
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
 
-**Message**
-
-```text
-Error: Parse error on line 3:
-...> C([Missing bracket]
-Expecting 'STADIUMEND', 'TAGEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'SQE'
-```
-
 **Example** (invalid Mermaid, shown as plain text)
 
 ```text
