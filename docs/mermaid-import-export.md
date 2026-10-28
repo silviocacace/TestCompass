@@ -128,9 +128,6 @@ Each issue in a dialog has a coloured label:
 ---
 
 ### Mermaid syntax error
-
-![Dialog "Mermaid import failed" with a red "Mermaid syntax error" label](Wrong_syntax_message.png)
-
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
 
 **Example** (invalid Mermaid, shown as plain text)
@@ -140,6 +137,9 @@ flowchart TD
     A([Start]) --> B([Event])
     B --> C([Missing bracket]
 ```
+**Message in TestCompass**
+
+![Dialog "Mermaid import failed" with a red "Mermaid syntax error" label](Wrong_syntax_message.png)
 
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
 
