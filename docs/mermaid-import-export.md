@@ -86,7 +86,7 @@ When importing a Mermaid diagram, TestCompass adopts a **best-effort approach**.
 
 Instead of rejecting the import entirely, TestCompass will flag problematic areas using visual warnings (such as exclamation marks on nodes or links) and provide a clear summary of what needs attention. 
 
-To ensure your imported model is fully compliant and ready for automated test generation, TestCompass evaluates the structure against the following core **Model Rules**:
+To ensure your imported model is fully compliant and ready for the TestCompass workflow, TestCompass evaluates the structure against the following core **Model Rules**:
 
 ### Structural & Connectivity Rules
 - **Single Start Node:** The model must contain exactly 1 start node.
