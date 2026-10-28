@@ -124,6 +124,120 @@ By clicking the **Help (`?`)** icon in any of these import dialogs, you can alwa
 
 ---
 
+
+## Troubleshooting Import Dialogs & Warnings
+
+After you import Mermaid code, TestCompass shows one of two dialogs. Click the **Help (`?`)** icon in the dialog to return to this page.
+
+| Dialog | Meaning |
+|---|---|
+| **Mermaid import failed** | The Mermaid code contains a syntax error. Nothing is imported. |
+| **Mermaid import completed with issues** | The diagram was imported, but some parts are not supported or break model rules. Items that need review are marked with an exclamation mark in the model. |
+
+Each issue in a dialog has a coloured label:
+
+| Label | Colour | Dialog |
+|---|---|---|
+| [Mermaid syntax error](#mermaid-syntax-error) | Red | Import failed |
+| [Unknown node type](#unknown-node-type) | Yellow | Completed with issues |
+| [Unsupported model structure](#unsupported-model-structure) | Orange | Completed with issues |
+
+### Mermaid syntax error
+
+**Dialog:** Mermaid import failed
+
+The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
+
+**Example**
+
+```mermaid
+flowchart TD
+    A([Start]) --> B([Event])
+    B --> C([Missing bracket]
+```
+
+**Message**
+
+```
+Error: Parse error on line 3:
+...> C([Missing bracket]
+Expecting 'STADIUMEND', 'TAGEND', ... got 'SQE'
+```
+
+**Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
+
+**Fix:** Close the shape correctly and import again:
+
+```mermaid
+flowchart TD
+    A([Start]) --> B([Event])
+    B --> C([Missing bracket])
+```
+
+### Unknown node type
+
+**Dialog:** Mermaid import completed with issues
+
+The diagram uses a shape that TestCompass cannot map to a node type. The node is still imported, shown as `[Unknown Node Type]` and marked with an exclamation mark. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
+
+**Example**
+
+```mermaid
+flowchart TD
+    A([Start]) --> X{{UnknownType}}
+    X --> B([Event])
+```
+
+**Message**
+
+```
+Node X is of an unexpected type (expected circle/double-circle/decision/document/event)
+```
+
+**Cause:** `{{ }}` (hexagon) has no equivalent in TestCompass. Other examples are `[( )]` (cylinder) and `manual-input`.
+
+**Fix:** Replace the shape with a supported one, or change the node type in the imported model.
+
+### Unsupported model structure
+
+**Dialog:** Mermaid import completed with issues
+
+The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The affected items are marked with an exclamation mark.
+
+**Example**
+
+```mermaid
+flowchart LR
+    A[Start] --> B{Email valid?}
+    B -->|Maybe| C[Continue]
+    B -->|No| D[Stop]
+```
+
+**Message**
+
+```
+Node B has an unexpected outgoing branch with the label "Maybe"
+```
+
+**Cause:** A decision node only allows the outgoing branches `Yes` and `No`. `Maybe` is not a valid branch.
+
+**Fix:** Use `Yes` and `No`. If there are more than two outcomes, split them into a sequence of decisions:
+
+```mermaid
+flowchart LR
+    A[Start] --> B{Email valid?}
+    B -->|Yes| C[Continue]
+    B -->|No| D[Stop]
+```
+
+See [Import Resilience & Validation Rules](#import-resilience--validation-rules) for the full list of model rules.
+
+
+
+
+
+
+
 > **Key Takeaway**  
 > Text-based Mermaid diagrams bridge the gap between human-readable repository documentation and formal eMBT models, ensuring seamless collaboration and version-controlled test design across your application lifecycle.
 
