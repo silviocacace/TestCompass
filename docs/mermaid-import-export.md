@@ -125,9 +125,9 @@ Each issue in a dialog has a coloured label:
 
 | Label | Colour | Dialog |
 |---|---|---|
-| [1. Mermaid syntax error](#mermaid-syntax-error) | Red | Import failed |
-| [2. Unknown node type](#unknown-node-type) | Yellow | Completed with issues |
-| [3. Unsupported model structure](#unsupported-model-structure) | Orange | Completed with issues |
+| [1. Mermaid syntax error](#1-mermaid-syntax-error) | Red | Import failed |
+| [2. Unknown node type](#2-unknown-node-type) | Yellow | Completed with issues |
+| [3. Unsupported model structure](#3-unsupported-model-structure) | Orange | Completed with issues |
 
 ---
 
