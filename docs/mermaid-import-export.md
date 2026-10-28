@@ -133,20 +133,20 @@ Each issue in a dialog has a coloured label:
 
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
 
-**Example**
-
-```mermaid
-flowchart TD
-    A([Start]) --> B([Event])
-    B --> C([Missing bracket]
-```
-
 **Message**
 
 ```text
 Error: Parse error on line 3:
 ...> C([Missing bracket]
 Expecting 'STADIUMEND', 'TAGEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'SQE'
+```
+
+**Example** (invalid Mermaid, shown as plain text)
+
+```text
+flowchart TD
+    A([Start]) --> B([Event])
+    B --> C([Missing bracket]
 ```
 
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
@@ -167,18 +167,18 @@ flowchart TD
 
 The diagram uses a shape that TestCompass cannot map to a node type. The node is still imported, shown as `[Unknown Node Type]` and marked with an exclamation mark. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
 
+**Message**
+
+```text
+Node X is of an unexpected type (expected circle/double-circle/decision/document/event)
+```
+
 **Example**
 
 ```mermaid
 flowchart TD
     A([Start]) --> X{{UnknownType}}
     X --> B([Event])
-```
-
-**Message**
-
-```text
-Node X is of an unexpected type (expected circle/double-circle/decision/document/event)
 ```
 
 **Cause:** `{{ }}` (hexagon) has no equivalent in TestCompass. Other examples are `[( )]` (cylinder) and `manual-input`.
@@ -193,6 +193,12 @@ Node X is of an unexpected type (expected circle/double-circle/decision/document
 
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The affected items are marked with an exclamation mark.
 
+**Message**
+
+```text
+Node B has an unexpected outgoing branch with the label "Maybe"
+```
+
 **Example**
 
 ```mermaid
@@ -202,26 +208,12 @@ flowchart LR
     B -->|No| D[Stop]
 ```
 
-**Message**
-
-```text
-Node B has an unexpected outgoing branch with the label "Maybe"
-```
-
 **Cause:** A decision node only allows the outgoing branches `Yes` and `No`. `Maybe` is not a valid branch.
 
-**Fix:** Use `Yes` and `No`. If there are more than two outcomes, split them into a sequence of decisions:
-
-```mermaid
-flowchart LR
-    A[Start] --> B{Email valid?}
-    B -->|Yes| C[Continue]
-    B -->|No| D[Stop]
-```
+**Fix:** Replace `Maybe` with `Yes`. If there are more than two outcomes, split them into a sequence of decisions.
 
 > **Note**
 > The dialog lists only the main issues found during import. Other rule violations may be marked on the canvas without being listed in the dialog. In the example above, `C` and `D` have no outgoing link and the model has no end node, so these will still be marked after the fix. After importing, check the model for exclamation marks and compare it against the [model rules](#import-resilience--validation-rules).
-
 ---
 
 > **Key Takeaway**  
