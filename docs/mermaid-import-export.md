@@ -173,7 +173,7 @@ flowchart TD
 
 ---
 
-### 3, Unsupported model structure
+### 3. Unsupported model structure
 
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The diagram is still imported and the affected items are marked with an exclamation mark in TestCompass.
 
