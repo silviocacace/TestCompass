@@ -110,29 +110,12 @@ To ensure your imported model is fully compliant and ready for automated test ge
 
 ## Troubleshooting Import Dialogs & Warnings
 
-When importing Mermaid code, TestCompass displays specific notification dialogs depending on the result:
-
-- **Mermaid import failed:** Appears when the Mermaid syntax itself contains critical parsing errors. The dialog details the exact syntax error line so you can fix the code structure before re-importing.
-- **Import completed with errors:** Appears when TestCompass successfully parses the diagram but encounters elements that violate model rules. 
-
-Inside the **Import completed with errors** dialog, you may encounter the following specific tags:
-
-1. **`Unknown node type`:** A shape was used in Mermaid that TestCompass cannot automatically map to standard node types (supported: `circle`, `double-circle`, `decision`, `document`, `event`). TestCompass preserves the text structure and places warning indicators on the canvas.
-2. **`Unsupported model structure`:** Outgoing branches or connections do not conform to expected eMBT decision flows (e.g., custom branch labels instead of standard `yes`/`no` outcomes).
-
-By clicking the **Help (`?`)** icon in any of these import dialogs, you can always return to this reference page to check your model structure against the required rules.
-
----
-
-
-## Troubleshooting Import Dialogs & Warnings
-
 After you import Mermaid code, TestCompass shows one of two dialogs. Click the **Help (`?`)** icon in the dialog to return to this page.
 
 | Dialog | Meaning |
 |---|---|
 | **Mermaid import failed** | The Mermaid code contains a syntax error. Nothing is imported. |
-| **Mermaid import completed with issues** | The diagram was imported, but some parts are not supported or break model rules. Items that need review are marked with an exclamation mark in the model. |
+| **Mermaid import completed with issues** | The diagram was imported, but some parts are not supported or break model rules. Items that need review are marked with an exclamation mark in the model. Not every rule violation is listed in the dialog. |
 
 Each issue in a dialog has a coloured label:
 
@@ -142,7 +125,11 @@ Each issue in a dialog has a coloured label:
 | [Unknown node type](#unknown-node-type) | Yellow | Completed with issues |
 | [Unsupported model structure](#unsupported-model-structure) | Orange | Completed with issues |
 
+---
+
 ### Mermaid syntax error
+
+![Dialog "Mermaid import failed" with the label "Mermaid syntax error" and the message: Parse error on line 3, expecting STADIUMEND, TAGEND, UNICODE_TEXT, TEXT, TAGSTART, got SQE](images/Wrong_syntax_message.png)
 
 **Dialog:** Mermaid import failed
 
@@ -158,10 +145,10 @@ flowchart TD
 
 **Message**
 
-```
+```text
 Error: Parse error on line 3:
 ...> C([Missing bracket]
-Expecting 'STADIUMEND', 'TAGEND', ... got 'SQE'
+Expecting 'STADIUMEND', 'TAGEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'SQE'
 ```
 
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
@@ -174,7 +161,11 @@ flowchart TD
     B --> C([Missing bracket])
 ```
 
+---
+
 ### Unknown node type
+
+![Dialog "Mermaid import completed with issues" with the label "Unknown node type" and the message: Node X is of an unexpected type (expected circle/double-circle/decision/document/event)](images/Unknown_node_message.png)
 
 **Dialog:** Mermaid import completed with issues
 
@@ -190,7 +181,7 @@ flowchart TD
 
 **Message**
 
-```
+```text
 Node X is of an unexpected type (expected circle/double-circle/decision/document/event)
 ```
 
@@ -198,7 +189,11 @@ Node X is of an unexpected type (expected circle/double-circle/decision/document
 
 **Fix:** Replace the shape with a supported one, or change the node type in the imported model.
 
+---
+
 ### Unsupported model structure
+
+![Dialog "Mermaid import completed with issues" with the label "Unsupported model structure" and the message: Node B has an unexpected outgoing branch with the label "Maybe"](images/Unsupported_structure_message.png)
 
 **Dialog:** Mermaid import completed with issues
 
@@ -215,7 +210,7 @@ flowchart LR
 
 **Message**
 
-```
+```text
 Node B has an unexpected outgoing branch with the label "Maybe"
 ```
 
@@ -230,12 +225,8 @@ flowchart LR
     B -->|No| D[Stop]
 ```
 
-See [Import Resilience & Validation Rules](#import-resilience--validation-rules) for the full list of model rules.
-
-
-
-
-
+> **Note**
+> The dialog lists only the main issues found during import. Other rule violations may be marked on the canvas without being listed in the dialog. In the example above, `C` and `D` have no outgoing link and the model has no end node, so these will still be marked after the fix. After importing, check the model for exclamation marks and compare it against the [model rules](#import-resilience--validation-rules).
 
 
 > **Key Takeaway**  
