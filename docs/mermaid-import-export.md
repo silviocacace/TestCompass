@@ -129,9 +129,7 @@ Each issue in a dialog has a coloured label:
 
 ### Mermaid syntax error
 
-![Dialog "Mermaid import failed" with the label "Mermaid syntax error" and the message: Parse error on line 3, expecting STADIUMEND, TAGEND, UNICODE_TEXT, TEXT, TAGSTART, got SQE](Wrong_syntax_message.png)
-
-**Dialog:** Mermaid import failed
+![Dialog "Mermaid import failed" with a red "Mermaid syntax error" label](Wrong_syntax_message.png)
 
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
 
@@ -165,9 +163,7 @@ flowchart TD
 
 ### Unknown node type
 
-![Dialog "Mermaid import completed with issues" with the label "Unknown node type" and the message: Node X is of an unexpected type (expected circle/double-circle/decision/document/event)](Unknown_node_message.png)
-
-**Dialog:** Mermaid import completed with issues
+![Dialog "Mermaid import completed with issues" with a yellow "Unknown node type" label](Unknown_node_message.png)
 
 The diagram uses a shape that TestCompass cannot map to a node type. The node is still imported, shown as `[Unknown Node Type]` and marked with an exclamation mark. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
 
@@ -193,9 +189,7 @@ Node X is of an unexpected type (expected circle/double-circle/decision/document
 
 ### Unsupported model structure
 
-![Dialog "Mermaid import completed with issues" with the label "Unsupported model structure" and the message: Node B has an unexpected outgoing branch with the label "Maybe"](Unsupported_structure_message.png)
-
-**Dialog:** Mermaid import completed with issues
+![Dialog "Mermaid import completed with issues" with an orange "Unsupported model structure" label](Unsupported_structure_message.png)
 
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The affected items are marked with an exclamation mark.
 
@@ -228,6 +222,7 @@ flowchart LR
 > **Note**
 > The dialog lists only the main issues found during import. Other rule violations may be marked on the canvas without being listed in the dialog. In the example above, `C` and `D` have no outgoing link and the model has no end node, so these will still be marked after the fix. After importing, check the model for exclamation marks and compare it against the [model rules](#import-resilience--validation-rules).
 
+---
 
 > **Key Takeaway**  
 > Text-based Mermaid diagrams bridge the gap between human-readable repository documentation and formal eMBT models, ensuring seamless collaboration and version-controlled test design across your application lifecycle.
