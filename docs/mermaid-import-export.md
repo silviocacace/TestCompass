@@ -129,7 +129,7 @@ Each issue in a dialog has a coloured label:
 
 ### Mermaid syntax error
 
-![Dialog "Mermaid import failed" with the label "Mermaid syntax error" and the message: Parse error on line 3, expecting STADIUMEND, TAGEND, UNICODE_TEXT, TEXT, TAGSTART, got SQE](images/Wrong_syntax_message.png)
+![Dialog "Mermaid import failed" with the label "Mermaid syntax error" and the message: Parse error on line 3, expecting STADIUMEND, TAGEND, UNICODE_TEXT, TEXT, TAGSTART, got SQE](Wrong_syntax_message.png)
 
 **Dialog:** Mermaid import failed
 
@@ -165,7 +165,7 @@ flowchart TD
 
 ### Unknown node type
 
-![Dialog "Mermaid import completed with issues" with the label "Unknown node type" and the message: Node X is of an unexpected type (expected circle/double-circle/decision/document/event)](images/Unknown_node_message.png)
+![Dialog "Mermaid import completed with issues" with the label "Unknown node type" and the message: Node X is of an unexpected type (expected circle/double-circle/decision/document/event)](Unknown_node_message.png)
 
 **Dialog:** Mermaid import completed with issues
 
@@ -193,7 +193,7 @@ Node X is of an unexpected type (expected circle/double-circle/decision/document
 
 ### Unsupported model structure
 
-![Dialog "Mermaid import completed with issues" with the label "Unsupported model structure" and the message: Node B has an unexpected outgoing branch with the label "Maybe"](images/Unsupported_structure_message.png)
+![Dialog "Mermaid import completed with issues" with the label "Unsupported model structure" and the message: Node B has an unexpected outgoing branch with the label "Maybe"](Unsupported_structure_message.png)
 
 **Dialog:** Mermaid import completed with issues
 
