@@ -143,8 +143,7 @@ flowchart TD
 
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
 
-**Fix:** Close the shape with `])` instead of `]` and import again: `C([Missing bracket])`
-
+**Fix:** Close the shape with `])` instead of `]`, so line 3 becomes `B --> C([Missing bracket])`. Then import again.
 ---
 
 ### Unknown node type
