@@ -117,7 +117,9 @@ If something goes wrong while importing Mermaid code, TestCompass shows one of t
 | **Mermaid import failed** | The Mermaid code contains a syntax error. Nothing is imported. |
 | **Mermaid import completed with issues** | The diagram was imported, but some parts are not supported or break model rules. Items that need review are marked with an exclamation mark in the model in TestCompass. |
 
-A diagram that is valid Mermaid and uses supported shapes is imported without a dialog. The model can still contain exclamation marks if it breaks a model rule, for example when an end node is missing. See the [model rules](#import-resilience--validation-rules).
+A diagram that is valid Mermaid and uses supported shapes is imported without a dialog. The model can still contain exclamation marks if it breaks a model rule, for example when an end node is missing. 
+
+See here all the [TestCompass model rules](#import-resilience--validation-rules).
 
 Each issue in a dialog has a coloured label:
 
@@ -191,8 +193,6 @@ flowchart LR
 **Cause:** A decision node only allows the outgoing branches `Yes` and `No`. `Maybe` is not a valid branch.
 
 **Fix:** Replace `Maybe` with `Yes`, so line 3 becomes `B -->|Yes| C[Continue]`. If there are more than two outcomes, split them into a sequence of decisions.
-
-See the [model rules](#import-resilience--validation-rules) on this page for all rules a model in TestCompass, must meet.
 
 ---
 
