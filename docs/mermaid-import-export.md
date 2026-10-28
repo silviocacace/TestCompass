@@ -117,6 +117,10 @@ If something goes wrong while importing Mermaid code, TestCompass shows one of t
 | **Mermaid import failed** | The Mermaid code contains a syntax error. Nothing is imported. |
 | **Mermaid import completed with issues** | The diagram was imported, but some parts are not supported or break model rules. Items that need review are marked with an exclamation mark in the model in TestCompass. |
 
+| Dialog | Meaning |
+|---|---|
+| **Mermaid import failed** | The Mermaid code contains a syntax error. Nothing is imported. |
+
 A diagram that is valid Mermaid and uses supported shapes is imported without a dialog. The model can still contain exclamation marks if it breaks a model rule, for example when an end node is missing. See the [model rules](#import-resilience--validation-rules) on this page for all rules a model in TestCompass, must meet.
 
 ---
