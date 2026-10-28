@@ -144,19 +144,12 @@ flowchart TD
 **Cause:** The node on line 3 is opened with `([` but closed with `]` instead of `])`.
 
 **Fix:** Close the shape with `])` instead of `]`, so line 3 becomes `B --> C([Missing bracket])`. Then import again.
+
 ---
 
 ### Unknown node type
 
-![Dialog "Mermaid import completed with issues" with a yellow "Unknown node type" label](Unknown_node_message.png)
-
 The diagram uses a shape that TestCompass cannot map to a node type. The node is still imported, shown as `[Unknown Node Type]` and marked with an exclamation mark. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
-
-**Message**
-
-```text
-Node X is of an unexpected type (expected circle/double-circle/decision/document/event)
-```
 
 **Example**
 
@@ -166,23 +159,19 @@ flowchart TD
     X --> B([Event])
 ```
 
-**Cause:** `{{ }}` (hexagon) has no equivalent in TestCompass. Other examples are `[( )]` (cylinder) and `manual-input`.
+**Message in TestCompass**
 
-**Fix:** Replace the shape with a supported one, or change the node type in the imported model.
+![Dialog "Mermaid import completed with issues" with a yellow "Unknown node type" label](Unknown_node_message.png)
+
+**Cause:** Node `X` uses the hexagon shape `{{ }}`, which has no equivalent in TestCompass. Other shapes that are not supported are, for example, the cylinder `[( )]` and `manual-input`.
+
+**Fix:** Replace the shape with a supported one, so line 2 becomes `A([Start]) --> X([UnknownType])`, or change the node type in the imported model.
 
 ---
 
 ### Unsupported model structure
 
-![Dialog "Mermaid import completed with issues" with an orange "Unsupported model structure" label](Unsupported_structure_message.png)
-
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The affected items are marked with an exclamation mark.
-
-**Message**
-
-```text
-Node B has an unexpected outgoing branch with the label "Maybe"
-```
 
 **Example**
 
@@ -193,12 +182,17 @@ flowchart LR
     B -->|No| D[Stop]
 ```
 
+**Message in TestCompass**
+
+![Dialog "Mermaid import completed with issues" with an orange "Unsupported model structure" label](Unsupported_structure_message.png)
+
 **Cause:** A decision node only allows the outgoing branches `Yes` and `No`. `Maybe` is not a valid branch.
 
-**Fix:** Replace `Maybe` with `Yes`. If there are more than two outcomes, split them into a sequence of decisions.
+**Fix:** Replace `Maybe` with `Yes`, so line 3 becomes `B -->|Yes| C[Continue]`. If there are more than two outcomes, split them into a sequence of decisions.
 
 > **Note**
 > The dialog lists only the main issues found during import. Other rule violations may be marked on the canvas without being listed in the dialog. In the example above, `C` and `D` have no outgoing link and the model has no end node, so these will still be marked after the fix. After importing, check the model for exclamation marks and compare it against the [model rules](#import-resilience--validation-rules).
+
 ---
 
 > **Key Takeaway**  
