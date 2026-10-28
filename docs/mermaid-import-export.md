@@ -121,13 +121,13 @@ Each issue in a dialog has a coloured label:
 
 | Label | Colour | Dialog |
 |---|---|---|
-| [Mermaid syntax error](#mermaid-syntax-error) | Red | Import failed |
-| [Unknown node type](#unknown-node-type) | Yellow | Completed with issues |
-| [Unsupported model structure](#unsupported-model-structure) | Orange | Completed with issues |
+| [1. Mermaid syntax error](#mermaid-syntax-error) | Red | Import failed |
+| [2. Unknown node type](#unknown-node-type) | Yellow | Completed with issues |
+| [3. Unsupported model structure](#unsupported-model-structure) | Orange | Completed with issues |
 
 ---
 
-### Mermaid syntax error
+### 1. Mermaid syntax error
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
 
 **Example** (invalid Mermaid, shown as plain text)
@@ -147,7 +147,7 @@ flowchart TD
 
 ---
 
-### Unknown node type
+### 2. Unknown node type
 
 The diagram uses a shape that TestCompass cannot map to a node type. The diagram is still imported, and the node is shown as `[Unknown Node Type]` and marked with an exclamation mark in TestCompass. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
 
@@ -169,7 +169,7 @@ flowchart TD
 
 ---
 
-### Unsupported model structure
+### 3, Unsupported model structure
 
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The diagram is still imported and the affected items are marked with an exclamation mark in TestCompass.
 
