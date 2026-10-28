@@ -141,6 +141,7 @@ flowchart TD
     A([Start]) --> B([Event])
     B --> C([Missing bracket]
 ```
+
 **Message in TestCompass**
 
 ![Dialog "Mermaid import failed" with a red "Mermaid syntax error" label](Wrong_syntax_message.png)
@@ -155,9 +156,9 @@ flowchart TD
 
 The diagram uses a shape that TestCompass cannot map to a node type. The diagram is still imported, and the node is shown as `[Unknown Node Type]` and marked with an exclamation mark in TestCompass. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
 
-**Example**
+**Example** (shown as plain text)
 
-```mermaid
+```text
 flowchart TD
     A([Start]) --> X{{UnknownType}}
     X --> B([Event])
@@ -177,9 +178,9 @@ flowchart TD
 
 The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The diagram is still imported and the affected items are marked with an exclamation mark in TestCompass.
 
-**Example**
+**Example** (shown as plain text)
 
-```mermaid
+```text
 flowchart LR
     A[Start] --> B{Email valid?}
     B -->|Maybe| C[Continue]
