@@ -149,7 +149,7 @@ flowchart TD
 
 ### Unknown node type
 
-The diagram uses a shape that TestCompass cannot map to a node type. The node is still imported, shown as `[Unknown Node Type]` and marked with an exclamation mark. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
+The diagram uses a shape that TestCompass cannot map to a node type. The diagram is still imported, and the node is shown as `[Unknown Node Type]` and marked with an exclamation mark in TestCompass. Supported types are: `circle`, `double-circle`, `decision`, `document` and `event`.
 
 **Example**
 
@@ -165,13 +165,13 @@ flowchart TD
 
 **Cause:** Node `X` uses the hexagon shape `{{ }}`, which has no equivalent in TestCompass. Other shapes that are not supported are, for example, the cylinder `[( )]` and `manual-input`.
 
-**Fix:** Replace the shape with a supported one, so line 2 becomes `A([Start]) --> X([UnknownType])`, or change the node type in the imported model.
+**Fix:** Replace the shape with a supported one in the mermaid code, or change the node type in the imported model in TestCompass.
 
 ---
 
 ### Unsupported model structure
 
-The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The affected items are marked with an exclamation mark.
+The diagram is valid Mermaid, but the structure does not follow the eMBT model rules. The diagram is still imported and the affected items are marked with an exclamation mark in TestCompass.
 
 **Example**
 
@@ -190,8 +190,7 @@ flowchart LR
 
 **Fix:** Replace `Maybe` with `Yes`, so line 3 becomes `B -->|Yes| C[Continue]`. If there are more than two outcomes, split them into a sequence of decisions.
 
-> **Note**
-> The dialog lists only the main issues found during import. Other rule violations may be marked on the canvas without being listed in the dialog. In the example above, `C` and `D` have no outgoing link and the model has no end node, so these will still be marked after the fix. After importing, check the model for exclamation marks and compare it against the [model rules](#import-resilience--validation-rules).
+See the [model rules](#import-resilience--validation-rules) on this page for all rules a model in TestCompass, must meet.
 
 ---
 
