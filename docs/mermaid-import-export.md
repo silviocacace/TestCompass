@@ -160,7 +160,7 @@ The diagram uses a shape that TestCompass cannot map to a node type. The diagram
 
 ```text
 flowchart TD
-    A([Start]) --> X{{UnknownType}}
+    A([Start]) --> X{{Hexagon}}
     X --> B([Event])
 ```
 
