@@ -34,7 +34,7 @@ When importing a Mermaid diagram, TestCompass automatically converts the diagram
 - preserves incomplete or ambiguous paths for review
 - prevents hidden logic or implicit decision branches from being introduced
 
-If a source Mermaid diagram uses unsupported syntax or breaks eMBT structural rules, clear guidance is provided so the diagram can be adjusted for test generation.
+If a source Mermaid diagram uses unsupported syntax or breaks eMBT structural rules, clear guidance is provided so the diagram can be adjusted.
 
 *(Tip: You can also use **AAMC – AI-Assisted Model Creation** to automatically generate or fix Mermaid diagrams from raw user stories before importing).*
 
