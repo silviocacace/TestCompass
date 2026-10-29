@@ -132,7 +132,7 @@ Each issue in a dialog has a coloured label:
 ---
 
 ### 1. Mermaid syntax error
-The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the offending text and what the parser expected.
+The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the related text and what the parser expected.
 
 **Example** (invalid Mermaid, shown as plain text)
 
