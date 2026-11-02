@@ -219,7 +219,7 @@ sequenceDiagram
 
 **Cause:** The Mermaid definition uses a diagram type that TestCompass does not support for import. TestCompass only imports Mermaid flowcharts because they can be mapped to executable eMBT model structures.
 
-**Fix:** Convert the diagram into a Mermaid flowchart before importing, or recreate the behaviour directly within TestCompass.
+**Fix:** Convert the diagram into a Mermaid flowchart before importing.
 
 ---
 
