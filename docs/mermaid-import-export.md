@@ -130,10 +130,12 @@ Each issue in a dialog has a coloured label:
 | [1. Mermaid syntax error](#1-mermaid-syntax-error) | Red | Import failed |
 | [2. Unknown node type](#2-unknown-node-type) | Yellow | Completed with issues |
 | [3. Unsupported model structure](#3-unsupported-model-structure) | Orange | Completed with issues |
+| [4. Unsupported Mermaid diagram type](#4-unsupported-mermaid-diagram-type) | Orange | Completed with issues |
 
 ---
 
 ### 1. Mermaid syntax error
+
 The Mermaid code cannot be parsed, so no model is created. The dialog shows the line number, the related text and what the parser expected.
 
 **Example** (invalid Mermaid, shown as plain text)
@@ -172,7 +174,7 @@ flowchart TD
 
 **Cause:** Node `X` uses the hexagon shape `{{ }}`, which has no equivalent in TestCompass. Other shapes that are not supported are, for example, the cylinder `[( )]` and `manual-input`.
 
-**Fix:** Replace the shape with a supported one in the mermaid code, or change the node type in the imported model in TestCompass.
+**Fix:** Replace the shape with a supported one in the Mermaid code, or change the node type in the imported model in TestCompass.
 
 ---
 
@@ -199,6 +201,28 @@ flowchart LR
 
 ---
 
+### 4. Unsupported Mermaid diagram type
+
+The Mermaid code is valid, but the diagram type is not supported for import into TestCompass. TestCompass can only import Mermaid flowcharts (`flowchart TD`, `flowchart LR`, and similar variants). Other Mermaid diagram types, such as `sequenceDiagram`, `classDiagram`, `stateDiagram`, or `erDiagram`, cannot be converted into a TestCompass eMBT model.
+
+**Example** (shown as plain text)
+
+```text
+sequenceDiagram
+    User->>System: Login
+    System-->>User: Success
+```
+
+**Message in TestCompass**
+
+![Dialog "Mermaid import completed with issues" showing an unsupported Mermaid diagram type](Unsupported_structure_message_no_flowchart.png)
+
+**Cause:** The Mermaid definition uses a diagram type that TestCompass does not support for import. TestCompass only imports Mermaid flowcharts because they can be mapped to executable eMBT model structures.
+
+**Fix:** Convert the diagram into a Mermaid flowchart before importing, or recreate the behaviour directly within TestCompass.
+
+---
+
 > **Key Takeaway**  
 > Text-based Mermaid diagrams bridge the gap between human-readable repository documentation and formal eMBT models, ensuring seamless collaboration and version-controlled test design across your application lifecycle.
 
@@ -207,3 +231,5 @@ flowchart LR
 ## Navigation
 
 ⬅️ **[Back to Documentation Index](index.md)**
+
+<br>
