@@ -90,7 +90,7 @@ Prefer learning by watching? Explore our library of step-by-step video tutorials
 
 ## About the Creator
 
-<img src="Silvio plus TC en eMBT logo.PNG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
+<img src="Silvio plus TC en eMBT logo.JPG" alt="Silvio Cacace - Creator of TestCompass" width="260" align="right" style="margin-left: 20px; margin-bottom: 15px; border-radius: 8px;">
 
 **TestCompass was created by Silvio Cacace**, drawing on over **30 years of practical domain expertise** in software testing, quality engineering, and Model-Based Testing. 
 
